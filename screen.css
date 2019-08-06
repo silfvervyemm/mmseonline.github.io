@@ -18,9 +18,14 @@
 }
 @font-face {
 	font-family: "pricemm";
+	src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/newpricem.woff") format("woff"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/newpricem.ttf") format("truetype");
+}
+
+/*@font-face {
+	font-family: "pricemm";
 	src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.eot");
 	src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.eot?#iefix") format("embedded-opentype"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/newpricem.woff2") format("woff2"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/newpricem.woff") format("woff"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/newpricem.ttf") format("truetype"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/newpricem.svg#svg") format("svg")
-}
+}*/
 /*FONTER*/
 body div, body p, body a, body li {
 	color: #000;
@@ -9752,3 +9757,4 @@ input[type="checkbox"], input[type="radio"] {
 			margin: 1em 0 1em 0;
 		}
 	}
+
