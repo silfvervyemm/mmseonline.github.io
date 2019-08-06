@@ -2636,7 +2636,7 @@ form.newsletter-form button:before {
 	font-family: 'mmtextboldpro', sans-serif;
 	font-weight: normal!important;
 }
-#filters h2 a, #filters .headline a {
+/*#filters h2 a, #filters .headline a {
 	color: #000;
 	font-size: 20px;
 	font-family: 'mmtextboldpro', sans-serif;
@@ -2666,7 +2666,7 @@ form.newsletter-form button:before {
 }
 #filters h2 a:hover:after, #filters .headline a:hover:after {
 	background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") no-repeat scroll -538px -66px transparent!important;
-}
+}*/
 #product-details .product-anchors {
 	background: #fff;
 	border: 1px solid #ddd;
@@ -8090,7 +8090,7 @@ caption, th, td {
 #filters h2, #filters h2 a, #filters .headline {
 	color: #000;
 }
-#filters h2 a:after, #filters .headline a:after {
+/*#filters h2 a:after, #filters .headline a:after {
 	left: 0;
 	background: url("images/general/sprites.png") no-repeat scroll -390px -40px transparent;
 	height: 8px;
@@ -8101,7 +8101,7 @@ caption, th, td {
 	height: 6px;
 	width: 8px;
 	background-position: -127px -43px;
-}
+}*/
 #filters fieldset {
 	border-bottom: 1px solid #dddddd;
 	width: 213px;
@@ -8248,9 +8248,9 @@ caption, th, td {
 #filters .product-container-vertical {
 	padding: 0;
 }
-#filters h2 a.blue, #filters .headline a.blue {
+/*#filters h2 a.blue, #filters .headline a.blue {
 	color: #000;
-}
+}*/
 /**** for Search ****/
 form#filters {
 	border-right: 1px solid #DDDDDD;
