@@ -7036,7 +7036,7 @@ a.site-navigation2__link[data-tracking='outlet_head']:hover > .site-navigation2_
 }
 .product-wrapper .price.small > span {
 	height: 46px !important;
-	margin-left: -12px;
+	margin-left: -12px !important;
 }
 .product-wrapper .box.infobox ul li + li {
 	margin-top: 15px;
