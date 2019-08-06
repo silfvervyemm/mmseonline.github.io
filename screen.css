@@ -8492,7 +8492,7 @@ input[type="checkbox"], input[type="radio"] {
 	.price.big {
 		height: 70px;
 	}
-	.price > span {
+	.price > span, .price-box .price.small {
 		display: inline-block;
 		background: none !important;
 		overflow: hidden !important;
