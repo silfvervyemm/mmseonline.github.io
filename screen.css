@@ -8212,7 +8212,7 @@ caption, th, td {
 	height: 8px;
 	margin: -4px 0 0 -2px;
 }
-#filters.state-off .toggle-sidebar {
+/*#filters.state-off .toggle-sidebar {
 	width: 30px;
 	height: 27px;
 	background: url("images/general/sidebar-anchor.png") no-repeat -30px 0;
@@ -8223,7 +8223,7 @@ caption, th, td {
 	height: 27px;
 	background: url("images/general/sidebar-anchor.png") 2px 0 no-repeat;
 	top: 5px;
-}
+}*/
 #filters .toggle-sidebar.hide-sidebar:hover {
 	background-position: 2px 0;
 }
@@ -10135,7 +10135,7 @@ input[type="checkbox"], input[type="radio"] {
 		margin-top: 12px !important;
 		border-top: 1px solid #dddddd;
 	}
-	.responsive #my-market-wrapper .state-on .toggle-sidebar {
+	/*.responsive #my-market-wrapper .state-on .toggle-sidebar {
 		background: url("images/general/sidebar-anchor.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
 		height: 27px;
 		top: 12px;
@@ -10146,7 +10146,7 @@ input[type="checkbox"], input[type="radio"] {
 		height: 27px;
 		top: 12px;
 		width: 30px;
-	}
+	}*/
 	.responsive #my-market-wrapper .toggle-sidebar.show-sidebar {
 		right: -18px;
 		background-position: 100% 0 !important;
