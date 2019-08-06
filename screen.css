@@ -18,7 +18,7 @@
 }
 @font-face {
 	font-family: "pricemm";
-	src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/newpricem.woff") format("woff"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/newpricem.ttf") format("truetype");
+	src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/newpricem.ttf") format("truetype");
 }
 
 /*@font-face {
