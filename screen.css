@@ -14,7 +14,7 @@
 body div, body p, body a, body li {
 	color: #000;
 	font-family: 'mmtextregularpro', sans-serif;
-	line-height: normal;
+	/*line-height: normal;*/
 }
 body span {
 	font-family: 'mmtextregularpro', sans-serif;
