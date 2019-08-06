@@ -5483,7 +5483,7 @@ a.site-navigation2__link[data-tracking='outlet_head'] {
 }
 
 .product-price.alt a.to-details.button {
-    position: absolute;
+    /*position: absolute;*/
     bottom: 0px;
     left: 0px;
 }
