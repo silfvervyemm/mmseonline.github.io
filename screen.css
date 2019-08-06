@@ -5477,7 +5477,7 @@ a.site-navigation2__link[data-tracking='outlet_head'] {
 }
 
 .product-price.alt a.button.add-to-cart{
-    position: absolute;
+    /*position: absolute;*/
     bottom: 0px;
     right: 0px;
 }
