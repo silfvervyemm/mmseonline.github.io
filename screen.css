@@ -6715,11 +6715,11 @@ a.site-navigation2__link[data-tracking='outlet_head'] {
 
 /* LISTVIEW */
 .product-wrapper aside.product-price.alt {
-    /*float: left;*/
+    /*float: left;
 	width: 230px !important;
     min-height: 280px;
     position: relative;
-    background-color: #f6f6f6 !important;
+    background-color: #f6f6f6 !important;*/
 }
 
 .product-wrapper .content {
