@@ -7770,10 +7770,7 @@ caption, th, td {
 	top: 10px;
 	left: 195px;
 }*/
-.products-list > li .product-wrapper {
-	border: 1px solid transparent;
-	position: static;
-}
+
 .products-list > li .product-wrapper .content h4 {
 	font-size: 14px;
 	color: #525252;
@@ -7860,9 +7857,7 @@ caption, th, td {
 	float: left;
 	padding: 0 10px 0 0;
 }
-.products-list > li .product-wrapper .product-photo {
-	position: static;
-}
+
 .product-details dt {
 	padding: 0;
 	color: #525252;
