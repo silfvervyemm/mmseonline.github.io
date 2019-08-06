@@ -11,11 +11,23 @@
     src: url('//www.mediamarkt.se/static/fonts/MM/MMTextProWebTT-Regular.woff2'), url('//www.mediamarkt.se/static/fonts/MM/MMTextPro-Regular.otf'),  url('//www.mediamarkt.se/static/fonts/MMTextProWebTT-Regular.ttf') format('truetype');
 }
 
+@font-face{
+    font-family:'sourcesanspro-regular';
+    font-weight:normal;
+    src:url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.eot");
+    src:url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.eot?#iefix") format("embedded-opentype"),
+        url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.woff2") format("woff2"),
+        url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.woff") format("woff"),
+        url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.ttf") format("truetype"),
+        url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.svg#svg") format("svg");
+}
+
+
 /*FONTER*/
 
 body div, body p, body a, body li{
 	color: #000;
-  font-family: 'mmtextregularpro', sans-serif;
+  font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
 }
 
 body span{
@@ -33,7 +45,7 @@ h1, h2, h2 a, h3, h3 a, h4, h4 a h5, h6 {
 
 .site-navigation2__child-item.site-navigation2__child-item--no-children[data-nav-level="level 3"] .site-navigation2__link-label{
     font-weight: normal;
-    font-family: 'mmtextregularpro', sans-serif;
+    font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
 }
 
 #filters span, .box.infobox.availability span{
