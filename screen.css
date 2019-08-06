@@ -6715,7 +6715,7 @@ a.site-navigation2__link[data-tracking='outlet_head'] {
 
 /* LISTVIEW */
 .product-wrapper aside.product-price.alt {
-    float: left;
+    /*float: left;*/
 	width: 230px !important;
     min-height: 280px;
     position: relative;
@@ -6723,7 +6723,7 @@ a.site-navigation2__link[data-tracking='outlet_head'] {
 }
 
 .product-wrapper .content {
-    float: right;
+    /*float: right;*/
 	padding: 15px 5px 20px 0 !important;
     max-width: 405px !important;
 }
