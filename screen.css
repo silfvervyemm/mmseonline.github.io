@@ -3183,6 +3183,1288 @@ button.button.gray.js-check-express {
     display: none;
 }
 
+/***** Prices MM ******/
+@media screen, handheld{
+
+  .price.price-old{
+    margin-left: 12px;
+  }
+
+  .price.big{
+    height: 70px;
+  }
+
+	.price > span{
+		display:inline-block;
+		background: url('images/general/price-sprite.png') 0px 0px no-repeat !important;
+		background-size:1478px 353px;
+		overflow:hidden !important;
+		text-indent:-9999em !important;
+		overflow:hidden !important;
+		float:left !important;
+	}
+		/* ### price 24px ### */
+		.price.p24 > span{
+			height:26px !important;
+			margin-left:-9px;
+		}
+			.price.p24 > span.p-0{
+				width:21px !important;
+				background-position:0px -327px !important;
+			}
+				.price.p24 > span.p-0 + span.p-2{ margin-left:-11px; }
+				.price.p24 > span.p-0 + span.p-7{ margin-left:-8px; }
+				.price.p24 > span.p-0 + span.p-c,
+				.price.p24 > span.p-0 + span.p-d{ margin-left:-10px; }
+			.price.p24 > span.p-1{
+				width:18px !important;
+				background-position:-77px -327px !important;
+			}
+				.price.p24 > span.p-1 + span.p-1{ margin-left:-7px; }
+				.price.p24 > span.p-1 + span.p-2{ margin-left:-12px; }
+				.price.p24 > span.p-1 + span.p-3,
+				.price.p24 > span.p-1 + span.p-4{ margin-left:-10px; }
+				.price.p24 > span.p-1 + span.p-5,
+				.price.p24 > span.p-1 + span.p-6{ margin-left:-10px; }
+				.price.p24 > span.p-1 + span.p-7{ margin-left:-9px; }
+				.price.p24 > span.p-1 + span.p-8,
+				.price.p24 > span.p-1 + span.p-9,
+				.price.p24 > span.p-1 + span.p-0{ margin-left:-10px; }
+				.price.p24 > span.p-1 + span.p-c,
+				.price.p24 > span.p-1 + span.p-d{ margin-left:-12px; }
+			.price.p24 > span.p-2{
+				width:24px !important;
+				background-position:-139px -327px !important;
+			}
+				.price.p24 > span.p-2 + span.p-2{ margin-left:-10px; }
+				.price.p24 > span.p-2 + span.p-4{ margin-left:-9px; }
+				.price.p24 > span.p-2 + span.p-7{ margin-left:-8px; }
+				.price.p24 > span.p-2 + span.p-c,
+				.price.p24 > span.p-2 + span.p-d{ margin-left:-10px; }
+			.price.p24 > span.p-3{
+				width:21px !important;
+				background-position:-225px -327px !important;
+			}
+				.price.p24 > span.p-3 + span.p-1{ margin-left:-8px; }
+				.price.p24 > span.p-3 + span.p-2{ margin-left:-10px; }
+				.price.p24 > span.p-3 + span.p-7{ margin-left:-8px; }
+				.price.p24 > span.p-3 + span.p-c,
+				.price.p24 > span.p-3 + span.p-d{ margin-left:-10px; }
+			.price.p24 > span.p-4{
+				width:23px !important;
+				background-position:-302px -327px !important;
+			}
+				.price.p24 > span.p-4 + span.p-1{ margin-left:-10px; }
+				.price.p24 > span.p-4 + span.p-2{ margin-left:-11px; }
+				.price.p24 > span.p-4 + span.p-3{ margin-left:-8px; }
+				.price.p24 > span.p-4 + span.p-4,
+				.price.p24 > span.p-4 + span.p-7{ margin-left:-9px; }
+				.price.p24 > span.p-4 + span.p-9{ margin-left:-9px; }
+				.price.p24 > span.p-4 + span.p-c,
+				.price.p24 > span.p-4 + span.p-d{ margin-left:-11px; }
+			.price.p24 > span.p-5{
+				width:22px !important;
+				background-position:-385px -327px !important;
+			}
+				.price.p24 > span.p-5 + span.p-1{ margin-left:-10px; }
+				.price.p24 > span.p-5 + span.p-2{ margin-left:-11px; }
+				.price.p24 > span.p-5 + span.p-3,
+				.price.p24 > span.p-5 + span.p-4{ margin-left:-10px; }
+				.price.p24 > span.p-5 + span.p-5,
+				.price.p24 > span.p-5 + span.p-6,
+				.price.p24 > span.p-5 + span.p-7,
+				.price.p24 > span.p-5 + span.p-8,
+				.price.p24 > span.p-5 + span.p-9,
+				.price.p24 > span.p-5 + span.p-0{ margin-left:-9px; }
+				.price.p24 > span.p-5 + span.p-c,
+				.price.p24 > span.p-5 + span.p-d{ margin-left:-11px; }
+			.price.p24 > span.p-6{
+				width:21px !important;
+				background-position:-465px -327px !important;
+			}
+				.price.p24 > span.p-6 + span.p-1{ margin-left:-8px; }
+				.price.p24 > span.p-6 + span.p-2{ margin-left:-10px; }
+				.price.p24 > span.p-6 + span.p-7{ margin-left:-8px; }
+				.price.p24 > span.p-6 + span.p-c,
+				.price.p24 > span.p-6 + span.p-d{ margin-left:-10px; }
+			.price.p24 > span.p-7{
+				width:23px !important;
+				background-position:-540px -327px !important;
+			}
+				.price.p24 > span.p-7 + span.p-1{ margin-left:-10px; }
+				.price.p24 > span.p-7 + span.p-2{ margin-left:-12px; }
+				.price.p24 > span.p-7 + span.p-3{ margin-left:-10px; }
+				.price.p24 > span.p-7 + span.p-4{ margin-left:-14px; }
+				.price.p24 > span.p-7 + span.p-5,
+				.price.p24 > span.p-7 + span.p-6{ margin-left:-10px; }
+				.price.p24 > span.p-7 + span.p-7{ margin-left:-9px; }
+				.price.p24 > span.p-7 + span.p-8{ margin-left:-10px; }
+				.price.p24 > span.p-7 + span.p-9,
+				.price.p24 > span.p-7 + span.p-0{ margin-left:-10px; }
+				.price.p24 > span.p-7 + span.p-c,
+				.price.p24 > span.p-7 + span.p-d{ margin-left:-16px; }
+			.price.p24 > span.p-8{
+				width:21px !important;
+				background-position:-623px -327px !important;
+			}
+				.price.p24 > span.p-8 + span.p-1{ margin-left:-8px; }
+				.price.p24 > span.p-8 + span.p-2{ margin-left:-10px; }
+				.price.p24 > span.p-8 + span.p-4{ margin-left:-8px; }
+				.price.p24 > span.p-8 + span.p-7{ margin-left:-8px; }
+				.price.p24 > span.p-8 + span.p-c,
+				.price.p24 > span.p-8 + span.p-d{ margin-left:-10px; }
+			.price.p24 > span.p-9{
+				width:21px !important;
+				background-position:-699px -327px !important;
+			}
+				.price.p24 > span.p-9 + span.p-1{ margin-left:-8px; }
+				.price.p24 > span.p-9 + span.p-2{ margin-left:-10px; }
+				.price.p24 > span.p-9 + span.p-4{ margin-left:-8px; }
+				.price.p24 > span.p-9 + span.p-7{ margin-left:-8px; }
+				.price.p24 > span.p-9 + span.p-c,
+				.price.p24 > span.p-9 + span.p-d{ margin-left:-10px; }
+			.price.p24 > span.p-c{
+				width:13px !important;
+				background-position:-855px -327px !important;
+			}
+			.price.p24 > span.p-d{
+				width:23px !important;
+				background-position:-774px -327px !important;
+			}
+					.price.p24 > span.p-small{
+						margin-left:-7px !important;
+					}
+					.price.p24 > span.p-0.p-small{
+						width:17px !important;
+						background-position:-896px -327px !important;
+					}
+					.price.p24 > span.p-1.p-small{
+						width:14px !important;
+						background-position:-954px -327px !important;
+					}
+					.price.p24 > span.p-2.p-small{
+						width:18px !important;
+						background-position:-1001px -327px !important;
+					}
+					.price.p24 > span.p-3.p-small{
+						width:17px !important;
+						background-position:-1065px -327px !important;
+					}
+					.price.p24 > span.p-4.p-small{
+						width:18px !important;
+						background-position:-1123px -327px !important;
+					}
+					.price.p24 > span.p-5.p-small{
+						width:17px !important;
+						background-position:-1185px -327px !important;
+					}
+					.price.p24 > span.p-6.p-small{
+						width:17px !important;
+						background-position:-1245px -327px !important;
+					}
+					.price.p24 > span.p-7.p-small{
+						width:18px !important;
+						background-position:-1302px -327px !important;
+					}
+					.price.p24 > span.p-8.p-small{
+						width:17px !important;
+						background-position:-1364px -327px !important;
+					}
+					.price.p24 > span.p-9.p-small{
+						width:17px !important;
+						background-position:-1421px -327px !important;
+					}
+
+		/* ### price 28px ### */
+		.price.p28 > span, .price.price-xs > span{
+			height:31px !important;
+			margin-left:-9px;
+		}
+			.price.p28 > span.p-0, .price.price-xs > span.p-0{
+				width:25px !important;
+				background-position:0px -296px !important;
+			}
+				.price.p28 > span.p-0 + span.p-2, .price.price-xs > span.p-0 + span.p-2{ margin-left:-12px; }
+				.price.p28 > span.p-0 + span.p-7, .price.price-xs > span.p-0 + span.p-7{ margin-left:-9px; }
+				.price.p28 > span.p-0 + span.p-c, .price.price-xs > span.p-0 + span.p-c,
+				.price.p28 > span.p-0 + span.p-d, .price.price-xs > span.p-0 + span.p-d{ margin-left:-11px; }
+			.price.p28 > span.p-1, .price.price-xs > span.p-1{
+				width:21px !important;
+				background-position:-77px -296px !important;
+			}
+				.price.p28 > span.p-1 + span.p-1, .price.price-xs > span.p-1 + span.p-1{ margin-left:-11px; }
+				.price.p28 > span.p-1 + span.p-2, .price.price-xs > span.p-1 + span.p-2{ margin-left:-13px; }
+				.price.p28 > span.p-1 + span.p-3, .price.price-xs > span.p-1 + span.p-3,
+				.price.p28 > span.p-1 + span.p-4, .price.price-xs > span.p-1 + span.p-4{ margin-left:-12px; }
+				.price.p28 > span.p-1 + span.p-5, .price.price-xs > span.p-1 + span.p-5,
+				.price.p28 > span.p-1 + span.p-6, .price.price-xs > span.p-1 + span.p-6{ margin-left:-11px; }
+				.price.p28 > span.p-1 + span.p-7, .price.price-xs > span.p-1 + span.p-7{ margin-left:-10px; }
+				.price.p28 > span.p-1 + span.p-8, .price.price-xs > span.p-1 + span.p-8,
+				.price.p28 > span.p-1 + span.p-9, .price.price-xs > span.p-1 + span.p-9,
+				.price.p28 > span.p-1 + span.p-0, .price.price-xs > span.p-1 + span.p-0{ margin-left:-11px; }
+				.price.p28 > span.p-1 + span.p-c, .price.price-xs > span.p-1 + span.p-c,
+				.price.p28 > span.p-1 + span.p-d, .price.price-xs > span.p-1 + span.p-d{ margin-left:-13px; }
+			.price.p28 > span.p-2, .price.price-xs > span.p-2{
+				width:28px !important;
+				background-position:-139px -296px !important;
+			}
+				.price.p28 > span.p-2 + span.p-2, .price.price-xs > span.p-2 + span.p-2{ margin-left:-11px; }
+				.price.p28 > span.p-2 + span.p-4, .price.price-xs > span.p-2 + span.p-4{ margin-left:-10px; }
+				.price.p28 > span.p-2 + span.p-7, .price.price-xs > span.p-2 + span.p-7{ margin-left:-9px; }
+				.price.p28 > span.p-2 + span.p-c, .price.price-xs > span.p-2 + span.p-c,
+				.price.p28 > span.p-2 + span.p-d, .price.price-xs > span.p-2 + span.p-d{ margin-left:-12px; }
+			.price.p28 > span.p-3, .price.price-xs > span.p-3{
+				width:25px !important;
+				background-position:-225px -296px !important;
+			}
+				.price.p28 > span.p-3 + span.p-1, .price.price-xs > span.p-3 + span.p-1{ margin-left:-9px; }
+				.price.p28 > span.p-3 + span.p-2, .price.price-xs > span.p-3 + span.p-2{ margin-left:-11px; }
+				.price.p28 > span.p-3 + span.p-7, .price.price-xs > span.p-3 + span.p-7{ margin-left:-9px; }
+				.price.p28 > span.p-3 + span.p-c, .price.price-xs > span.p-3 + span.p-c,
+				.price.p28 > span.p-3 + span.p-d, .price.price-xs > span.p-3 + span.p-d{ margin-left:-12px; }
+			.price.p28 > span.p-4, .price.price-xs > span.p-4{
+				width:27px !important;
+				background-position:-302px -296px !important;
+			}
+				.price.p28 > span.p-4 + span.p-1, .price.price-xs > span.p-4 + span.p-1{ margin-left:-11px; }
+				.price.p28 > span.p-4 + span.p-2, .price.price-xs > span.p-4 + span.p-2{ margin-left:-12px; }
+				.price.p28 > span.p-4 + span.p-3, .price.price-xs > span.p-4 + span.p-3{ margin-left:-9px; }
+				.price.p28 > span.p-4 + span.p-4, .price.price-xs > span.p-4 + span.p-4,
+				.price.p28 > span.p-4 + span.p-7, .price.price-xs > span.p-4 + span.p-7{ margin-left:-10px; }
+				.price.p28 > span.p-4 + span.p-9, .price.price-xs > span.p-4 + span.p-9{ margin-left:-10px; }
+				.price.p28 > span.p-4 + span.p-c, .price.price-xs > span.p-4 + span.p-c,
+				.price.p28 > span.p-4 + span.p-d, .price.price-xs > span.p-4 + span.p-d{ margin-left:-12px; }
+			.price.p28 > span.p-5, .price.price-xs > span.p-5{
+				width:26px !important;
+				background-position:-385px -296px !important;
+			}
+				.price.p28 > span.p-5 + span.p-1, .price.price-xs > span.p-5 + span.p-1{ margin-left:-11px; }
+				.price.p28 > span.p-5 + span.p-2, .price.price-xs > span.p-5 + span.p-2{ margin-left:-13px; }
+				.price.p28 > span.p-5 + span.p-3, .price.price-xs > span.p-5 + span.p-3,
+				.price.p28 > span.p-5 + span.p-4, .price.price-xs > span.p-5 + span.p-4{ margin-left:-11px; }
+				.price.p28 > span.p-5 + span.p-5, .price.price-xs > span.p-5 + span.p-5,
+				.price.p28 > span.p-5 + span.p-6, .price.price-xs > span.p-5 + span.p-6,
+				.price.p28 > span.p-5 + span.p-7, .price.price-xs > span.p-5 + span.p-7,
+				.price.p28 > span.p-5 + span.p-8, .price.price-xs > span.p-5 + span.p-8,
+				.price.p28 > span.p-5 + span.p-9, .price.price-xs > span.p-5 + span.p-9,
+				.price.p28 > span.p-5 + span.p-0, .price.price-xs > span.p-5 + span.p-0{ margin-left:-10px; }
+				.price.p28 > span.p-5 + span.p-c, .price.price-xs > span.p-5 + span.p-c,
+				.price.p28 > span.p-5 + span.p-d, .price.price-xs > span.p-5 + span.p-d{ margin-left:-13px; }
+			.price.p28 > span.p-6, .price.price-xs > span.p-6{
+				width:25px !important;
+				background-position:-465px -296px !important;
+			}
+				.price.p28 > span.p-6 + span.p-1, .price.price-xs > span.p-6 + span.p-1{ margin-left:-9px; }
+				.price.p28 > span.p-6 + span.p-2, .price.price-xs > span.p-6 + span.p-2{ margin-left:-11px; }
+				.price.p28 > span.p-6 + span.p-7, .price.price-xs > span.p-6 + span.p-7{ margin-left:-9px; }
+				.price.p28 > span.p-6 + span.p-c, .price.price-xs > span.p-6 + span.p-c,
+				.price.p28 > span.p-6 + span.p-d, .price.price-xs > span.p-6 + span.p-d{ margin-left:-11px; }
+			.price.p28 > span.p-7, .price.price-xs > span.p-7{
+				width:27px !important;
+				background-position:-540px -296px !important;
+			}
+				.price.p28 > span.p-7 + span.p-1, .price.price-xs > span.p-7 + span.p-1{ margin-left:-11px; }
+				.price.p28 > span.p-7 + span.p-2, .price.price-xs > span.p-7 + span.p-2{ margin-left:-14px; }
+				.price.p28 > span.p-7 + span.p-3, .price.price-xs > span.p-7 + span.p-3{ margin-left:-11px; }
+				.price.p28 > span.p-7 + span.p-4, .price.price-xs > span.p-7 + span.p-4{ margin-left:-15px; }
+				.price.p28 > span.p-7 + span.p-5, .price.price-xs > span.p-7 + span.p-5,
+				.price.p28 > span.p-7 + span.p-6, .price.price-xs > span.p-7 + span.p-6{ margin-left:-11px; }
+				.price.p28 > span.p-7 + span.p-7, .price.price-xs > span.p-7 + span.p-7{ margin-left:-10px; }
+				.price.p28 > span.p-7 + span.p-8, .price.price-xs > span.p-7 + span.p-8{ margin-left:-11px; }
+				.price.p28 > span.p-7 + span.p-9, .price.price-xs > span.p-7 + span.p-9,
+				.price.p28 > span.p-7 + span.p-0, .price.price-xs > span.p-7 + span.p-0{ margin-left:-11px; }
+				.price.p28 > span.p-7 + span.p-c, .price.price-xs > span.p-7 + span.p-c,
+				.price.p28 > span.p-7 + span.p-d, .price.price-xs > span.p-7 + span.p-d{ margin-left:-18px; }
+			.price.p28 > span.p-8, .price.price-xs > span.p-8{
+				width:25px !important;
+				background-position:-623px -296px !important;
+			}
+				.price.p28 > span.p-8 + span.p-1, .price.price-xs > span.p-8 + span.p-1{ margin-left:-9px; }
+				.price.p28 > span.p-8 + span.p-2, .price.price-xs > span.p-8 + span.p-2{ margin-left:-11px; }
+				.price.p28 > span.p-8 + span.p-4, .price.price-xs > span.p-8 + span.p-4{ margin-left:-9px; }
+				.price.p28 > span.p-8 + span.p-7, .price.price-xs > span.p-8 + span.p-7{ margin-left:-9px; }
+				.price.p28 > span.p-8 + span.p-c, .price.price-xs > span.p-8 + span.p-c,
+				.price.p28 > span.p-8 + span.p-d, .price.price-xs > span.p-8 + span.p-d{ margin-left:-11px; }
+			.price.p28 > span.p-9, .price.price-xs > span.p-9{
+				width:25px !important;
+				background-position:-699px -296px !important;
+			}
+				.price.p28 > span.p-9 + span.p-1, .price.price-xs > span.p-9 + span.p-1{ margin-left:-9px; }
+				.price.p28 > span.p-9 + span.p-2, .price.price-xs > span.p-9 + span.p-2{ margin-left:-11px; }
+				.price.p28 > span.p-9 + span.p-4, .price.price-xs > span.p-9 + span.p-4{ margin-left:-9px; }
+				.price.p28 > span.p-9 + span.p-7, .price.price-xs > span.p-9 + span.p-7{ margin-left:-9px; }
+				.price.p28 > span.p-9 + span.p-c, .price.price-xs > span.p-9 + span.p-c,
+				.price.p28 > span.p-9 + span.p-d, .price.price-xs > span.p-9 + span.p-d{ margin-left:-11px; }
+			.price.p28 > span.p-c, .price.price-xs > span.p-c{
+				width:15px !important;
+				background-position:-855px -296px !important;
+			}
+			.price.p28 > span.p-d, .price.price-xs > span.p-d{
+				width:26px !important;
+				background-position:-774px -296px !important;
+			}
+					.price.p28 > span.p-small, .price.price-xs > span.p-small{
+						margin-left:-7px !important;
+					}
+					.price.p28 > span.p-0.p-small, .price.price-xs > span.p-0.p-small{
+						width:20px !important;
+						background-position:-896px -296px !important;
+					}
+					.price.p28 > span.p-1.p-small, .price.price-xs > span.p-1.p-small{
+						width:16px !important;
+						background-position:-954px -296px !important;
+					}
+					.price.p28 > span.p-2.p-small, .price.price-xs > span.p-2.p-small{
+						width:21px !important;
+						background-position:-1001px -296px !important;
+					}
+					.price.p28 > span.p-3.p-small, .price.price-xs > span.p-3.p-small{
+						width:20px !important;
+						background-position:-1065px -296px !important;
+					}
+					.price.p28 > span.p-4.p-small, .price.price-xs > span.p-4.p-small{
+						width:21px !important;
+						background-position:-1123px -296px !important;
+					}
+					.price.p28 > span.p-5.p-small, .price.price-xs > span.p-5.p-small{
+						width:21px !important;
+						background-position:-1185px -296px !important;
+					}
+					.price.p28 > span.p-6.p-small, .price.price-xs > span.p-6.p-small{
+						width:20px !important;
+						background-position:-1245px -296px !important;
+					}
+					.price.p28 > span.p-7.p-small, .price.price-xs > span.p-7.p-small{
+						width:21px !important;
+						background-position:-1302px -296px !important;
+					}
+					.price.p28 > span.p-8.p-small, .price.price-xs > span.p-8.p-small{
+						width:19px !important;
+						background-position:-1364px -296px !important;
+					}
+					.price.p28 > span.p-9.p-small, .price.price-xs > span.p-9.p-small{
+						width:19px !important;
+						background-position:-1421px -296px !important;
+					}
+
+		/* ### price 33px ### */
+		.price.p33 > span{
+			height:34px !important;
+			margin-left:-9px;
+		}
+			.price.p33 > span.p-0{
+				width:27px !important;
+				background-position:0px -262px !important;
+			}
+				.price.p33 > span.p-0 + span.p-2{ margin-left:-13px; }
+				.price.p33 > span.p-0 + span.p-7{ margin-left:-9px; }
+				.price.p33 > span.p-0 + span.p-c,
+				.price.p33 > span.p-0 + span.p-d{ margin-left:-12px; }
+			.price.p33 > span.p-1{
+				width:23px !important;
+				background-position:-77px -262px !important;
+			}
+				.price.p33 > span.p-1 + span.p-1{ margin-left:-12px; }
+				.price.p33 > span.p-1 + span.p-2{ margin-left:-14px; }
+				.price.p33 > span.p-1 + span.p-3,
+				.price.p33 > span.p-1 + span.p-4{ margin-left:-12px; }
+				.price.p33 > span.p-1 + span.p-5,
+				.price.p33 > span.p-1 + span.p-6{ margin-left:-12px; }
+				.price.p33 > span.p-1 + span.p-7{ margin-left:-11px; }
+				.price.p33 > span.p-1 + span.p-8,
+				.price.p33 > span.p-1 + span.p-9,
+				.price.p33 > span.p-1 + span.p-0{ margin-left:-12px; }
+				.price.p33 > span.p-1 + span.p-c,
+				.price.p33 > span.p-1 + span.p-d{ margin-left:-14px; }
+			.price.p33 > span.p-2{
+				width:30px !important;
+				background-position:-139px -262px !important;
+			}
+				.price.p33 > span.p-2 + span.p-2{ margin-left:-12px; }
+				.price.p33 > span.p-2 + span.p-4{ margin-left:-11px; }
+				.price.p33 > span.p-2 + span.p-7{ margin-left:-9px; }
+				.price.p33 > span.p-2 + span.p-c,
+				.price.p33 > span.p-2 + span.p-d{ margin-left:-12px; }
+			.price.p33 > span.p-3{
+				width:27px !important;
+				background-position:-225px -262px !important;
+			}
+				.price.p33 > span.p-3 + span.p-1{ margin-left:-9px; }
+				.price.p33 > span.p-3 + span.p-2{ margin-left:-12px; }
+				.price.p33 > span.p-3 + span.p-7{ margin-left:-9px; }
+				.price.p33 > span.p-3 + span.p-c,
+				.price.p33 > span.p-3 + span.p-d{ margin-left:-12px; }
+			.price.p33 > span.p-4{
+				width:30px !important;
+				background-position:-302px -262px !important;
+			}
+				.price.p33 > span.p-4 + span.p-1{ margin-left:-11px; }
+				.price.p33 > span.p-4 + span.p-2{ margin-left:-13px; }
+				.price.p33 > span.p-4 + span.p-3{ margin-left:-10px; }
+				.price.p33 > span.p-4 + span.p-4,
+				.price.p33 > span.p-4 + span.p-7{ margin-left:-11px; }
+				.price.p33 > span.p-4 + span.p-9{ margin-left:-10px; }
+				.price.p33 > span.p-4 + span.p-c,
+				.price.p33 > span.p-4 + span.p-d{ margin-left:-13px; }
+			.price.p33 > span.p-5{
+				width:28px !important;
+				background-position:-385px -262px !important;
+			}
+				.price.p33 > span.p-5 + span.p-1{ margin-left:-11px; }
+				.price.p33 > span.p-5 + span.p-2{ margin-left:-14px; }
+				.price.p33 > span.p-5 + span.p-3,
+				.price.p33 > span.p-5 + span.p-4{ margin-left:-11px; }
+				.price.p33 > span.p-5 + span.p-5,
+				.price.p33 > span.p-5 + span.p-6,
+				.price.p33 > span.p-5 + span.p-7,
+				.price.p33 > span.p-5 + span.p-8,
+				.price.p33 > span.p-5 + span.p-9,
+				.price.p33 > span.p-5 + span.p-0{ margin-left:-11px; }
+				.price.p33 > span.p-5 + span.p-c,
+				.price.p33 > span.p-5 + span.p-d{ margin-left:-14px; }
+			.price.p33 > span.p-6{
+				width:27px !important;
+				background-position:-465px -262px !important;
+			}
+				.price.p33 > span.p-6 + span.p-1{ margin-left:-9px; }
+				.price.p33 > span.p-6 + span.p-2{ margin-left:-12px; }
+				.price.p33 > span.p-6 + span.p-7{ margin-left:-9px; }
+				.price.p33 > span.p-6 + span.p-c,
+				.price.p33 > span.p-6 + span.p-d{ margin-left:-12px; }
+			.price.p33 > span.p-7{
+				width:30px !important;
+				background-position:-540px -262px !important;
+			}
+				.price.p33 > span.p-7 + span.p-1{ margin-left:-11px; }
+				.price.p33 > span.p-7 + span.p-2{ margin-left:-15px; }
+				.price.p33 > span.p-7 + span.p-3{ margin-left:-12px; }
+				.price.p33 > span.p-7 + span.p-4{ margin-left:-17px; }
+				.price.p33 > span.p-7 + span.p-5,
+				.price.p33 > span.p-7 + span.p-6{ margin-left:-12px; }
+				.price.p33 > span.p-7 + span.p-7{ margin-left:-11px; }
+				.price.p33 > span.p-7 + span.p-8{ margin-left:-12px; }
+				.price.p33 > span.p-7 + span.p-9,
+				.price.p33 > span.p-7 + span.p-0{ margin-left:-12px; }
+				.price.p33 > span.p-7 + span.p-c,
+				.price.p33 > span.p-7 + span.p-d{ margin-left:-20px; }
+			.price.p33 > span.p-8{
+				width:27px !important;
+				background-position:-623px -262px !important;
+			}
+				.price.p33 > span.p-8 + span.p-1{ margin-left:-9px; }
+				.price.p33 > span.p-8 + span.p-2{ margin-left:-12px; }
+				.price.p33 > span.p-8 + span.p-4{ margin-left:-9px; }
+				.price.p33 > span.p-8 + span.p-7{ margin-left:-9px; }
+				.price.p33 > span.p-8 + span.p-c,
+				.price.p33 > span.p-8 + span.p-d{ margin-left:-12px; }
+			.price.p33 > span.p-9{
+				width:27px !important;
+				background-position:-699px -262px !important;
+			}
+				.price.p33 > span.p-9 + span.p-1{ margin-left:-9px; }
+				.price.p33 > span.p-9 + span.p-2{ margin-left:-12px; }
+				.price.p33 > span.p-9 + span.p-4{ margin-left:-9px; }
+				.price.p33 > span.p-9 + span.p-7{ margin-left:-9px; }
+				.price.p33 > span.p-9 + span.p-c,
+				.price.p33 > span.p-9 + span.p-d{ margin-left:-12px; }
+			.price.p33 > span.p-c{
+				width:16px !important;
+				background-position:-855px -262px !important;
+			}
+			.price.p33 > span.p-d{
+				width:29px !important;
+				background-position:-774px -262px !important;
+			}
+					.price.p33 > span.p-small{
+						margin-left:-8px !important;
+					}
+					.price.p33 > span.p-0.p-small{
+						width:21px !important;
+						background-position:-896px -262px !important;
+					}
+					.price.p33 > span.p-1.p-small{
+						width:18px !important;
+						background-position:-954px -262px !important;
+					}
+					.price.p33 > span.p-2.p-small{
+						width:23px !important;
+						background-position:-1001px -262px !important;
+					}
+					.price.p33 > span.p-3.p-small{
+						width:21px !important;
+						background-position:-1065px -262px !important;
+					}
+					.price.p33 > span.p-4.p-small{
+						width:23px !important;
+						background-position:-1123px -262px !important;
+					}
+					.price.p33 > span.p-5.p-small{
+						width:22px !important;
+						background-position:-1185px -262px !important;
+					}
+					.price.p33 > span.p-6.p-small{
+						width:21px !important;
+						background-position:-1245px -262px !important;
+					}
+					.price.p33 > span.p-7.p-small{
+						width:23px !important;
+						background-position:-1302px -262px !important;
+					}
+					.price.p33 > span.p-8.p-small{
+						width:21px !important;
+						background-position:-1364px -262px !important;
+					}
+					.price.p33 > span.p-9.p-small{
+						width:21px !important;
+						background-position:-1421px -262px !important;
+					}
+
+		/* ### price 43px ### */
+		.price.p43 > span, .price.small > span{
+			height:46px !important;
+			margin-left:-13px;
+		}
+			.price.p43 > span.p-0, .price.small > span.p-0{
+				width:37px !important;
+				background-position:0px -216px !important;
+			}
+				.price.p43 > span.p-0 + span.p-2, .price.small > span.p-0 + span.p-2{ margin-left:-16px; }
+				.price.p43 > span.p-0 + span.p-7, .price.small > span.p-0 + span.p-7{ margin-left:-11px; }
+				.price.p43 > span.p-0 + span.p-c, .price.small > span.p-0 + span.p-c,
+				.price.p43 > span.p-0 + span.p-d, .price.small > span.p-0 + span.p-d{ margin-left:-15px; }
+			.price.p43 > span.p-1, .price.small > span.p-1{
+				width:30px !important;
+				background-position:-77px -216px !important;
+			}
+				.price.p43 > span.p-1 + span.p-1, .price.small > span.p-1 + span.p-1{ margin-left:-15px; }
+				.price.p43 > span.p-1 + span.p-2, .price.small > span.p-1 + span.p-2{ margin-left:-18px; }
+				.price.p43 > span.p-1 + span.p-3, .price.small > span.p-1 + span.p-3,
+				.price.p43 > span.p-1 + span.p-4, .price.small > span.p-1 + span.p-4{ margin-left:-16px; }
+				.price.p43 > span.p-1 + span.p-5, .price.small > span.p-1 + span.p-5,
+				.price.p43 > span.p-1 + span.p-6, .price.small > span.p-1 + span.p-6{ margin-left:-15px; }
+				.price.p43 > span.p-1 + span.p-7, .price.small > span.p-1 + span.p-7{ margin-left:-14px; }
+				.price.p43 > span.p-1 + span.p-8, .price.small > span.p-1 + span.p-8,
+				.price.p43 > span.p-1 + span.p-9, .price.small > span.p-1 + span.p-9,
+				.price.p43 > span.p-1 + span.p-0, .price.small > span.p-1 + span.p-0{ margin-left:-15px; }
+				.price.p43 > span.p-1 + span.p-c, .price.small > span.p-1 + span.p-c,
+				.price.p43 > span.p-1 + span.p-d, .price.small > span.p-1 + span.p-d{ margin-left:-18px; }
+			.price.p43 > span.p-2, .price.small > span.p-2{
+				width:41px !important;
+				background-position:-139px -216px !important;
+			}
+				.price.p43 > span.p-2 + span.p-2, .price.small > span.p-2 + span.p-2{ margin-left:-15px; }
+				.price.p43 > span.p-2 + span.p-4, .price.small > span.p-2 + span.p-4{ margin-left:-13px; }
+				.price.p43 > span.p-2 + span.p-7, .price.small > span.p-2 + span.p-7{ margin-left:-11px; }
+				.price.p43 > span.p-2 + span.p-c, .price.small > span.p-2 + span.p-c,
+				.price.p43 > span.p-2 + span.p-d, .price.small > span.p-2 + span.p-d{ margin-left:-16px; }
+			.price.p43 > span.p-3, .price.small > span.p-3{
+				width:37px !important;
+				background-position:-225px -216px !important;
+			}
+				.price.p43 > span.p-3 + span.p-1, .price.small > span.p-3 + span.p-1{ margin-left:-11px; }
+				.price.p43 > span.p-3 + span.p-2, .price.small > span.p-3 + span.p-2{ margin-left:-15px; }
+				.price.p43 > span.p-3 + span.p-7, .price.small > span.p-3 + span.p-7{ margin-left:-11px; }
+				.price.p43 > span.p-3 + span.p-c, .price.small > span.p-3 + span.p-c,
+				.price.p43 > span.p-3 + span.p-d, .price.small > span.p-3 + span.p-d{ margin-left:-16px; }
+			.price.p43 > span.p-4, .price.small > span.p-4{
+				width:40px !important;
+				background-position:-302px -216px !important;
+			}
+				.price.p43 > span.p-4 + span.p-1, .price.small > span.p-4 + span.p-1{ margin-left:-14px; }
+				.price.p43 > span.p-4 + span.p-2, .price.small > span.p-4 + span.p-2{ margin-left:-17px; }
+				.price.p43 > span.p-4 + span.p-3, .price.small > span.p-4 + span.p-3{ margin-left:-12px; }
+				.price.p43 > span.p-4 + span.p-4, .price.small > span.p-4 + span.p-4,
+				.price.p43 > span.p-4 + span.p-7, .price.small > span.p-4 + span.p-7{ margin-left:-13px; }
+				.price.p43 > span.p-4 + span.p-9, .price.small > span.p-4 + span.p-9{ margin-left:-13px; }
+				.price.p43 > span.p-4 + span.p-c, .price.small > span.p-4 + span.p-c,
+				.price.p43 > span.p-4 + span.p-d, .price.small > span.p-4 + span.p-d{ margin-left:-16px; }
+			.price.p43 > span.p-5, .price.small > span.p-5{
+				width:38px !important;
+				background-position:-385px -216px !important;
+			}
+				.price.p43 > span.p-5 + span.p-1, .price.small > span.p-5 + span.p-1{ margin-left:-14px; }
+				.price.p43 > span.p-5 + span.p-2, .price.small > span.p-5 + span.p-2{ margin-left:-17px; }
+				.price.p43 > span.p-5 + span.p-3, .price.small > span.p-5 + span.p-3,
+				.price.p43 > span.p-5 + span.p-4, .price.small > span.p-5 + span.p-4{ margin-left:-14px; }
+				.price.p43 > span.p-5 + span.p-5, .price.small > span.p-5 + span.p-5,
+				.price.p43 > span.p-5 + span.p-6, .price.small > span.p-5 + span.p-6,
+				.price.p43 > span.p-5 + span.p-7, .price.small > span.p-5 + span.p-7,
+				.price.p43 > span.p-5 + span.p-8, .price.small > span.p-5 + span.p-8,
+				.price.p43 > span.p-5 + span.p-9, .price.small > span.p-5 + span.p-9,
+				.price.p43 > span.p-5 + span.p-0, .price.small > span.p-5 + span.p-0{ margin-left:-14px; }
+				.price.p43 > span.p-5 + span.p-c, .price.small > span.p-5 + span.p-c,
+				.price.p43 > span.p-5 + span.p-d, .price.small > span.p-5 + span.p-d{ margin-left:-17px; }
+			.price.p43 > span.p-6, .price.small > span.p-6{
+				width:37px !important;
+				background-position:-465px -216px !important;
+			}
+				.price.p43 > span.p-6 + span.p-1, .price.small > span.p-6 + span.p-1{ margin-left:-11px; }
+				.price.p43 > span.p-6 + span.p-2, .price.small > span.p-6 + span.p-2{ margin-left:-15px; }
+				.price.p43 > span.p-6 + span.p-7, .price.small > span.p-6 + span.p-7{ margin-left:-11px; }
+				.price.p43 > span.p-6 + span.p-c, .price.small > span.p-6 + span.p-c,
+				.price.p43 > span.p-6 + span.p-d, .price.small > span.p-6 + span.p-d{ margin-left:-15px; }
+			.price.p43 > span.p-7, .price.small > span.p-7{
+				width:40px !important;
+				background-position:-540px -216px !important;
+			}
+				.price.p43 > span.p-7 + span.p-1, .price.small > span.p-7 + span.p-1{ margin-left:-14px; }
+				.price.p43 > span.p-7 + span.p-2, .price.small > span.p-7 + span.p-2{ margin-left:-19px; }
+				.price.p43 > span.p-7 + span.p-3, .price.small > span.p-7 + span.p-3{ margin-left:-15px; }
+				.price.p43 > span.p-7 + span.p-4, .price.small > span.p-7 + span.p-4{ margin-left:-22px; }
+				.price.p43 > span.p-7 + span.p-5, .price.small > span.p-7 + span.p-5,
+				.price.p43 > span.p-7 + span.p-6, .price.small > span.p-7 + span.p-6{ margin-left:-15px; }
+				.price.p43 > span.p-7 + span.p-7, .price.small > span.p-7 + span.p-7{ margin-left:-13px; }
+				.price.p43 > span.p-7 + span.p-8, .price.small > span.p-7 + span.p-8{ margin-left:-15px; }
+				.price.p43 > span.p-7 + span.p-9, .price.small > span.p-7 + span.p-9,
+				.price.p43 > span.p-7 + span.p-0, .price.small > span.p-7 + span.p-0{ margin-left:-15px; }
+				.price.p43 > span.p-7 + span.p-c, .price.small > span.p-7 + span.p-c,
+				.price.p43 > span.p-7 + span.p-d, .price.small > span.p-7 + span.p-d{ margin-left:-21px; }
+			.price.p43 > span.p-8, .price.small > span.p-8{
+				width:37px !important;
+				background-position:-623px -216px !important;
+			}
+				.price.p43 > span.p-8 + span.p-1, .price.small > span.p-8 + span.p-1{ margin-left:-11px; }
+				.price.p43 > span.p-8 + span.p-2, .price.small > span.p-8 + span.p-2{ margin-left:-15px; }
+				.price.p43 > span.p-8 + span.p-4, .price.small > span.p-8 + span.p-4{ margin-left:-12px; }
+				.price.p43 > span.p-8 + span.p-7, .price.small > span.p-8 + span.p-7{ margin-left:-11px; }
+				.price.p43 > span.p-8 + span.p-c, .price.small > span.p-8 + span.p-c,
+				.price.p43 > span.p-8 + span.p-d, .price.small > span.p-8 + span.p-d{ margin-left:-15px; }
+			.price.p43 > span.p-9, .price.small > span.p-9{
+				width:37px !important;
+				background-position:-699px -216px !important;
+			}
+				.price.p43 > span.p-9 + span.p-1, .price.small > span.p-9 + span.p-1{ margin-left:-11px; }
+				.price.p43 > span.p-9 + span.p-2, .price.small > span.p-9 + span.p-2{ margin-left:-15px; }
+				.price.p43 > span.p-9 + span.p-4, .price.small > span.p-9 + span.p-4{ margin-left:-12px; }
+				.price.p43 > span.p-9 + span.p-7, .price.small > span.p-9 + span.p-7{ margin-left:-11px; }
+				.price.p43 > span.p-9 + span.p-c, .price.small > span.p-9 + span.p-c,
+				.price.p43 > span.p-9 + span.p-d, .price.small > span.p-9 + span.p-d{ margin-left:-15px; }
+			.price.p43 > span.p-c, .price.small > span.p-c{
+				width:21px !important;
+				background-position:-855px -216px !important;
+			}
+			.price.p43 > span.p-d, .price.small > span.p-d{
+				width:39px !important;
+				background-position:-774px -216px !important;
+			}
+					.price.p43 > span.p-small, .price.small > span.p-small{
+						margin-left:-10px !important;
+					}
+					.price.p43 > span.p-0.p-small, .price.small > span.p-0.p-small{
+						width:28px !important;
+						background-position:-896px -216px !important;
+					}
+					.price.p43 > span.p-1.p-small, .price.small > span.p-1.p-small{
+						width:23px !important;
+						background-position:-954px -216px !important;
+					}
+					.price.p43 > span.p-2.p-small, .price.small > span.p-2.p-small{
+						width:31px !important;
+						background-position:-1001px -216px !important;
+					}
+					.price.p43 > span.p-3.p-small, .price.small > span.p-3.p-small{
+						width:28px !important;
+						background-position:-1065px -216px !important;
+					}
+					.price.p43 > span.p-4.p-small, .price.small > span.p-4.p-small{
+						width:30px !important;
+						background-position:-1123px -216px !important;
+					}
+					.price.p43 > span.p-5.p-small, .price.small > span.p-5.p-small{
+						width:30px !important;
+						background-position:-1185px -216px !important;
+					}
+					.price.p43 > span.p-6.p-small, .price.small > span.p-6.p-small{
+						width:28px !important;
+						background-position:-1245px -216px !important;
+					}
+					.price.p43 > span.p-7.p-small, .price.small > span.p-7.p-small{
+						width:30px !important;
+						background-position:-1302px -216px !important;
+					}
+					.price.p43 > span.p-8.p-small, .price.small > span.p-8.p-small{
+						width:28px !important;
+						background-position:-1364px -216px !important;
+					}
+					.price.p43 > span.p-9.p-small, .price.small > span.p-9.p-small{
+						width:28px !important;
+						background-position:-1421px -216px !important;
+					}
+
+		/* ### price 53px ### */
+		.price.p53 > span, .price > span{
+			height:55px !important;
+			margin-left:-14px;
+		}
+			.price.p53 > span.p-0, .price > span.p-0{
+				width:44px !important;
+				background-position:0px -161px !important;
+			}
+				.price.p53 > span.p-0 + span.p-2, .price > span.p-0 + span.p-2{ margin-left:-18px; }
+				.price.p53 > span.p-0 + span.p-7, .price > span.p-0 + span.p-7{ margin-left:-12px; }
+				.price.p53 > span.p-0 + span.p-c, .price > span.p-0 + span.p-c,
+				.price.p53 > span.p-0 + span.p-d, .price > span.p-0 + span.p-d{ margin-left:-17px; }
+			.price.p53 > span.p-1, .price > span.p-1{
+				width:36px !important;
+				background-position:-77px -161px !important;
+			}
+				.price.p53 > span.p-1 + span.p-1, .price > span.p-1 + span.p-1{ margin-left:-16px; }
+				.price.p53 > span.p-1 + span.p-2, .price > span.p-1 + span.p-2{ margin-left:-20px; }
+				.price.p53 > span.p-1 + span.p-3, .price > span.p-1 + span.p-3,
+				.price.p53 > span.p-1 + span.p-4, .price > span.p-1 + span.p-4{ margin-left:-18px; }
+				.price.p53 > span.p-1 + span.p-5, .price > span.p-1 + span.p-5,
+				.price.p53 > span.p-1 + span.p-6, .price > span.p-1 + span.p-6{ margin-left:-16px; }
+				.price.p53 > span.p-1 + span.p-7, .price > span.p-1 + span.p-7{ margin-left:-15px; }
+				.price.p53 > span.p-1 + span.p-8, .price > span.p-1 + span.p-8,
+				.price.p53 > span.p-1 + span.p-9, .price > span.p-1 + span.p-9,
+				.price.p53 > span.p-1 + span.p-0, .price > span.p-1 + span.p-0{ margin-left:-16px; }
+				.price.p53 > span.p-1 + span.p-c, .price > span.p-1 + span.p-c,
+				.price.p53 > span.p-1 + span.p-d, .price > span.p-1 + span.p-d{ margin-left:-21px; }
+			.price.p53 > span.p-2, .price > span.p-2{
+				width:49px !important;
+				background-position:-139px -161px !important;
+			}
+				.price.p53 > span.p-2 + span.p-2, .price > span.p-2 + span.p-2{ margin-left:-16px; }
+				.price.p53 > span.p-2 + span.p-4, .price > span.p-2 + span.p-4{ margin-left:-15px; }
+				.price.p53 > span.p-2 + span.p-7, .price > span.p-2 + span.p-7{ margin-left:-12px; }
+				.price.p53 > span.p-2 + span.p-c, .price > span.p-2 + span.p-c,
+				.price.p53 > span.p-2 + span.p-d, .price > span.p-2 + span.p-d{ margin-left:-18px; }
+			.price.p53 > span.p-3, .price > span.p-3{
+				width:44px !important;
+				background-position:-225px -161px !important;
+			}
+				.price.p53 > span.p-3 + span.p-1, .price > span.p-3 + span.p-1{ margin-left:-12px; }
+				.price.p53 > span.p-3 + span.p-2, .price > span.p-3 + span.p-2{ margin-left:-17px; }
+				.price.p53 > span.p-3 + span.p-7, .price > span.p-3 + span.p-7{ margin-left:-12px; }
+				.price.p53 > span.p-3 + span.p-c, .price > span.p-3 + span.p-c,
+				.price.p53 > span.p-3 + span.p-d, .price > span.p-3 + span.p-d{ margin-left:-18px; }
+			.price.p53 > span.p-4, .price > span.p-4{
+				width:48px !important;
+				background-position:-302px -161px !important;
+			}
+				.price.p53 > span.p-4 + span.p-1, .price > span.p-4 + span.p-1{ margin-left:-16px; }
+				.price.p53 > span.p-4 + span.p-2, .price > span.p-4 + span.p-2{ margin-left:-19px; }
+				.price.p53 > span.p-4 + span.p-3, .price > span.p-4 + span.p-3{ margin-left:-14px; }
+				.price.p53 > span.p-4 + span.p-4, .price > span.p-4 + span.p-4,
+				.price.p53 > span.p-4 + span.p-7, .price > span.p-4 + span.p-7{ margin-left:-15px; }
+				.price.p53 > span.p-4 + span.p-9, .price > span.p-4 + span.p-9{ margin-left:-14px; }
+				.price.p53 > span.p-4 + span.p-c, .price > span.p-4 + span.p-c,
+				.price.p53 > span.p-4 + span.p-d, .price > span.p-4 + span.p-d{ margin-left:-18px; }
+			.price.p53 > span.p-5, .price > span.p-5{
+				width:46px !important;
+				background-position:-385px -161px !important;
+			}
+				.price.p53 > span.p-5 + span.p-1, .price > span.p-5 + span.p-1{ margin-left:-16px; }
+				.price.p53 > span.p-5 + span.p-2, .price > span.p-5 + span.p-2{ margin-left:-20px; }
+				.price.p53 > span.p-5 + span.p-3, .price > span.p-5 + span.p-3,
+				.price.p53 > span.p-5 + span.p-4, .price > span.p-5 + span.p-4{ margin-left:-16px; }
+				.price.p53 > span.p-5 + span.p-5, .price > span.p-5 + span.p-5,
+				.price.p53 > span.p-5 + span.p-6, .price > span.p-5 + span.p-6,
+				.price.p53 > span.p-5 + span.p-7, .price > span.p-5 + span.p-7,
+				.price.p53 > span.p-5 + span.p-8, .price > span.p-5 + span.p-8,
+				.price.p53 > span.p-5 + span.p-9, .price > span.p-5 + span.p-9,
+				.price.p53 > span.p-5 + span.p-0, .price > span.p-5 + span.p-0{ margin-left:-15px; }
+				.price.p53 > span.p-5 + span.p-c, .price > span.p-5 + span.p-c,
+				.price.p53 > span.p-5 + span.p-d, .price > span.p-5 + span.p-d{ margin-left:-20px; }
+			.price.p53 > span.p-6, .price > span.p-6{
+				width:44px !important;
+				background-position:-465px -161px !important;
+			}
+				.price.p53 > span.p-6 + span.p-1, .price > span.p-6 + span.p-1{ margin-left:-12px; }
+				.price.p53 > span.p-6 + span.p-2, .price > span.p-6 + span.p-2{ margin-left:-17px; }
+				.price.p53 > span.p-6 + span.p-7, .price > span.p-6 + span.p-7{ margin-left:-12px; }
+				.price.p53 > span.p-6 + span.p-c, .price > span.p-6 + span.p-c,
+				.price.p53 > span.p-6 + span.p-d, .price > span.p-6 + span.p-d{ margin-left:-16px; }
+			.price.p53 > span.p-7, .price > span.p-7{
+				width:48px !important;
+				background-position:-540px -161px !important;
+			}
+				.price.p53 > span.p-7 + span.p-1, .price > span.p-7 + span.p-1{ margin-left:-16px; }
+				.price.p53 > span.p-7 + span.p-2, .price > span.p-7 + span.p-2{ margin-left:-22px; }
+				.price.p53 > span.p-7 + span.p-3, .price > span.p-7 + span.p-3{ margin-left:-17px; }
+				.price.p53 > span.p-7 + span.p-4, .price > span.p-7 + span.p-4{ margin-left:-26px; }
+				.price.p53 > span.p-7 + span.p-5, .price > span.p-7 + span.p-5,
+				.price.p53 > span.p-7 + span.p-6, .price > span.p-7 + span.p-6{ margin-left:-16px; }
+				.price.p53 > span.p-7 + span.p-7, .price > span.p-7 + span.p-7{ margin-left:-15px; }
+				.price.p53 > span.p-7 + span.p-8, .price > span.p-7 + span.p-8{ margin-left:-17px; }
+				.price.p53 > span.p-7 + span.p-9, .price > span.p-7 + span.p-9,
+				.price.p53 > span.p-7 + span.p-0, .price > span.p-7 + span.p-0{ margin-left:-17px; }
+				.price.p53 > span.p-7 + span.p-c, .price > span.p-7 + span.p-c,
+				.price.p53 > span.p-7 + span.p-d, .price > span.p-7 + span.p-d{ margin-left:-25px; }
+
+	         .price.p53 > span.p-8, .price > span.p-8{
+				width:44px !important;
+				background-position:-623px -161px !important;
+			}
+				.price.p53 > span.p-8 + span.p-1, .price > span.p-8 + span.p-1{ margin-left:-12px; }
+				.price.p53 > span.p-8 + span.p-2, .price > span.p-8 + span.p-2{ margin-left:-17px; }
+				.price.p53 > span.p-8 + span.p-4, .price > span.p-8 + span.p-4{ margin-left:-13px; }
+				.price.p53 > span.p-8 + span.p-7, .price > span.p-8 + span.p-7{ margin-left:-12px; }
+				.price.p53 > span.p-8 + span.p-c, .price > span.p-8 + span.p-c,
+				.price.p53 > span.p-8 + span.p-d, .price > span.p-8 + span.p-d{ margin-left:-17px; }
+			.price.p53 > span.p-9, .price > span.p-9{
+				width:44px !important;
+				background-position:-699px -161px !important;
+			}
+				.price.p53 > span.p-9 + span.p-1, .price > span.p-9 + span.p-1{ margin-left:-12px; }
+				.price.p53 > span.p-9 + span.p-2, .price > span.p-9 + span.p-2{ margin-left:-17px; }
+				.price.p53 > span.p-9 + span.p-4, .price > span.p-9 + span.p-4{ margin-left:-13px; }
+				.price.p53 > span.p-9 + span.p-7, .price > span.p-9 + span.p-7{ margin-left:-12px; }
+				.price.p53 > span.p-9 + span.p-c, .price > span.p-9 + span.p-c,
+				.price.p53 > span.p-9 + span.p-d, .price > span.p-9 + span.p-d{ margin-left:-17px; }
+			.price.p53 > span.p-c, .price > span.p-c{
+				width:25px !important;
+				background-position:-855px -161px !important;
+			}
+			.price.p53 > span.p-d, .price > span.p-d{
+				width:47px !important;
+				background-position:-774px -161px !important;
+			}
+					.price.p53 > span.p-small, .price > span.p-small{
+						margin-left:-11px !important;
+					}
+					.price.p53 > span.p-0.p-small, .price > span.p-0.p-small{
+						width:34px !important;
+						background-position:-896px -161px !important;
+					}
+					.price.p53 > span.p-1.p-small, .price > span.p-1.p-small{
+						width:28px !important;
+						background-position:-954px -161px !important;
+					}
+					.price.p53 > span.p-2.p-small, .price > span.p-2.p-small{
+						width:37px !important;
+						background-position:-1001px -161px !important;
+					}
+					.price.p53 > span.p-3.p-small, .price > span.p-3.p-small{
+						width:34px !important;
+						background-position:-1065px -161px !important;
+					}
+					.price.p53 > span.p-4.p-small, .price > span.p-4.p-small{
+						width:36px !important;
+						background-position:-1123px -161px !important;
+					}
+					.price.p53 > span.p-5.p-small, .price > span.p-5.p-small{
+						width:35px !important;
+						background-position:-1185px -161px !important;
+					}
+					.price.p53 > span.p-6.p-small, .price > span.p-6.p-small{
+						width:33px !important;
+						background-position:-1245px -161px !important;
+					}
+					.price.p53 > span.p-7.p-small, .price > span.p-7.p-small{
+						width:36px !important;
+						background-position:-1302px -161px !important;
+					}
+					.price.p53 > span.p-8.p-small, .price > span.p-8.p-small{
+						width:33px !important;
+						background-position:-1364px -161px !important;
+					}
+					.price.p53 > span.p-9.p-small, .price > span.p-9.p-small{
+						width:33px !important;
+						background-position:-1421px -161px !important;
+					}
+
+		/* ### price 63px ### */
+		.price.p63 > span, .price.big > span{
+			height:64px !important;
+			margin-left:-16px;
+		}
+			.price.p63 > span.p-0, .price.big > span.p-0{
+				width:51px !important;
+				background-position:0px -96px !important;
+			}
+				.price.p63 > span.p-0 + span.p-2, .price.big > span.p-0 + span.p-2{ margin-left:-21px; }
+				.price.p63 > span.p-0 + span.p-7, .price.big > span.p-0 + span.p-7{ margin-left:-14px; }
+				.price.p63 > span.p-0 + span.p-c, .price.big > span.p-0 + span.p-c,
+				.price.p63 > span.p-0 + span.p-d, .price.big > span.p-0 + span.p-d{ margin-left:-20px; }
+			.price.p63 > span.p-1, .price.big > span.p-1{
+				width:42px !important;
+				background-position:-77px -96px !important;
+			}
+				.price.p63 > span.p-1 + span.p-1, .price.big > span.p-1 + span.p-1{ margin-left:-19px; }
+				.price.p63 > span.p-1 + span.p-2, .price.big > span.p-1 + span.p-2{ margin-left:-24px; }
+				.price.p63 > span.p-1 + span.p-3, .price.big > span.p-1 + span.p-3,
+				.price.p63 > span.p-1 + span.p-4, .price.big > span.p-1 + span.p-4{ margin-left:-21px; }
+				.price.p63 > span.p-1 + span.p-5, .price.big > span.p-1 + span.p-5,
+				.price.p63 > span.p-1 + span.p-6, .price.big > span.p-1 + span.p-6{ margin-left:-19px; }
+				.price.p63 > span.p-1 + span.p-7, .price.big > span.p-1 + span.p-7{ margin-left:-18px; }
+				.price.p63 > span.p-1 + span.p-8, .price.big > span.p-1 + span.p-8,
+				.price.p63 > span.p-1 + span.p-9, .price.big > span.p-1 + span.p-9,
+				.price.p63 > span.p-1 + span.p-0, .price.big > span.p-1 + span.p-0{ margin-left:-19px; }
+				.price.p63 > span.p-1 + span.p-c, .price.big > span.p-1 + span.p-c,
+				.price.p63 > span.p-1 + span.p-d, .price.big > span.p-1 + span.p-d{ margin-left:-25px; }
+			.price.p63 > span.p-2, .price.big > span.p-2{
+				width:57px !important;
+				background-position:-139px -96px !important;
+			}
+				.price.p63 > span.p-2 + span.p-2, .price.big > span.p-2 + span.p-2{ margin-left:-19px; }
+				.price.p63 > span.p-2 + span.p-4, .price.big > span.p-2 + span.p-4{ margin-left:-17px; }
+				.price.p63 > span.p-2 + span.p-7, .price.big > span.p-2 + span.p-7{ margin-left:-14px; }
+				.price.p63 > span.p-2 + span.p-c, .price.big > span.p-2 + span.p-c,
+				.price.p63 > span.p-2 + span.p-d, .price.big > span.p-2 + span.p-d{ margin-left:-21px; }
+			.price.p63 > span.p-3, .price.big > span.p-3{
+				width:51px !important;
+				background-position:-225px -96px !important;
+			}
+				.price.p63 > span.p-3 + span.p-1, .price.big > span.p-3 + span.p-1{ margin-left:-14px; }
+				.price.p63 > span.p-3 + span.p-2, .price.big > span.p-3 + span.p-2{ margin-left:-20px; }
+				.price.p63 > span.p-3 + span.p-7, .price.big > span.p-3 + span.p-7{ margin-left:-14px; }
+				.price.p63 > span.p-3 + span.p-c, .price.big > span.p-3 + span.p-c,
+				.price.p63 > span.p-3 + span.p-d, .price.big > span.p-3 + span.p-d{ margin-left:-14px; }
+			.price.p63 > span.p-4, .price.big > span.p-4{
+				width:56px !important;
+				background-position:-302px -96px !important;
+			}
+				.price.p63 > span.p-4 + span.p-1, .price.big > span.p-4 + span.p-1{ margin-left:-19px; }
+				.price.p63 > span.p-4 + span.p-2, .price.big > span.p-4 + span.p-2{ margin-left:-22px; }
+				.price.p63 > span.p-4 + span.p-3, .price.big > span.p-4 + span.p-3{ margin-left:-16px; }
+				.price.p63 > span.p-4 + span.p-4, .price.big > span.p-4 + span.p-4,
+				.price.p63 > span.p-4 + span.p-7, .price.big > span.p-4 + span.p-7{ margin-left:-17px; }
+				.price.p63 > span.p-4 + span.p-9, .price.big > span.p-4 + span.p-9{ margin-left:-17px; }
+				.price.p63 > span.p-4 + span.p-c, .price.big > span.p-4 + span.p-c,
+				.price.p63 > span.p-4 + span.p-d, .price.big > span.p-4 + span.p-d{ margin-left:-21px; }
+			.price.p63 > span.p-5, .price.big > span.p-5{
+				width:53px !important;
+				background-position:-385px -96px !important;
+			}
+				.price.p63 > span.p-5 + span.p-1, .price.big > span.p-5 + span.p-1{ margin-left:-19px; }
+				.price.p63 > span.p-5 + span.p-2, .price.big > span.p-5 + span.p-2{ margin-left:-23px; }
+				.price.p63 > span.p-5 + span.p-3, .price.big > span.p-5 + span.p-3,
+				.price.p63 > span.p-5 + span.p-4, .price.big > span.p-5 + span.p-4{ margin-left:-19px; }
+				.price.p63 > span.p-5 + span.p-5, .price.big > span.p-5 + span.p-5,
+				.price.p63 > span.p-5 + span.p-6, .price.big > span.p-5 + span.p-6,
+				.price.p63 > span.p-5 + span.p-7, .price.big > span.p-5 + span.p-7,
+				.price.p63 > span.p-5 + span.p-8, .price.big > span.p-5 + span.p-8,
+				.price.p63 > span.p-5 + span.p-9, .price.big > span.p-5 + span.p-9,
+				.price.p63 > span.p-5 + span.p-0, .price.big > span.p-5 + span.p-0{ margin-left:-18px; }
+				.price.p63 > span.p-5 + span.p-c, .price.big > span.p-5 + span.p-c,
+				.price.p63 > span.p-5 + span.p-d, .price.big > span.p-5 + span.p-d{ margin-left:-23px; }
+			.price.p63 > span.p-6, .price.big > span.p-6{
+				width:51px !important;
+				background-position:-465px -96px !important;
+			}
+				.price.p63 > span.p-6 + span.p-1, .price.big > span.p-6 + span.p-1{ margin-left:-15px; }
+				.price.p63 > span.p-6 + span.p-2, .price.big > span.p-6 + span.p-2{ margin-left:-20px; }
+				.price.p63 > span.p-6 + span.p-7, .price.big > span.p-6 + span.p-7{ margin-left:-14px; }
+				.price.p63 > span.p-6 + span.p-c, .price.big > span.p-6 + span.p-c,
+				.price.p63 > span.p-6 + span.p-d, .price.big > span.p-6 + span.p-d{ margin-left:-19px; }
+			.price.p63 > span.p-7, .price.big > span.p-7{
+				width:56px !important;
+				background-position:-540px -96px !important;
+			}
+				.price.p63 > span.p-7 + span.p-1, .price.big > span.p-7 + span.p-1{ margin-left:-19px; }
+				.price.p63 > span.p-7 + span.p-2, .price.big > span.p-7 + span.p-2{ margin-left:-26px; }
+				.price.p63 > span.p-7 + span.p-3, .price.big > span.p-7 + span.p-3{ margin-left:-20px; }
+				.price.p63 > span.p-7 + span.p-4, .price.big > span.p-7 + span.p-4{ margin-left:-31px; }
+				.price.p63 > span.p-7 + span.p-5, .price.big > span.p-7 + span.p-5,
+				.price.p63 > span.p-7 + span.p-6, .price.big > span.p-7 + span.p-6{ margin-left:-19px; }
+				.price.p63 > span.p-7 + span.p-7, .price.big > span.p-7 + span.p-7{ margin-left:-17px; }
+				.price.p63 > span.p-7 + span.p-8, .price.big > span.p-7 + span.p-8{ margin-left:-20px; }
+				.price.p63 > span.p-7 + span.p-9, .price.big > span.p-7 + span.p-9,
+				.price.p63 > span.p-7 + span.p-0, .price.big > span.p-7 + span.p-0{ margin-left:-19px; }
+				.price.p63 > span.p-7 + span.p-c, .price.big > span.p-7 + span.p-c,
+				.price.p63 > span.p-7 + span.p-d, .price.big > span.p-7 + span.p-d{ margin-left:-35px; }
+			.price.p63 > span.p-8, .price.big > span.p-8{
+				width:51px !important;
+				background-position:-623px -96px !important;
+			}
+				.price.p63 > span.p-8 + span.p-1, .price.big > span.p-8 + span.p-1{ margin-left:-15px; }
+				.price.p63 > span.p-8 + span.p-2, .price.big > span.p-8 + span.p-2{ margin-left:-20px; }
+				.price.p63 > span.p-8 + span.p-4, .price.big > span.p-8 + span.p-4{ margin-left:-15px; }
+				.price.p63 > span.p-8 + span.p-7, .price.big > span.p-8 + span.p-7{ margin-left:-14px; }
+				.price.p63 > span.p-8 + span.p-c, .price.big > span.p-8 + span.p-c,
+				.price.p63 > span.p-8 + span.p-d, .price.big > span.p-8 + span.p-d{ margin-left:-20px; }
+			.price.p63 > span.p-9, .price.big > span.p-9{
+				width:51px !important;
+				background-position:-699px -96px !important;
+			}
+				.price.p63 > span.p-9 + span.p-1, .price.big > span.p-9 + span.p-1{ margin-left:-15px; }
+				.price.p63 > span.p-9 + span.p-2, .price.big > span.p-9 + span.p-2{ margin-left:-20px; }
+				.price.p63 > span.p-9 + span.p-4, .price.big > span.p-9 + span.p-4{ margin-left:-15px; }
+				.price.p63 > span.p-9 + span.p-7, .price.big > span.p-9 + span.p-7{ margin-left:-14px; }
+				.price.p63 > span.p-9 + span.p-c, .price.big > span.p-9 + span.p-c,
+				.price.p63 > span.p-9 + span.p-d, .price.big > span.p-9 + span.p-d{ margin-left:-20px; }
+			.price.p63 > span.p-c, .price.big > span.p-c{
+				width:28px !important;
+				background-position:-855px -96px !important;
+			}
+			.price.p63 > span.p-d, .price.big > span.p-d{
+				width:54px !important;
+				background-position:-774px -96px !important;
+			}
+					.price.p63 > span.p-small, .price.big > span.p-small{
+						margin-left:-12px !important;
+					}
+					.price.p63 > span.p-0.p-small, .price.big > span.p-0.p-small{
+						width:39px !important;
+						background-position:-896px -96px !important;
+					}
+					.price.p63 > span.p-1.p-small, .price.big > span.p-1.p-small{
+						width:32px !important;
+						background-position:-954px -96px !important;
+					}
+					.price.p63 > span.p-2.p-small, .price.big > span.p-2.p-small{
+						width:43px !important;
+						background-position:-1001px -96px !important;
+					}
+					.price.p63 > span.p-3.p-small, .price.big > span.p-3.p-small{
+						width:39px !important;
+						background-position:-1065px -96px !important;
+					}
+					.price.p63 > span.p-4.p-small, .price.big > span.p-4.p-small{
+						width:42px !important;
+						background-position:-1123px -96px !important;
+					}
+					.price.p63 > span.p-5.p-small, .price.big > span.p-5.p-small{
+						width:41px !important;
+						background-position:-1185px -96px !important;
+					}
+					.price.p63 > span.p-6.p-small, .price.big > span.p-6.p-small{
+						width:39px !important;
+						background-position:-1245px -96px !important;
+					}
+					.price.p63 > span.p-7.p-small, .price.big > span.p-7.p-small{
+						width:42px !important;
+						background-position:-1302px -96px !important;
+					}
+					.price.p63 > span.p-8.p-small, .price.big > span.p-8.p-small{
+						width:39px !important;
+						background-position:-1364px -96px !important;
+					}
+					.price.p63 > span.p-9.p-small, .price.big > span.p-9.p-small{
+						width:39px !important;
+						background-position:-1421px -96px !important;
+					}
+
+		/* ### price 93px ### */
+		.price.p93 > span{
+			height:96px !important;
+			margin-left:-22px;
+		}
+			.price.p93 > span.p-0{
+				width:77px !important;
+				background-position:0px 0px !important;
+			}
+				.price.p93 > span.p-0 + span.p-2{ margin-left:-31px; }
+				.price.p93 > span.p-0 + span.p-7{ margin-left:-20px; }
+				.price.p93 > span.p-0 + span.p-c,
+				.price.p93 > span.p-0 + span.p-d{ margin-left:-29px; }
+			.price.p93 > span.p-1{
+				width:62px !important;
+				background-position:-77px 0px !important;
+			}
+				.price.p93 > span.p-1 + span.p-1{ margin-left:-28px; }
+				.price.p93 > span.p-1 + span.p-2{ margin-left:-35px; }
+				.price.p93 > span.p-1 + span.p-3,
+				.price.p93 > span.p-1 + span.p-4{ margin-left:-30px; }
+				.price.p93 > span.p-1 + span.p-5,
+				.price.p93 > span.p-1 + span.p-6{ margin-left:-28px; }
+				.price.p93 > span.p-1 + span.p-7{ margin-left:-26px; }
+				.price.p93 > span.p-1 + span.p-8,
+				.price.p93 > span.p-1 + span.p-9,
+				.price.p93 > span.p-1 + span.p-0{ margin-left:-28px; }
+				.price.p93 > span.p-1 + span.p-c,
+				.price.p93 > span.p-1 + span.p-d{ margin-left:-36px; }
+			.price.p93 > span.p-2{
+				width:86px !important;
+				background-position:-139px 0px !important;
+			}
+				.price.p93 > span.p-2 + span.p-2{ margin-left:-28px; }
+				.price.p93 > span.p-2 + span.p-4{ margin-left:-25px; }
+				.price.p93 > span.p-2 + span.p-7{ margin-left:-20px; }
+				.price.p93 > span.p-2 + span.p-c,
+				.price.p93 > span.p-2 + span.p-d{ margin-left:-30px; }
+			.price.p93 > span.p-3{
+				width:77px !important;
+				background-position:-225px 0px !important;
+			}
+				.price.p93 > span.p-3 + span.p-1{ margin-left:-20px; }
+				.price.p93 > span.p-3 + span.p-2{ margin-left:-29px; }
+				.price.p93 > span.p-3 + span.p-7{ margin-left:-20px; }
+				.price.p93 > span.p-3 + span.p-c,
+				.price.p93 > span.p-3 + span.p-d{ margin-left:-30px; }
+			.price.p93 > span.p-4{
+				width:83px !important;
+				background-position:-302px 0px !important;
+			}
+				.price.p93 > span.p-4 + span.p-1{ margin-left:-27px; }
+				.price.p93 > span.p-4 + span.p-2{ margin-left:-32px; }
+				.price.p93 > span.p-4 + span.p-3{ margin-left:-23px; }
+				.price.p93 > span.p-4 + span.p-4,
+				.price.p93 > span.p-4 + span.p-7{ margin-left:-25px; }
+				.price.p93 > span.p-4 + span.p-9{ margin-left:-24px; }
+				.price.p93 > span.p-4 + span.p-c,
+				.price.p93 > span.p-4 + span.p-d{ margin-left:-31px; }
+			.price.p93 > span.p-5{
+				width:80px !important;
+				background-position:-385px 0px !important;
+			}
+				.price.p93 > span.p-5 + span.p-1{ margin-left:-27px; }
+				.price.p93 > span.p-5 + span.p-2{ margin-left:-34px; }
+				.price.p93 > span.p-5 + span.p-3,
+				.price.p93 > span.p-5 + span.p-4{ margin-left:-27px; }
+				.price.p93 > span.p-5 + span.p-5,
+				.price.p93 > span.p-5 + span.p-6,
+				.price.p93 > span.p-5 + span.p-7,
+				.price.p93 > span.p-5 + span.p-8,
+				.price.p93 > span.p-5 + span.p-9,
+				.price.p93 > span.p-5 + span.p-0{ margin-left:-26px; }
+				.price.p93 > span.p-5 + span.p-c,
+				.price.p93 > span.p-5 + span.p-d{ margin-left:-34px; }
+			.price.p93 > span.p-6{
+				width:75px !important;
+				background-position:-465px 0px !important;
+			}
+				.price.p93 > span.p-6 + span.p-1{ margin-left:-21px; }
+				.price.p93 > span.p-6 + span.p-2{ margin-left:-29px; }
+				.price.p93 > span.p-6 + span.p-7{ margin-left:-20px; }
+				.price.p93 > span.p-6 + span.p-c,
+				.price.p93 > span.p-6 + span.p-d{ margin-left:-28px; }
+			.price.p93 > span.p-7{
+				width:83px !important;
+				background-position:-540px 0px !important;
+			}
+				.price.p93 > span.p-7 + span.p-1{ margin-left:-27px; }
+				.price.p93 > span.p-7 + span.p-2{ margin-left:-38px; }
+				.price.p93 > span.p-7 + span.p-3{ margin-left:-29px; }
+				.price.p93 > span.p-7 + span.p-4{ margin-left:-43px; }
+				.price.p93 > span.p-7 + span.p-5,
+				.price.p93 > span.p-7 + span.p-6{ margin-left:-28px; }
+				.price.p93 > span.p-7 + span.p-7{ margin-left:-25px; }
+				.price.p93 > span.p-7 + span.p-8{ margin-left:-29px; }
+				.price.p93 > span.p-7 + span.p-9,
+				.price.p93 > span.p-7 + span.p-0{ margin-left:-28px; }
+				.price.p93 > span.p-7 + span.p-c,
+				.price.p93 > span.p-7 + span.p-d{ margin-left:-51px; }
+			.price.p93 > span.p-8{
+				width:76px !important;
+				background-position:-623px 0px !important;
+			}
+				.price.p93 > span.p-8 + span.p-1{ margin-left:-21px; }
+				.price.p93 > span.p-8 + span.p-2{ margin-left:-29px; }
+				.price.p93 > span.p-8 + span.p-4{ margin-left:-22px; }
+				.price.p93 > span.p-8 + span.p-7{ margin-left:-20px; }
+				.price.p93 > span.p-8 + span.p-c,
+				.price.p93 > span.p-8 + span.p-d{ margin-left:-29px; }
+			.price.p93 > span.p-9{
+				width:75px !important;
+				background-position:-699px 0px !important;
+			}
+				.price.p93 > span.p-9 + span.p-1{ margin-left:-21px; }
+				.price.p93 > span.p-9 + span.p-2{ margin-left:-29px; }
+				.price.p93 > span.p-9 + span.p-4{ margin-left:-22px; }
+				.price.p93 > span.p-9 + span.p-7{ margin-left:-20px; }
+				.price.p93 > span.p-9 + span.p-c,
+				.price.p93 > span.p-9 + span.p-d{ margin-left:-29px; }
+			.price.p93 > span.p-c{
+				width:41px !important;
+				background-position:-855px 0px !important;
+			}
+			.price.p93 > span.p-d{
+				width:81px !important;
+				background-position:-774px 0px !important;
+			}
+					.price.p93 > span.p-small{
+						margin-left:-18px !important;
+					}
+					.price.p93 > span.p-0.p-small{
+						width:58px !important;
+						background-position:-896px 0px !important;
+					}
+					.price.p93 > span.p-1.p-small{
+						width:47px !important;
+						background-position:-954px 0px !important;
+					}
+					.price.p93 > span.p-2.p-small{
+						width:64px !important;
+						background-position:-1001px 0px !important;
+					}
+					.price.p93 > span.p-3.p-small{
+						width:58px !important;
+						background-position:-1065px 0px !important;
+					}
+					.price.p93 > span.p-4.p-small{
+						width:62px !important;
+						background-position:-1123px 0px !important;
+					}
+					.price.p93 > span.p-5.p-small{
+						width:60px !important;
+						background-position:-1185px 0px !important;
+					}
+					.price.p93 > span.p-6.p-small{
+						width:57px !important;
+						background-position:-1245px 0px !important;
+					}
+					.price.p93 > span.p-7.p-small{
+						width:62px !important;
+						background-position:-1302px 0px !important;
+					}
+					.price.p93 > span.p-8.p-small{
+						width:57px !important;
+						background-position:-1364px 0px !important;
+					}
+					.price.p93 > span.p-9.p-small{
+						width:57px !important;
+						background-position:-1421px 0px !important;
+					}
+
+	/* ### first character reset ### */
+	.price > span:first-child{
+		margin-left:0px !important;
+	}
+}
+
+/* ### Price Sprite RETINA ### */
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+	handheld and (-webkit-min-device-pixel-ratio: 2){
+	.price > span{
+		background:url('images/general/price-sprite-retina.png') 0px 0px no-repeat !important;
+		background-size:1478px 353px !important;
+	}
+}
+
+/* ### webkit browser fix for prices like "x7,xx" with negativ margin bug ### */
+@media screen and (-webkit-min-device-pixel-ratio: 0),
+	handheld and (-webkit-min-device-pixel-ratio: 0){
+	.price.p24 > span.p-7 + span.p-c,
+	.price.p24 > span.p-7 + span.p-d{
+		margin-left:-13px !important;
+	}
+	.price.p28 > span.p-7 + span.p-c,
+		.price.price-xs > span.p-7 + span.p-c,
+	.price.p28 > span.p-7 + span.p-d,
+		.price.price-xs > span.p-7 + span.p-d{
+		margin-left:-15px !important;
+	}
+	.price.p33 > span.p-7 + span.p-c,
+	.price.p33 > span.p-7 + span.p-d{
+		margin-left:-16px !important;
+	}
+	.price.p43 > span.p-7 + span.p-c,
+		.price.small > span.p-7 + span.p-c,
+	.price.p43 > span.p-7 + span.p-d,
+		.price.small > span.p-7 + span.p-d{
+		margin-left:-21px !important;
+	}
+	.price.p53 > span.p-7 + span.p-c,
+	.price.p53 > span.p-7 + span.p-d{
+		margin-left:-25px !important;
+	}
+	.price.p63 > span.p-7 + span.p-c,
+		.price.big > span.p-7 + span.p-c,
+	.price.p63 > span.p-7 + span.p-d,
+		.price.big > span.p-7 + span.p-d{
+		margin-left:-28px !important;
+	}
+	.price.p93 > span.p-7 + span.p-c,
+	.price.p93 > span.p-7 + span.p-d{
+		margin-left:-41px !important;
+	}
+}
+
+/* PRICE-ENDING */
+
+
 /*================= Sortering och filtrering - mars 2016 - juni - 2016 - juli 2016 =================*/
 .select select {
     font-family: 'mmtextregularpro', sans-serif;
@@ -9636,1286 +10918,7 @@ input[type="radio"] {
 	}
 }
 
-/***** Prices MM ******/
-@media screen, handheld{
 
-  .price.price-old{
-    margin-left: 12px;
-  }
-
-  .price.big{
-    height: 70px;
-  }
-
-	.price > span{
-		display:inline-block;
-		background: url('images/general/price-sprite.png') 0px 0px no-repeat !important;
-		background-size:1478px 353px;
-		overflow:hidden !important;
-		text-indent:-9999em !important;
-		overflow:hidden !important;
-		float:left !important;
-	}
-		/* ### price 24px ### */
-		.price.p24 > span{
-			height:26px !important;
-			margin-left:-9px;
-		}
-			.price.p24 > span.p-0{
-				width:21px !important;
-				background-position:0px -327px !important;
-			}
-				.price.p24 > span.p-0 + span.p-2{ margin-left:-11px; }
-				.price.p24 > span.p-0 + span.p-7{ margin-left:-8px; }
-				.price.p24 > span.p-0 + span.p-c,
-				.price.p24 > span.p-0 + span.p-d{ margin-left:-10px; }
-			.price.p24 > span.p-1{
-				width:18px !important;
-				background-position:-77px -327px !important;
-			}
-				.price.p24 > span.p-1 + span.p-1{ margin-left:-7px; }
-				.price.p24 > span.p-1 + span.p-2{ margin-left:-12px; }
-				.price.p24 > span.p-1 + span.p-3,
-				.price.p24 > span.p-1 + span.p-4{ margin-left:-10px; }
-				.price.p24 > span.p-1 + span.p-5,
-				.price.p24 > span.p-1 + span.p-6{ margin-left:-10px; }
-				.price.p24 > span.p-1 + span.p-7{ margin-left:-9px; }
-				.price.p24 > span.p-1 + span.p-8,
-				.price.p24 > span.p-1 + span.p-9,
-				.price.p24 > span.p-1 + span.p-0{ margin-left:-10px; }
-				.price.p24 > span.p-1 + span.p-c,
-				.price.p24 > span.p-1 + span.p-d{ margin-left:-12px; }
-			.price.p24 > span.p-2{
-				width:24px !important;
-				background-position:-139px -327px !important;
-			}
-				.price.p24 > span.p-2 + span.p-2{ margin-left:-10px; }
-				.price.p24 > span.p-2 + span.p-4{ margin-left:-9px; }
-				.price.p24 > span.p-2 + span.p-7{ margin-left:-8px; }
-				.price.p24 > span.p-2 + span.p-c,
-				.price.p24 > span.p-2 + span.p-d{ margin-left:-10px; }
-			.price.p24 > span.p-3{
-				width:21px !important;
-				background-position:-225px -327px !important;
-			}
-				.price.p24 > span.p-3 + span.p-1{ margin-left:-8px; }
-				.price.p24 > span.p-3 + span.p-2{ margin-left:-10px; }
-				.price.p24 > span.p-3 + span.p-7{ margin-left:-8px; }
-				.price.p24 > span.p-3 + span.p-c,
-				.price.p24 > span.p-3 + span.p-d{ margin-left:-10px; }
-			.price.p24 > span.p-4{
-				width:23px !important;
-				background-position:-302px -327px !important;
-			}
-				.price.p24 > span.p-4 + span.p-1{ margin-left:-10px; }
-				.price.p24 > span.p-4 + span.p-2{ margin-left:-11px; }
-				.price.p24 > span.p-4 + span.p-3{ margin-left:-8px; }
-				.price.p24 > span.p-4 + span.p-4,
-				.price.p24 > span.p-4 + span.p-7{ margin-left:-9px; }
-				.price.p24 > span.p-4 + span.p-9{ margin-left:-9px; }
-				.price.p24 > span.p-4 + span.p-c,
-				.price.p24 > span.p-4 + span.p-d{ margin-left:-11px; }
-			.price.p24 > span.p-5{
-				width:22px !important;
-				background-position:-385px -327px !important;
-			}
-				.price.p24 > span.p-5 + span.p-1{ margin-left:-10px; }
-				.price.p24 > span.p-5 + span.p-2{ margin-left:-11px; }
-				.price.p24 > span.p-5 + span.p-3,
-				.price.p24 > span.p-5 + span.p-4{ margin-left:-10px; }
-				.price.p24 > span.p-5 + span.p-5,
-				.price.p24 > span.p-5 + span.p-6,
-				.price.p24 > span.p-5 + span.p-7,
-				.price.p24 > span.p-5 + span.p-8,
-				.price.p24 > span.p-5 + span.p-9,
-				.price.p24 > span.p-5 + span.p-0{ margin-left:-9px; }
-				.price.p24 > span.p-5 + span.p-c,
-				.price.p24 > span.p-5 + span.p-d{ margin-left:-11px; }
-			.price.p24 > span.p-6{
-				width:21px !important;
-				background-position:-465px -327px !important;
-			}
-				.price.p24 > span.p-6 + span.p-1{ margin-left:-8px; }
-				.price.p24 > span.p-6 + span.p-2{ margin-left:-10px; }
-				.price.p24 > span.p-6 + span.p-7{ margin-left:-8px; }
-				.price.p24 > span.p-6 + span.p-c,
-				.price.p24 > span.p-6 + span.p-d{ margin-left:-10px; }
-			.price.p24 > span.p-7{
-				width:23px !important;
-				background-position:-540px -327px !important;
-			}
-				.price.p24 > span.p-7 + span.p-1{ margin-left:-10px; }
-				.price.p24 > span.p-7 + span.p-2{ margin-left:-12px; }
-				.price.p24 > span.p-7 + span.p-3{ margin-left:-10px; }
-				.price.p24 > span.p-7 + span.p-4{ margin-left:-14px; }
-				.price.p24 > span.p-7 + span.p-5,
-				.price.p24 > span.p-7 + span.p-6{ margin-left:-10px; }
-				.price.p24 > span.p-7 + span.p-7{ margin-left:-9px; }
-				.price.p24 > span.p-7 + span.p-8{ margin-left:-10px; }
-				.price.p24 > span.p-7 + span.p-9,
-				.price.p24 > span.p-7 + span.p-0{ margin-left:-10px; }
-				.price.p24 > span.p-7 + span.p-c,
-				.price.p24 > span.p-7 + span.p-d{ margin-left:-16px; }
-			.price.p24 > span.p-8{
-				width:21px !important;
-				background-position:-623px -327px !important;
-			}
-				.price.p24 > span.p-8 + span.p-1{ margin-left:-8px; }
-				.price.p24 > span.p-8 + span.p-2{ margin-left:-10px; }
-				.price.p24 > span.p-8 + span.p-4{ margin-left:-8px; }
-				.price.p24 > span.p-8 + span.p-7{ margin-left:-8px; }
-				.price.p24 > span.p-8 + span.p-c,
-				.price.p24 > span.p-8 + span.p-d{ margin-left:-10px; }
-			.price.p24 > span.p-9{
-				width:21px !important;
-				background-position:-699px -327px !important;
-			}
-				.price.p24 > span.p-9 + span.p-1{ margin-left:-8px; }
-				.price.p24 > span.p-9 + span.p-2{ margin-left:-10px; }
-				.price.p24 > span.p-9 + span.p-4{ margin-left:-8px; }
-				.price.p24 > span.p-9 + span.p-7{ margin-left:-8px; }
-				.price.p24 > span.p-9 + span.p-c,
-				.price.p24 > span.p-9 + span.p-d{ margin-left:-10px; }
-			.price.p24 > span.p-c{
-				width:13px !important;
-				background-position:-855px -327px !important;
-			}
-			.price.p24 > span.p-d{
-				width:23px !important;
-				background-position:-774px -327px !important;
-			}
-					.price.p24 > span.p-small{
-						margin-left:-7px !important;
-					}
-					.price.p24 > span.p-0.p-small{
-						width:17px !important;
-						background-position:-896px -327px !important;
-					}
-					.price.p24 > span.p-1.p-small{
-						width:14px !important;
-						background-position:-954px -327px !important;
-					}
-					.price.p24 > span.p-2.p-small{
-						width:18px !important;
-						background-position:-1001px -327px !important;
-					}
-					.price.p24 > span.p-3.p-small{
-						width:17px !important;
-						background-position:-1065px -327px !important;
-					}
-					.price.p24 > span.p-4.p-small{
-						width:18px !important;
-						background-position:-1123px -327px !important;
-					}
-					.price.p24 > span.p-5.p-small{
-						width:17px !important;
-						background-position:-1185px -327px !important;
-					}
-					.price.p24 > span.p-6.p-small{
-						width:17px !important;
-						background-position:-1245px -327px !important;
-					}
-					.price.p24 > span.p-7.p-small{
-						width:18px !important;
-						background-position:-1302px -327px !important;
-					}
-					.price.p24 > span.p-8.p-small{
-						width:17px !important;
-						background-position:-1364px -327px !important;
-					}
-					.price.p24 > span.p-9.p-small{
-						width:17px !important;
-						background-position:-1421px -327px !important;
-					}
-
-		/* ### price 28px ### */
-		.price.p28 > span, .price.price-xs > span{
-			height:31px !important;
-			margin-left:-9px;
-		}
-			.price.p28 > span.p-0, .price.price-xs > span.p-0{
-				width:25px !important;
-				background-position:0px -296px !important;
-			}
-				.price.p28 > span.p-0 + span.p-2, .price.price-xs > span.p-0 + span.p-2{ margin-left:-12px; }
-				.price.p28 > span.p-0 + span.p-7, .price.price-xs > span.p-0 + span.p-7{ margin-left:-9px; }
-				.price.p28 > span.p-0 + span.p-c, .price.price-xs > span.p-0 + span.p-c,
-				.price.p28 > span.p-0 + span.p-d, .price.price-xs > span.p-0 + span.p-d{ margin-left:-11px; }
-			.price.p28 > span.p-1, .price.price-xs > span.p-1{
-				width:21px !important;
-				background-position:-77px -296px !important;
-			}
-				.price.p28 > span.p-1 + span.p-1, .price.price-xs > span.p-1 + span.p-1{ margin-left:-11px; }
-				.price.p28 > span.p-1 + span.p-2, .price.price-xs > span.p-1 + span.p-2{ margin-left:-13px; }
-				.price.p28 > span.p-1 + span.p-3, .price.price-xs > span.p-1 + span.p-3,
-				.price.p28 > span.p-1 + span.p-4, .price.price-xs > span.p-1 + span.p-4{ margin-left:-12px; }
-				.price.p28 > span.p-1 + span.p-5, .price.price-xs > span.p-1 + span.p-5,
-				.price.p28 > span.p-1 + span.p-6, .price.price-xs > span.p-1 + span.p-6{ margin-left:-11px; }
-				.price.p28 > span.p-1 + span.p-7, .price.price-xs > span.p-1 + span.p-7{ margin-left:-10px; }
-				.price.p28 > span.p-1 + span.p-8, .price.price-xs > span.p-1 + span.p-8,
-				.price.p28 > span.p-1 + span.p-9, .price.price-xs > span.p-1 + span.p-9,
-				.price.p28 > span.p-1 + span.p-0, .price.price-xs > span.p-1 + span.p-0{ margin-left:-11px; }
-				.price.p28 > span.p-1 + span.p-c, .price.price-xs > span.p-1 + span.p-c,
-				.price.p28 > span.p-1 + span.p-d, .price.price-xs > span.p-1 + span.p-d{ margin-left:-13px; }
-			.price.p28 > span.p-2, .price.price-xs > span.p-2{
-				width:28px !important;
-				background-position:-139px -296px !important;
-			}
-				.price.p28 > span.p-2 + span.p-2, .price.price-xs > span.p-2 + span.p-2{ margin-left:-11px; }
-				.price.p28 > span.p-2 + span.p-4, .price.price-xs > span.p-2 + span.p-4{ margin-left:-10px; }
-				.price.p28 > span.p-2 + span.p-7, .price.price-xs > span.p-2 + span.p-7{ margin-left:-9px; }
-				.price.p28 > span.p-2 + span.p-c, .price.price-xs > span.p-2 + span.p-c,
-				.price.p28 > span.p-2 + span.p-d, .price.price-xs > span.p-2 + span.p-d{ margin-left:-12px; }
-			.price.p28 > span.p-3, .price.price-xs > span.p-3{
-				width:25px !important;
-				background-position:-225px -296px !important;
-			}
-				.price.p28 > span.p-3 + span.p-1, .price.price-xs > span.p-3 + span.p-1{ margin-left:-9px; }
-				.price.p28 > span.p-3 + span.p-2, .price.price-xs > span.p-3 + span.p-2{ margin-left:-11px; }
-				.price.p28 > span.p-3 + span.p-7, .price.price-xs > span.p-3 + span.p-7{ margin-left:-9px; }
-				.price.p28 > span.p-3 + span.p-c, .price.price-xs > span.p-3 + span.p-c,
-				.price.p28 > span.p-3 + span.p-d, .price.price-xs > span.p-3 + span.p-d{ margin-left:-12px; }
-			.price.p28 > span.p-4, .price.price-xs > span.p-4{
-				width:27px !important;
-				background-position:-302px -296px !important;
-			}
-				.price.p28 > span.p-4 + span.p-1, .price.price-xs > span.p-4 + span.p-1{ margin-left:-11px; }
-				.price.p28 > span.p-4 + span.p-2, .price.price-xs > span.p-4 + span.p-2{ margin-left:-12px; }
-				.price.p28 > span.p-4 + span.p-3, .price.price-xs > span.p-4 + span.p-3{ margin-left:-9px; }
-				.price.p28 > span.p-4 + span.p-4, .price.price-xs > span.p-4 + span.p-4,
-				.price.p28 > span.p-4 + span.p-7, .price.price-xs > span.p-4 + span.p-7{ margin-left:-10px; }
-				.price.p28 > span.p-4 + span.p-9, .price.price-xs > span.p-4 + span.p-9{ margin-left:-10px; }
-				.price.p28 > span.p-4 + span.p-c, .price.price-xs > span.p-4 + span.p-c,
-				.price.p28 > span.p-4 + span.p-d, .price.price-xs > span.p-4 + span.p-d{ margin-left:-12px; }
-			.price.p28 > span.p-5, .price.price-xs > span.p-5{
-				width:26px !important;
-				background-position:-385px -296px !important;
-			}
-				.price.p28 > span.p-5 + span.p-1, .price.price-xs > span.p-5 + span.p-1{ margin-left:-11px; }
-				.price.p28 > span.p-5 + span.p-2, .price.price-xs > span.p-5 + span.p-2{ margin-left:-13px; }
-				.price.p28 > span.p-5 + span.p-3, .price.price-xs > span.p-5 + span.p-3,
-				.price.p28 > span.p-5 + span.p-4, .price.price-xs > span.p-5 + span.p-4{ margin-left:-11px; }
-				.price.p28 > span.p-5 + span.p-5, .price.price-xs > span.p-5 + span.p-5,
-				.price.p28 > span.p-5 + span.p-6, .price.price-xs > span.p-5 + span.p-6,
-				.price.p28 > span.p-5 + span.p-7, .price.price-xs > span.p-5 + span.p-7,
-				.price.p28 > span.p-5 + span.p-8, .price.price-xs > span.p-5 + span.p-8,
-				.price.p28 > span.p-5 + span.p-9, .price.price-xs > span.p-5 + span.p-9,
-				.price.p28 > span.p-5 + span.p-0, .price.price-xs > span.p-5 + span.p-0{ margin-left:-10px; }
-				.price.p28 > span.p-5 + span.p-c, .price.price-xs > span.p-5 + span.p-c,
-				.price.p28 > span.p-5 + span.p-d, .price.price-xs > span.p-5 + span.p-d{ margin-left:-13px; }
-			.price.p28 > span.p-6, .price.price-xs > span.p-6{
-				width:25px !important;
-				background-position:-465px -296px !important;
-			}
-				.price.p28 > span.p-6 + span.p-1, .price.price-xs > span.p-6 + span.p-1{ margin-left:-9px; }
-				.price.p28 > span.p-6 + span.p-2, .price.price-xs > span.p-6 + span.p-2{ margin-left:-11px; }
-				.price.p28 > span.p-6 + span.p-7, .price.price-xs > span.p-6 + span.p-7{ margin-left:-9px; }
-				.price.p28 > span.p-6 + span.p-c, .price.price-xs > span.p-6 + span.p-c,
-				.price.p28 > span.p-6 + span.p-d, .price.price-xs > span.p-6 + span.p-d{ margin-left:-11px; }
-			.price.p28 > span.p-7, .price.price-xs > span.p-7{
-				width:27px !important;
-				background-position:-540px -296px !important;
-			}
-				.price.p28 > span.p-7 + span.p-1, .price.price-xs > span.p-7 + span.p-1{ margin-left:-11px; }
-				.price.p28 > span.p-7 + span.p-2, .price.price-xs > span.p-7 + span.p-2{ margin-left:-14px; }
-				.price.p28 > span.p-7 + span.p-3, .price.price-xs > span.p-7 + span.p-3{ margin-left:-11px; }
-				.price.p28 > span.p-7 + span.p-4, .price.price-xs > span.p-7 + span.p-4{ margin-left:-15px; }
-				.price.p28 > span.p-7 + span.p-5, .price.price-xs > span.p-7 + span.p-5,
-				.price.p28 > span.p-7 + span.p-6, .price.price-xs > span.p-7 + span.p-6{ margin-left:-11px; }
-				.price.p28 > span.p-7 + span.p-7, .price.price-xs > span.p-7 + span.p-7{ margin-left:-10px; }
-				.price.p28 > span.p-7 + span.p-8, .price.price-xs > span.p-7 + span.p-8{ margin-left:-11px; }
-				.price.p28 > span.p-7 + span.p-9, .price.price-xs > span.p-7 + span.p-9,
-				.price.p28 > span.p-7 + span.p-0, .price.price-xs > span.p-7 + span.p-0{ margin-left:-11px; }
-				.price.p28 > span.p-7 + span.p-c, .price.price-xs > span.p-7 + span.p-c,
-				.price.p28 > span.p-7 + span.p-d, .price.price-xs > span.p-7 + span.p-d{ margin-left:-18px; }
-			.price.p28 > span.p-8, .price.price-xs > span.p-8{
-				width:25px !important;
-				background-position:-623px -296px !important;
-			}
-				.price.p28 > span.p-8 + span.p-1, .price.price-xs > span.p-8 + span.p-1{ margin-left:-9px; }
-				.price.p28 > span.p-8 + span.p-2, .price.price-xs > span.p-8 + span.p-2{ margin-left:-11px; }
-				.price.p28 > span.p-8 + span.p-4, .price.price-xs > span.p-8 + span.p-4{ margin-left:-9px; }
-				.price.p28 > span.p-8 + span.p-7, .price.price-xs > span.p-8 + span.p-7{ margin-left:-9px; }
-				.price.p28 > span.p-8 + span.p-c, .price.price-xs > span.p-8 + span.p-c,
-				.price.p28 > span.p-8 + span.p-d, .price.price-xs > span.p-8 + span.p-d{ margin-left:-11px; }
-			.price.p28 > span.p-9, .price.price-xs > span.p-9{
-				width:25px !important;
-				background-position:-699px -296px !important;
-			}
-				.price.p28 > span.p-9 + span.p-1, .price.price-xs > span.p-9 + span.p-1{ margin-left:-9px; }
-				.price.p28 > span.p-9 + span.p-2, .price.price-xs > span.p-9 + span.p-2{ margin-left:-11px; }
-				.price.p28 > span.p-9 + span.p-4, .price.price-xs > span.p-9 + span.p-4{ margin-left:-9px; }
-				.price.p28 > span.p-9 + span.p-7, .price.price-xs > span.p-9 + span.p-7{ margin-left:-9px; }
-				.price.p28 > span.p-9 + span.p-c, .price.price-xs > span.p-9 + span.p-c,
-				.price.p28 > span.p-9 + span.p-d, .price.price-xs > span.p-9 + span.p-d{ margin-left:-11px; }
-			.price.p28 > span.p-c, .price.price-xs > span.p-c{
-				width:15px !important;
-				background-position:-855px -296px !important;
-			}
-			.price.p28 > span.p-d, .price.price-xs > span.p-d{
-				width:26px !important;
-				background-position:-774px -296px !important;
-			}
-					.price.p28 > span.p-small, .price.price-xs > span.p-small{
-						margin-left:-7px !important;
-					}
-					.price.p28 > span.p-0.p-small, .price.price-xs > span.p-0.p-small{
-						width:20px !important;
-						background-position:-896px -296px !important;
-					}
-					.price.p28 > span.p-1.p-small, .price.price-xs > span.p-1.p-small{
-						width:16px !important;
-						background-position:-954px -296px !important;
-					}
-					.price.p28 > span.p-2.p-small, .price.price-xs > span.p-2.p-small{
-						width:21px !important;
-						background-position:-1001px -296px !important;
-					}
-					.price.p28 > span.p-3.p-small, .price.price-xs > span.p-3.p-small{
-						width:20px !important;
-						background-position:-1065px -296px !important;
-					}
-					.price.p28 > span.p-4.p-small, .price.price-xs > span.p-4.p-small{
-						width:21px !important;
-						background-position:-1123px -296px !important;
-					}
-					.price.p28 > span.p-5.p-small, .price.price-xs > span.p-5.p-small{
-						width:21px !important;
-						background-position:-1185px -296px !important;
-					}
-					.price.p28 > span.p-6.p-small, .price.price-xs > span.p-6.p-small{
-						width:20px !important;
-						background-position:-1245px -296px !important;
-					}
-					.price.p28 > span.p-7.p-small, .price.price-xs > span.p-7.p-small{
-						width:21px !important;
-						background-position:-1302px -296px !important;
-					}
-					.price.p28 > span.p-8.p-small, .price.price-xs > span.p-8.p-small{
-						width:19px !important;
-						background-position:-1364px -296px !important;
-					}
-					.price.p28 > span.p-9.p-small, .price.price-xs > span.p-9.p-small{
-						width:19px !important;
-						background-position:-1421px -296px !important;
-					}
-
-		/* ### price 33px ### */
-		.price.p33 > span{
-			height:34px !important;
-			margin-left:-9px;
-		}
-			.price.p33 > span.p-0{
-				width:27px !important;
-				background-position:0px -262px !important;
-			}
-				.price.p33 > span.p-0 + span.p-2{ margin-left:-13px; }
-				.price.p33 > span.p-0 + span.p-7{ margin-left:-9px; }
-				.price.p33 > span.p-0 + span.p-c,
-				.price.p33 > span.p-0 + span.p-d{ margin-left:-12px; }
-			.price.p33 > span.p-1{
-				width:23px !important;
-				background-position:-77px -262px !important;
-			}
-				.price.p33 > span.p-1 + span.p-1{ margin-left:-12px; }
-				.price.p33 > span.p-1 + span.p-2{ margin-left:-14px; }
-				.price.p33 > span.p-1 + span.p-3,
-				.price.p33 > span.p-1 + span.p-4{ margin-left:-12px; }
-				.price.p33 > span.p-1 + span.p-5,
-				.price.p33 > span.p-1 + span.p-6{ margin-left:-12px; }
-				.price.p33 > span.p-1 + span.p-7{ margin-left:-11px; }
-				.price.p33 > span.p-1 + span.p-8,
-				.price.p33 > span.p-1 + span.p-9,
-				.price.p33 > span.p-1 + span.p-0{ margin-left:-12px; }
-				.price.p33 > span.p-1 + span.p-c,
-				.price.p33 > span.p-1 + span.p-d{ margin-left:-14px; }
-			.price.p33 > span.p-2{
-				width:30px !important;
-				background-position:-139px -262px !important;
-			}
-				.price.p33 > span.p-2 + span.p-2{ margin-left:-12px; }
-				.price.p33 > span.p-2 + span.p-4{ margin-left:-11px; }
-				.price.p33 > span.p-2 + span.p-7{ margin-left:-9px; }
-				.price.p33 > span.p-2 + span.p-c,
-				.price.p33 > span.p-2 + span.p-d{ margin-left:-12px; }
-			.price.p33 > span.p-3{
-				width:27px !important;
-				background-position:-225px -262px !important;
-			}
-				.price.p33 > span.p-3 + span.p-1{ margin-left:-9px; }
-				.price.p33 > span.p-3 + span.p-2{ margin-left:-12px; }
-				.price.p33 > span.p-3 + span.p-7{ margin-left:-9px; }
-				.price.p33 > span.p-3 + span.p-c,
-				.price.p33 > span.p-3 + span.p-d{ margin-left:-12px; }
-			.price.p33 > span.p-4{
-				width:30px !important;
-				background-position:-302px -262px !important;
-			}
-				.price.p33 > span.p-4 + span.p-1{ margin-left:-11px; }
-				.price.p33 > span.p-4 + span.p-2{ margin-left:-13px; }
-				.price.p33 > span.p-4 + span.p-3{ margin-left:-10px; }
-				.price.p33 > span.p-4 + span.p-4,
-				.price.p33 > span.p-4 + span.p-7{ margin-left:-11px; }
-				.price.p33 > span.p-4 + span.p-9{ margin-left:-10px; }
-				.price.p33 > span.p-4 + span.p-c,
-				.price.p33 > span.p-4 + span.p-d{ margin-left:-13px; }
-			.price.p33 > span.p-5{
-				width:28px !important;
-				background-position:-385px -262px !important;
-			}
-				.price.p33 > span.p-5 + span.p-1{ margin-left:-11px; }
-				.price.p33 > span.p-5 + span.p-2{ margin-left:-14px; }
-				.price.p33 > span.p-5 + span.p-3,
-				.price.p33 > span.p-5 + span.p-4{ margin-left:-11px; }
-				.price.p33 > span.p-5 + span.p-5,
-				.price.p33 > span.p-5 + span.p-6,
-				.price.p33 > span.p-5 + span.p-7,
-				.price.p33 > span.p-5 + span.p-8,
-				.price.p33 > span.p-5 + span.p-9,
-				.price.p33 > span.p-5 + span.p-0{ margin-left:-11px; }
-				.price.p33 > span.p-5 + span.p-c,
-				.price.p33 > span.p-5 + span.p-d{ margin-left:-14px; }
-			.price.p33 > span.p-6{
-				width:27px !important;
-				background-position:-465px -262px !important;
-			}
-				.price.p33 > span.p-6 + span.p-1{ margin-left:-9px; }
-				.price.p33 > span.p-6 + span.p-2{ margin-left:-12px; }
-				.price.p33 > span.p-6 + span.p-7{ margin-left:-9px; }
-				.price.p33 > span.p-6 + span.p-c,
-				.price.p33 > span.p-6 + span.p-d{ margin-left:-12px; }
-			.price.p33 > span.p-7{
-				width:30px !important;
-				background-position:-540px -262px !important;
-			}
-				.price.p33 > span.p-7 + span.p-1{ margin-left:-11px; }
-				.price.p33 > span.p-7 + span.p-2{ margin-left:-15px; }
-				.price.p33 > span.p-7 + span.p-3{ margin-left:-12px; }
-				.price.p33 > span.p-7 + span.p-4{ margin-left:-17px; }
-				.price.p33 > span.p-7 + span.p-5,
-				.price.p33 > span.p-7 + span.p-6{ margin-left:-12px; }
-				.price.p33 > span.p-7 + span.p-7{ margin-left:-11px; }
-				.price.p33 > span.p-7 + span.p-8{ margin-left:-12px; }
-				.price.p33 > span.p-7 + span.p-9,
-				.price.p33 > span.p-7 + span.p-0{ margin-left:-12px; }
-				.price.p33 > span.p-7 + span.p-c,
-				.price.p33 > span.p-7 + span.p-d{ margin-left:-20px; }
-			.price.p33 > span.p-8{
-				width:27px !important;
-				background-position:-623px -262px !important;
-			}
-				.price.p33 > span.p-8 + span.p-1{ margin-left:-9px; }
-				.price.p33 > span.p-8 + span.p-2{ margin-left:-12px; }
-				.price.p33 > span.p-8 + span.p-4{ margin-left:-9px; }
-				.price.p33 > span.p-8 + span.p-7{ margin-left:-9px; }
-				.price.p33 > span.p-8 + span.p-c,
-				.price.p33 > span.p-8 + span.p-d{ margin-left:-12px; }
-			.price.p33 > span.p-9{
-				width:27px !important;
-				background-position:-699px -262px !important;
-			}
-				.price.p33 > span.p-9 + span.p-1{ margin-left:-9px; }
-				.price.p33 > span.p-9 + span.p-2{ margin-left:-12px; }
-				.price.p33 > span.p-9 + span.p-4{ margin-left:-9px; }
-				.price.p33 > span.p-9 + span.p-7{ margin-left:-9px; }
-				.price.p33 > span.p-9 + span.p-c,
-				.price.p33 > span.p-9 + span.p-d{ margin-left:-12px; }
-			.price.p33 > span.p-c{
-				width:16px !important;
-				background-position:-855px -262px !important;
-			}
-			.price.p33 > span.p-d{
-				width:29px !important;
-				background-position:-774px -262px !important;
-			}
-					.price.p33 > span.p-small{
-						margin-left:-8px !important;
-					}
-					.price.p33 > span.p-0.p-small{
-						width:21px !important;
-						background-position:-896px -262px !important;
-					}
-					.price.p33 > span.p-1.p-small{
-						width:18px !important;
-						background-position:-954px -262px !important;
-					}
-					.price.p33 > span.p-2.p-small{
-						width:23px !important;
-						background-position:-1001px -262px !important;
-					}
-					.price.p33 > span.p-3.p-small{
-						width:21px !important;
-						background-position:-1065px -262px !important;
-					}
-					.price.p33 > span.p-4.p-small{
-						width:23px !important;
-						background-position:-1123px -262px !important;
-					}
-					.price.p33 > span.p-5.p-small{
-						width:22px !important;
-						background-position:-1185px -262px !important;
-					}
-					.price.p33 > span.p-6.p-small{
-						width:21px !important;
-						background-position:-1245px -262px !important;
-					}
-					.price.p33 > span.p-7.p-small{
-						width:23px !important;
-						background-position:-1302px -262px !important;
-					}
-					.price.p33 > span.p-8.p-small{
-						width:21px !important;
-						background-position:-1364px -262px !important;
-					}
-					.price.p33 > span.p-9.p-small{
-						width:21px !important;
-						background-position:-1421px -262px !important;
-					}
-
-		/* ### price 43px ### */
-		.price.p43 > span, .price.small > span{
-			height:46px !important;
-			margin-left:-13px;
-		}
-			.price.p43 > span.p-0, .price.small > span.p-0{
-				width:37px !important;
-				background-position:0px -216px !important;
-			}
-				.price.p43 > span.p-0 + span.p-2, .price.small > span.p-0 + span.p-2{ margin-left:-16px; }
-				.price.p43 > span.p-0 + span.p-7, .price.small > span.p-0 + span.p-7{ margin-left:-11px; }
-				.price.p43 > span.p-0 + span.p-c, .price.small > span.p-0 + span.p-c,
-				.price.p43 > span.p-0 + span.p-d, .price.small > span.p-0 + span.p-d{ margin-left:-15px; }
-			.price.p43 > span.p-1, .price.small > span.p-1{
-				width:30px !important;
-				background-position:-77px -216px !important;
-			}
-				.price.p43 > span.p-1 + span.p-1, .price.small > span.p-1 + span.p-1{ margin-left:-15px; }
-				.price.p43 > span.p-1 + span.p-2, .price.small > span.p-1 + span.p-2{ margin-left:-18px; }
-				.price.p43 > span.p-1 + span.p-3, .price.small > span.p-1 + span.p-3,
-				.price.p43 > span.p-1 + span.p-4, .price.small > span.p-1 + span.p-4{ margin-left:-16px; }
-				.price.p43 > span.p-1 + span.p-5, .price.small > span.p-1 + span.p-5,
-				.price.p43 > span.p-1 + span.p-6, .price.small > span.p-1 + span.p-6{ margin-left:-15px; }
-				.price.p43 > span.p-1 + span.p-7, .price.small > span.p-1 + span.p-7{ margin-left:-14px; }
-				.price.p43 > span.p-1 + span.p-8, .price.small > span.p-1 + span.p-8,
-				.price.p43 > span.p-1 + span.p-9, .price.small > span.p-1 + span.p-9,
-				.price.p43 > span.p-1 + span.p-0, .price.small > span.p-1 + span.p-0{ margin-left:-15px; }
-				.price.p43 > span.p-1 + span.p-c, .price.small > span.p-1 + span.p-c,
-				.price.p43 > span.p-1 + span.p-d, .price.small > span.p-1 + span.p-d{ margin-left:-18px; }
-			.price.p43 > span.p-2, .price.small > span.p-2{
-				width:41px !important;
-				background-position:-139px -216px !important;
-			}
-				.price.p43 > span.p-2 + span.p-2, .price.small > span.p-2 + span.p-2{ margin-left:-15px; }
-				.price.p43 > span.p-2 + span.p-4, .price.small > span.p-2 + span.p-4{ margin-left:-13px; }
-				.price.p43 > span.p-2 + span.p-7, .price.small > span.p-2 + span.p-7{ margin-left:-11px; }
-				.price.p43 > span.p-2 + span.p-c, .price.small > span.p-2 + span.p-c,
-				.price.p43 > span.p-2 + span.p-d, .price.small > span.p-2 + span.p-d{ margin-left:-16px; }
-			.price.p43 > span.p-3, .price.small > span.p-3{
-				width:37px !important;
-				background-position:-225px -216px !important;
-			}
-				.price.p43 > span.p-3 + span.p-1, .price.small > span.p-3 + span.p-1{ margin-left:-11px; }
-				.price.p43 > span.p-3 + span.p-2, .price.small > span.p-3 + span.p-2{ margin-left:-15px; }
-				.price.p43 > span.p-3 + span.p-7, .price.small > span.p-3 + span.p-7{ margin-left:-11px; }
-				.price.p43 > span.p-3 + span.p-c, .price.small > span.p-3 + span.p-c,
-				.price.p43 > span.p-3 + span.p-d, .price.small > span.p-3 + span.p-d{ margin-left:-16px; }
-			.price.p43 > span.p-4, .price.small > span.p-4{
-				width:40px !important;
-				background-position:-302px -216px !important;
-			}
-				.price.p43 > span.p-4 + span.p-1, .price.small > span.p-4 + span.p-1{ margin-left:-14px; }
-				.price.p43 > span.p-4 + span.p-2, .price.small > span.p-4 + span.p-2{ margin-left:-17px; }
-				.price.p43 > span.p-4 + span.p-3, .price.small > span.p-4 + span.p-3{ margin-left:-12px; }
-				.price.p43 > span.p-4 + span.p-4, .price.small > span.p-4 + span.p-4,
-				.price.p43 > span.p-4 + span.p-7, .price.small > span.p-4 + span.p-7{ margin-left:-13px; }
-				.price.p43 > span.p-4 + span.p-9, .price.small > span.p-4 + span.p-9{ margin-left:-13px; }
-				.price.p43 > span.p-4 + span.p-c, .price.small > span.p-4 + span.p-c,
-				.price.p43 > span.p-4 + span.p-d, .price.small > span.p-4 + span.p-d{ margin-left:-16px; }
-			.price.p43 > span.p-5, .price.small > span.p-5{
-				width:38px !important;
-				background-position:-385px -216px !important;
-			}
-				.price.p43 > span.p-5 + span.p-1, .price.small > span.p-5 + span.p-1{ margin-left:-14px; }
-				.price.p43 > span.p-5 + span.p-2, .price.small > span.p-5 + span.p-2{ margin-left:-17px; }
-				.price.p43 > span.p-5 + span.p-3, .price.small > span.p-5 + span.p-3,
-				.price.p43 > span.p-5 + span.p-4, .price.small > span.p-5 + span.p-4{ margin-left:-14px; }
-				.price.p43 > span.p-5 + span.p-5, .price.small > span.p-5 + span.p-5,
-				.price.p43 > span.p-5 + span.p-6, .price.small > span.p-5 + span.p-6,
-				.price.p43 > span.p-5 + span.p-7, .price.small > span.p-5 + span.p-7,
-				.price.p43 > span.p-5 + span.p-8, .price.small > span.p-5 + span.p-8,
-				.price.p43 > span.p-5 + span.p-9, .price.small > span.p-5 + span.p-9,
-				.price.p43 > span.p-5 + span.p-0, .price.small > span.p-5 + span.p-0{ margin-left:-14px; }
-				.price.p43 > span.p-5 + span.p-c, .price.small > span.p-5 + span.p-c,
-				.price.p43 > span.p-5 + span.p-d, .price.small > span.p-5 + span.p-d{ margin-left:-17px; }
-			.price.p43 > span.p-6, .price.small > span.p-6{
-				width:37px !important;
-				background-position:-465px -216px !important;
-			}
-				.price.p43 > span.p-6 + span.p-1, .price.small > span.p-6 + span.p-1{ margin-left:-11px; }
-				.price.p43 > span.p-6 + span.p-2, .price.small > span.p-6 + span.p-2{ margin-left:-15px; }
-				.price.p43 > span.p-6 + span.p-7, .price.small > span.p-6 + span.p-7{ margin-left:-11px; }
-				.price.p43 > span.p-6 + span.p-c, .price.small > span.p-6 + span.p-c,
-				.price.p43 > span.p-6 + span.p-d, .price.small > span.p-6 + span.p-d{ margin-left:-15px; }
-			.price.p43 > span.p-7, .price.small > span.p-7{
-				width:40px !important;
-				background-position:-540px -216px !important;
-			}
-				.price.p43 > span.p-7 + span.p-1, .price.small > span.p-7 + span.p-1{ margin-left:-14px; }
-				.price.p43 > span.p-7 + span.p-2, .price.small > span.p-7 + span.p-2{ margin-left:-19px; }
-				.price.p43 > span.p-7 + span.p-3, .price.small > span.p-7 + span.p-3{ margin-left:-15px; }
-				.price.p43 > span.p-7 + span.p-4, .price.small > span.p-7 + span.p-4{ margin-left:-22px; }
-				.price.p43 > span.p-7 + span.p-5, .price.small > span.p-7 + span.p-5,
-				.price.p43 > span.p-7 + span.p-6, .price.small > span.p-7 + span.p-6{ margin-left:-15px; }
-				.price.p43 > span.p-7 + span.p-7, .price.small > span.p-7 + span.p-7{ margin-left:-13px; }
-				.price.p43 > span.p-7 + span.p-8, .price.small > span.p-7 + span.p-8{ margin-left:-15px; }
-				.price.p43 > span.p-7 + span.p-9, .price.small > span.p-7 + span.p-9,
-				.price.p43 > span.p-7 + span.p-0, .price.small > span.p-7 + span.p-0{ margin-left:-15px; }
-				.price.p43 > span.p-7 + span.p-c, .price.small > span.p-7 + span.p-c,
-				.price.p43 > span.p-7 + span.p-d, .price.small > span.p-7 + span.p-d{ margin-left:-21px; }
-			.price.p43 > span.p-8, .price.small > span.p-8{
-				width:37px !important;
-				background-position:-623px -216px !important;
-			}
-				.price.p43 > span.p-8 + span.p-1, .price.small > span.p-8 + span.p-1{ margin-left:-11px; }
-				.price.p43 > span.p-8 + span.p-2, .price.small > span.p-8 + span.p-2{ margin-left:-15px; }
-				.price.p43 > span.p-8 + span.p-4, .price.small > span.p-8 + span.p-4{ margin-left:-12px; }
-				.price.p43 > span.p-8 + span.p-7, .price.small > span.p-8 + span.p-7{ margin-left:-11px; }
-				.price.p43 > span.p-8 + span.p-c, .price.small > span.p-8 + span.p-c,
-				.price.p43 > span.p-8 + span.p-d, .price.small > span.p-8 + span.p-d{ margin-left:-15px; }
-			.price.p43 > span.p-9, .price.small > span.p-9{
-				width:37px !important;
-				background-position:-699px -216px !important;
-			}
-				.price.p43 > span.p-9 + span.p-1, .price.small > span.p-9 + span.p-1{ margin-left:-11px; }
-				.price.p43 > span.p-9 + span.p-2, .price.small > span.p-9 + span.p-2{ margin-left:-15px; }
-				.price.p43 > span.p-9 + span.p-4, .price.small > span.p-9 + span.p-4{ margin-left:-12px; }
-				.price.p43 > span.p-9 + span.p-7, .price.small > span.p-9 + span.p-7{ margin-left:-11px; }
-				.price.p43 > span.p-9 + span.p-c, .price.small > span.p-9 + span.p-c,
-				.price.p43 > span.p-9 + span.p-d, .price.small > span.p-9 + span.p-d{ margin-left:-15px; }
-			.price.p43 > span.p-c, .price.small > span.p-c{
-				width:21px !important;
-				background-position:-855px -216px !important;
-			}
-			.price.p43 > span.p-d, .price.small > span.p-d{
-				width:39px !important;
-				background-position:-774px -216px !important;
-			}
-					.price.p43 > span.p-small, .price.small > span.p-small{
-						margin-left:-10px !important;
-					}
-					.price.p43 > span.p-0.p-small, .price.small > span.p-0.p-small{
-						width:28px !important;
-						background-position:-896px -216px !important;
-					}
-					.price.p43 > span.p-1.p-small, .price.small > span.p-1.p-small{
-						width:23px !important;
-						background-position:-954px -216px !important;
-					}
-					.price.p43 > span.p-2.p-small, .price.small > span.p-2.p-small{
-						width:31px !important;
-						background-position:-1001px -216px !important;
-					}
-					.price.p43 > span.p-3.p-small, .price.small > span.p-3.p-small{
-						width:28px !important;
-						background-position:-1065px -216px !important;
-					}
-					.price.p43 > span.p-4.p-small, .price.small > span.p-4.p-small{
-						width:30px !important;
-						background-position:-1123px -216px !important;
-					}
-					.price.p43 > span.p-5.p-small, .price.small > span.p-5.p-small{
-						width:30px !important;
-						background-position:-1185px -216px !important;
-					}
-					.price.p43 > span.p-6.p-small, .price.small > span.p-6.p-small{
-						width:28px !important;
-						background-position:-1245px -216px !important;
-					}
-					.price.p43 > span.p-7.p-small, .price.small > span.p-7.p-small{
-						width:30px !important;
-						background-position:-1302px -216px !important;
-					}
-					.price.p43 > span.p-8.p-small, .price.small > span.p-8.p-small{
-						width:28px !important;
-						background-position:-1364px -216px !important;
-					}
-					.price.p43 > span.p-9.p-small, .price.small > span.p-9.p-small{
-						width:28px !important;
-						background-position:-1421px -216px !important;
-					}
-
-		/* ### price 53px ### */
-		.price.p53 > span, .price > span{
-			height:55px !important;
-			margin-left:-14px;
-		}
-			.price.p53 > span.p-0, .price > span.p-0{
-				width:44px !important;
-				background-position:0px -161px !important;
-			}
-				.price.p53 > span.p-0 + span.p-2, .price > span.p-0 + span.p-2{ margin-left:-18px; }
-				.price.p53 > span.p-0 + span.p-7, .price > span.p-0 + span.p-7{ margin-left:-12px; }
-				.price.p53 > span.p-0 + span.p-c, .price > span.p-0 + span.p-c,
-				.price.p53 > span.p-0 + span.p-d, .price > span.p-0 + span.p-d{ margin-left:-17px; }
-			.price.p53 > span.p-1, .price > span.p-1{
-				width:36px !important;
-				background-position:-77px -161px !important;
-			}
-				.price.p53 > span.p-1 + span.p-1, .price > span.p-1 + span.p-1{ margin-left:-16px; }
-				.price.p53 > span.p-1 + span.p-2, .price > span.p-1 + span.p-2{ margin-left:-20px; }
-				.price.p53 > span.p-1 + span.p-3, .price > span.p-1 + span.p-3,
-				.price.p53 > span.p-1 + span.p-4, .price > span.p-1 + span.p-4{ margin-left:-18px; }
-				.price.p53 > span.p-1 + span.p-5, .price > span.p-1 + span.p-5,
-				.price.p53 > span.p-1 + span.p-6, .price > span.p-1 + span.p-6{ margin-left:-16px; }
-				.price.p53 > span.p-1 + span.p-7, .price > span.p-1 + span.p-7{ margin-left:-15px; }
-				.price.p53 > span.p-1 + span.p-8, .price > span.p-1 + span.p-8,
-				.price.p53 > span.p-1 + span.p-9, .price > span.p-1 + span.p-9,
-				.price.p53 > span.p-1 + span.p-0, .price > span.p-1 + span.p-0{ margin-left:-16px; }
-				.price.p53 > span.p-1 + span.p-c, .price > span.p-1 + span.p-c,
-				.price.p53 > span.p-1 + span.p-d, .price > span.p-1 + span.p-d{ margin-left:-21px; }
-			.price.p53 > span.p-2, .price > span.p-2{
-				width:49px !important;
-				background-position:-139px -161px !important;
-			}
-				.price.p53 > span.p-2 + span.p-2, .price > span.p-2 + span.p-2{ margin-left:-16px; }
-				.price.p53 > span.p-2 + span.p-4, .price > span.p-2 + span.p-4{ margin-left:-15px; }
-				.price.p53 > span.p-2 + span.p-7, .price > span.p-2 + span.p-7{ margin-left:-12px; }
-				.price.p53 > span.p-2 + span.p-c, .price > span.p-2 + span.p-c,
-				.price.p53 > span.p-2 + span.p-d, .price > span.p-2 + span.p-d{ margin-left:-18px; }
-			.price.p53 > span.p-3, .price > span.p-3{
-				width:44px !important;
-				background-position:-225px -161px !important;
-			}
-				.price.p53 > span.p-3 + span.p-1, .price > span.p-3 + span.p-1{ margin-left:-12px; }
-				.price.p53 > span.p-3 + span.p-2, .price > span.p-3 + span.p-2{ margin-left:-17px; }
-				.price.p53 > span.p-3 + span.p-7, .price > span.p-3 + span.p-7{ margin-left:-12px; }
-				.price.p53 > span.p-3 + span.p-c, .price > span.p-3 + span.p-c,
-				.price.p53 > span.p-3 + span.p-d, .price > span.p-3 + span.p-d{ margin-left:-18px; }
-			.price.p53 > span.p-4, .price > span.p-4{
-				width:48px !important;
-				background-position:-302px -161px !important;
-			}
-				.price.p53 > span.p-4 + span.p-1, .price > span.p-4 + span.p-1{ margin-left:-16px; }
-				.price.p53 > span.p-4 + span.p-2, .price > span.p-4 + span.p-2{ margin-left:-19px; }
-				.price.p53 > span.p-4 + span.p-3, .price > span.p-4 + span.p-3{ margin-left:-14px; }
-				.price.p53 > span.p-4 + span.p-4, .price > span.p-4 + span.p-4,
-				.price.p53 > span.p-4 + span.p-7, .price > span.p-4 + span.p-7{ margin-left:-15px; }
-				.price.p53 > span.p-4 + span.p-9, .price > span.p-4 + span.p-9{ margin-left:-14px; }
-				.price.p53 > span.p-4 + span.p-c, .price > span.p-4 + span.p-c,
-				.price.p53 > span.p-4 + span.p-d, .price > span.p-4 + span.p-d{ margin-left:-18px; }
-			.price.p53 > span.p-5, .price > span.p-5{
-				width:46px !important;
-				background-position:-385px -161px !important;
-			}
-				.price.p53 > span.p-5 + span.p-1, .price > span.p-5 + span.p-1{ margin-left:-16px; }
-				.price.p53 > span.p-5 + span.p-2, .price > span.p-5 + span.p-2{ margin-left:-20px; }
-				.price.p53 > span.p-5 + span.p-3, .price > span.p-5 + span.p-3,
-				.price.p53 > span.p-5 + span.p-4, .price > span.p-5 + span.p-4{ margin-left:-16px; }
-				.price.p53 > span.p-5 + span.p-5, .price > span.p-5 + span.p-5,
-				.price.p53 > span.p-5 + span.p-6, .price > span.p-5 + span.p-6,
-				.price.p53 > span.p-5 + span.p-7, .price > span.p-5 + span.p-7,
-				.price.p53 > span.p-5 + span.p-8, .price > span.p-5 + span.p-8,
-				.price.p53 > span.p-5 + span.p-9, .price > span.p-5 + span.p-9,
-				.price.p53 > span.p-5 + span.p-0, .price > span.p-5 + span.p-0{ margin-left:-15px; }
-				.price.p53 > span.p-5 + span.p-c, .price > span.p-5 + span.p-c,
-				.price.p53 > span.p-5 + span.p-d, .price > span.p-5 + span.p-d{ margin-left:-20px; }
-			.price.p53 > span.p-6, .price > span.p-6{
-				width:44px !important;
-				background-position:-465px -161px !important;
-			}
-				.price.p53 > span.p-6 + span.p-1, .price > span.p-6 + span.p-1{ margin-left:-12px; }
-				.price.p53 > span.p-6 + span.p-2, .price > span.p-6 + span.p-2{ margin-left:-17px; }
-				.price.p53 > span.p-6 + span.p-7, .price > span.p-6 + span.p-7{ margin-left:-12px; }
-				.price.p53 > span.p-6 + span.p-c, .price > span.p-6 + span.p-c,
-				.price.p53 > span.p-6 + span.p-d, .price > span.p-6 + span.p-d{ margin-left:-16px; }
-			.price.p53 > span.p-7, .price > span.p-7{
-				width:48px !important;
-				background-position:-540px -161px !important;
-			}
-				.price.p53 > span.p-7 + span.p-1, .price > span.p-7 + span.p-1{ margin-left:-16px; }
-				.price.p53 > span.p-7 + span.p-2, .price > span.p-7 + span.p-2{ margin-left:-22px; }
-				.price.p53 > span.p-7 + span.p-3, .price > span.p-7 + span.p-3{ margin-left:-17px; }
-				.price.p53 > span.p-7 + span.p-4, .price > span.p-7 + span.p-4{ margin-left:-26px; }
-				.price.p53 > span.p-7 + span.p-5, .price > span.p-7 + span.p-5,
-				.price.p53 > span.p-7 + span.p-6, .price > span.p-7 + span.p-6{ margin-left:-16px; }
-				.price.p53 > span.p-7 + span.p-7, .price > span.p-7 + span.p-7{ margin-left:-15px; }
-				.price.p53 > span.p-7 + span.p-8, .price > span.p-7 + span.p-8{ margin-left:-17px; }
-				.price.p53 > span.p-7 + span.p-9, .price > span.p-7 + span.p-9,
-				.price.p53 > span.p-7 + span.p-0, .price > span.p-7 + span.p-0{ margin-left:-17px; }
-				.price.p53 > span.p-7 + span.p-c, .price > span.p-7 + span.p-c,
-				.price.p53 > span.p-7 + span.p-d, .price > span.p-7 + span.p-d{ margin-left:-25px; }
-
-	         .price.p53 > span.p-8, .price > span.p-8{
-				width:44px !important;
-				background-position:-623px -161px !important;
-			}
-				.price.p53 > span.p-8 + span.p-1, .price > span.p-8 + span.p-1{ margin-left:-12px; }
-				.price.p53 > span.p-8 + span.p-2, .price > span.p-8 + span.p-2{ margin-left:-17px; }
-				.price.p53 > span.p-8 + span.p-4, .price > span.p-8 + span.p-4{ margin-left:-13px; }
-				.price.p53 > span.p-8 + span.p-7, .price > span.p-8 + span.p-7{ margin-left:-12px; }
-				.price.p53 > span.p-8 + span.p-c, .price > span.p-8 + span.p-c,
-				.price.p53 > span.p-8 + span.p-d, .price > span.p-8 + span.p-d{ margin-left:-17px; }
-			.price.p53 > span.p-9, .price > span.p-9{
-				width:44px !important;
-				background-position:-699px -161px !important;
-			}
-				.price.p53 > span.p-9 + span.p-1, .price > span.p-9 + span.p-1{ margin-left:-12px; }
-				.price.p53 > span.p-9 + span.p-2, .price > span.p-9 + span.p-2{ margin-left:-17px; }
-				.price.p53 > span.p-9 + span.p-4, .price > span.p-9 + span.p-4{ margin-left:-13px; }
-				.price.p53 > span.p-9 + span.p-7, .price > span.p-9 + span.p-7{ margin-left:-12px; }
-				.price.p53 > span.p-9 + span.p-c, .price > span.p-9 + span.p-c,
-				.price.p53 > span.p-9 + span.p-d, .price > span.p-9 + span.p-d{ margin-left:-17px; }
-			.price.p53 > span.p-c, .price > span.p-c{
-				width:25px !important;
-				background-position:-855px -161px !important;
-			}
-			.price.p53 > span.p-d, .price > span.p-d{
-				width:47px !important;
-				background-position:-774px -161px !important;
-			}
-					.price.p53 > span.p-small, .price > span.p-small{
-						margin-left:-11px !important;
-					}
-					.price.p53 > span.p-0.p-small, .price > span.p-0.p-small{
-						width:34px !important;
-						background-position:-896px -161px !important;
-					}
-					.price.p53 > span.p-1.p-small, .price > span.p-1.p-small{
-						width:28px !important;
-						background-position:-954px -161px !important;
-					}
-					.price.p53 > span.p-2.p-small, .price > span.p-2.p-small{
-						width:37px !important;
-						background-position:-1001px -161px !important;
-					}
-					.price.p53 > span.p-3.p-small, .price > span.p-3.p-small{
-						width:34px !important;
-						background-position:-1065px -161px !important;
-					}
-					.price.p53 > span.p-4.p-small, .price > span.p-4.p-small{
-						width:36px !important;
-						background-position:-1123px -161px !important;
-					}
-					.price.p53 > span.p-5.p-small, .price > span.p-5.p-small{
-						width:35px !important;
-						background-position:-1185px -161px !important;
-					}
-					.price.p53 > span.p-6.p-small, .price > span.p-6.p-small{
-						width:33px !important;
-						background-position:-1245px -161px !important;
-					}
-					.price.p53 > span.p-7.p-small, .price > span.p-7.p-small{
-						width:36px !important;
-						background-position:-1302px -161px !important;
-					}
-					.price.p53 > span.p-8.p-small, .price > span.p-8.p-small{
-						width:33px !important;
-						background-position:-1364px -161px !important;
-					}
-					.price.p53 > span.p-9.p-small, .price > span.p-9.p-small{
-						width:33px !important;
-						background-position:-1421px -161px !important;
-					}
-
-		/* ### price 63px ### */
-		.price.p63 > span, .price.big > span{
-			height:64px !important;
-			margin-left:-16px;
-		}
-			.price.p63 > span.p-0, .price.big > span.p-0{
-				width:51px !important;
-				background-position:0px -96px !important;
-			}
-				.price.p63 > span.p-0 + span.p-2, .price.big > span.p-0 + span.p-2{ margin-left:-21px; }
-				.price.p63 > span.p-0 + span.p-7, .price.big > span.p-0 + span.p-7{ margin-left:-14px; }
-				.price.p63 > span.p-0 + span.p-c, .price.big > span.p-0 + span.p-c,
-				.price.p63 > span.p-0 + span.p-d, .price.big > span.p-0 + span.p-d{ margin-left:-20px; }
-			.price.p63 > span.p-1, .price.big > span.p-1{
-				width:42px !important;
-				background-position:-77px -96px !important;
-			}
-				.price.p63 > span.p-1 + span.p-1, .price.big > span.p-1 + span.p-1{ margin-left:-19px; }
-				.price.p63 > span.p-1 + span.p-2, .price.big > span.p-1 + span.p-2{ margin-left:-24px; }
-				.price.p63 > span.p-1 + span.p-3, .price.big > span.p-1 + span.p-3,
-				.price.p63 > span.p-1 + span.p-4, .price.big > span.p-1 + span.p-4{ margin-left:-21px; }
-				.price.p63 > span.p-1 + span.p-5, .price.big > span.p-1 + span.p-5,
-				.price.p63 > span.p-1 + span.p-6, .price.big > span.p-1 + span.p-6{ margin-left:-19px; }
-				.price.p63 > span.p-1 + span.p-7, .price.big > span.p-1 + span.p-7{ margin-left:-18px; }
-				.price.p63 > span.p-1 + span.p-8, .price.big > span.p-1 + span.p-8,
-				.price.p63 > span.p-1 + span.p-9, .price.big > span.p-1 + span.p-9,
-				.price.p63 > span.p-1 + span.p-0, .price.big > span.p-1 + span.p-0{ margin-left:-19px; }
-				.price.p63 > span.p-1 + span.p-c, .price.big > span.p-1 + span.p-c,
-				.price.p63 > span.p-1 + span.p-d, .price.big > span.p-1 + span.p-d{ margin-left:-25px; }
-			.price.p63 > span.p-2, .price.big > span.p-2{
-				width:57px !important;
-				background-position:-139px -96px !important;
-			}
-				.price.p63 > span.p-2 + span.p-2, .price.big > span.p-2 + span.p-2{ margin-left:-19px; }
-				.price.p63 > span.p-2 + span.p-4, .price.big > span.p-2 + span.p-4{ margin-left:-17px; }
-				.price.p63 > span.p-2 + span.p-7, .price.big > span.p-2 + span.p-7{ margin-left:-14px; }
-				.price.p63 > span.p-2 + span.p-c, .price.big > span.p-2 + span.p-c,
-				.price.p63 > span.p-2 + span.p-d, .price.big > span.p-2 + span.p-d{ margin-left:-21px; }
-			.price.p63 > span.p-3, .price.big > span.p-3{
-				width:51px !important;
-				background-position:-225px -96px !important;
-			}
-				.price.p63 > span.p-3 + span.p-1, .price.big > span.p-3 + span.p-1{ margin-left:-14px; }
-				.price.p63 > span.p-3 + span.p-2, .price.big > span.p-3 + span.p-2{ margin-left:-20px; }
-				.price.p63 > span.p-3 + span.p-7, .price.big > span.p-3 + span.p-7{ margin-left:-14px; }
-				.price.p63 > span.p-3 + span.p-c, .price.big > span.p-3 + span.p-c,
-				.price.p63 > span.p-3 + span.p-d, .price.big > span.p-3 + span.p-d{ margin-left:-14px; }
-			.price.p63 > span.p-4, .price.big > span.p-4{
-				width:56px !important;
-				background-position:-302px -96px !important;
-			}
-				.price.p63 > span.p-4 + span.p-1, .price.big > span.p-4 + span.p-1{ margin-left:-19px; }
-				.price.p63 > span.p-4 + span.p-2, .price.big > span.p-4 + span.p-2{ margin-left:-22px; }
-				.price.p63 > span.p-4 + span.p-3, .price.big > span.p-4 + span.p-3{ margin-left:-16px; }
-				.price.p63 > span.p-4 + span.p-4, .price.big > span.p-4 + span.p-4,
-				.price.p63 > span.p-4 + span.p-7, .price.big > span.p-4 + span.p-7{ margin-left:-17px; }
-				.price.p63 > span.p-4 + span.p-9, .price.big > span.p-4 + span.p-9{ margin-left:-17px; }
-				.price.p63 > span.p-4 + span.p-c, .price.big > span.p-4 + span.p-c,
-				.price.p63 > span.p-4 + span.p-d, .price.big > span.p-4 + span.p-d{ margin-left:-21px; }
-			.price.p63 > span.p-5, .price.big > span.p-5{
-				width:53px !important;
-				background-position:-385px -96px !important;
-			}
-				.price.p63 > span.p-5 + span.p-1, .price.big > span.p-5 + span.p-1{ margin-left:-19px; }
-				.price.p63 > span.p-5 + span.p-2, .price.big > span.p-5 + span.p-2{ margin-left:-23px; }
-				.price.p63 > span.p-5 + span.p-3, .price.big > span.p-5 + span.p-3,
-				.price.p63 > span.p-5 + span.p-4, .price.big > span.p-5 + span.p-4{ margin-left:-19px; }
-				.price.p63 > span.p-5 + span.p-5, .price.big > span.p-5 + span.p-5,
-				.price.p63 > span.p-5 + span.p-6, .price.big > span.p-5 + span.p-6,
-				.price.p63 > span.p-5 + span.p-7, .price.big > span.p-5 + span.p-7,
-				.price.p63 > span.p-5 + span.p-8, .price.big > span.p-5 + span.p-8,
-				.price.p63 > span.p-5 + span.p-9, .price.big > span.p-5 + span.p-9,
-				.price.p63 > span.p-5 + span.p-0, .price.big > span.p-5 + span.p-0{ margin-left:-18px; }
-				.price.p63 > span.p-5 + span.p-c, .price.big > span.p-5 + span.p-c,
-				.price.p63 > span.p-5 + span.p-d, .price.big > span.p-5 + span.p-d{ margin-left:-23px; }
-			.price.p63 > span.p-6, .price.big > span.p-6{
-				width:51px !important;
-				background-position:-465px -96px !important;
-			}
-				.price.p63 > span.p-6 + span.p-1, .price.big > span.p-6 + span.p-1{ margin-left:-15px; }
-				.price.p63 > span.p-6 + span.p-2, .price.big > span.p-6 + span.p-2{ margin-left:-20px; }
-				.price.p63 > span.p-6 + span.p-7, .price.big > span.p-6 + span.p-7{ margin-left:-14px; }
-				.price.p63 > span.p-6 + span.p-c, .price.big > span.p-6 + span.p-c,
-				.price.p63 > span.p-6 + span.p-d, .price.big > span.p-6 + span.p-d{ margin-left:-19px; }
-			.price.p63 > span.p-7, .price.big > span.p-7{
-				width:56px !important;
-				background-position:-540px -96px !important;
-			}
-				.price.p63 > span.p-7 + span.p-1, .price.big > span.p-7 + span.p-1{ margin-left:-19px; }
-				.price.p63 > span.p-7 + span.p-2, .price.big > span.p-7 + span.p-2{ margin-left:-26px; }
-				.price.p63 > span.p-7 + span.p-3, .price.big > span.p-7 + span.p-3{ margin-left:-20px; }
-				.price.p63 > span.p-7 + span.p-4, .price.big > span.p-7 + span.p-4{ margin-left:-31px; }
-				.price.p63 > span.p-7 + span.p-5, .price.big > span.p-7 + span.p-5,
-				.price.p63 > span.p-7 + span.p-6, .price.big > span.p-7 + span.p-6{ margin-left:-19px; }
-				.price.p63 > span.p-7 + span.p-7, .price.big > span.p-7 + span.p-7{ margin-left:-17px; }
-				.price.p63 > span.p-7 + span.p-8, .price.big > span.p-7 + span.p-8{ margin-left:-20px; }
-				.price.p63 > span.p-7 + span.p-9, .price.big > span.p-7 + span.p-9,
-				.price.p63 > span.p-7 + span.p-0, .price.big > span.p-7 + span.p-0{ margin-left:-19px; }
-				.price.p63 > span.p-7 + span.p-c, .price.big > span.p-7 + span.p-c,
-				.price.p63 > span.p-7 + span.p-d, .price.big > span.p-7 + span.p-d{ margin-left:-35px; }
-			.price.p63 > span.p-8, .price.big > span.p-8{
-				width:51px !important;
-				background-position:-623px -96px !important;
-			}
-				.price.p63 > span.p-8 + span.p-1, .price.big > span.p-8 + span.p-1{ margin-left:-15px; }
-				.price.p63 > span.p-8 + span.p-2, .price.big > span.p-8 + span.p-2{ margin-left:-20px; }
-				.price.p63 > span.p-8 + span.p-4, .price.big > span.p-8 + span.p-4{ margin-left:-15px; }
-				.price.p63 > span.p-8 + span.p-7, .price.big > span.p-8 + span.p-7{ margin-left:-14px; }
-				.price.p63 > span.p-8 + span.p-c, .price.big > span.p-8 + span.p-c,
-				.price.p63 > span.p-8 + span.p-d, .price.big > span.p-8 + span.p-d{ margin-left:-20px; }
-			.price.p63 > span.p-9, .price.big > span.p-9{
-				width:51px !important;
-				background-position:-699px -96px !important;
-			}
-				.price.p63 > span.p-9 + span.p-1, .price.big > span.p-9 + span.p-1{ margin-left:-15px; }
-				.price.p63 > span.p-9 + span.p-2, .price.big > span.p-9 + span.p-2{ margin-left:-20px; }
-				.price.p63 > span.p-9 + span.p-4, .price.big > span.p-9 + span.p-4{ margin-left:-15px; }
-				.price.p63 > span.p-9 + span.p-7, .price.big > span.p-9 + span.p-7{ margin-left:-14px; }
-				.price.p63 > span.p-9 + span.p-c, .price.big > span.p-9 + span.p-c,
-				.price.p63 > span.p-9 + span.p-d, .price.big > span.p-9 + span.p-d{ margin-left:-20px; }
-			.price.p63 > span.p-c, .price.big > span.p-c{
-				width:28px !important;
-				background-position:-855px -96px !important;
-			}
-			.price.p63 > span.p-d, .price.big > span.p-d{
-				width:54px !important;
-				background-position:-774px -96px !important;
-			}
-					.price.p63 > span.p-small, .price.big > span.p-small{
-						margin-left:-12px !important;
-					}
-					.price.p63 > span.p-0.p-small, .price.big > span.p-0.p-small{
-						width:39px !important;
-						background-position:-896px -96px !important;
-					}
-					.price.p63 > span.p-1.p-small, .price.big > span.p-1.p-small{
-						width:32px !important;
-						background-position:-954px -96px !important;
-					}
-					.price.p63 > span.p-2.p-small, .price.big > span.p-2.p-small{
-						width:43px !important;
-						background-position:-1001px -96px !important;
-					}
-					.price.p63 > span.p-3.p-small, .price.big > span.p-3.p-small{
-						width:39px !important;
-						background-position:-1065px -96px !important;
-					}
-					.price.p63 > span.p-4.p-small, .price.big > span.p-4.p-small{
-						width:42px !important;
-						background-position:-1123px -96px !important;
-					}
-					.price.p63 > span.p-5.p-small, .price.big > span.p-5.p-small{
-						width:41px !important;
-						background-position:-1185px -96px !important;
-					}
-					.price.p63 > span.p-6.p-small, .price.big > span.p-6.p-small{
-						width:39px !important;
-						background-position:-1245px -96px !important;
-					}
-					.price.p63 > span.p-7.p-small, .price.big > span.p-7.p-small{
-						width:42px !important;
-						background-position:-1302px -96px !important;
-					}
-					.price.p63 > span.p-8.p-small, .price.big > span.p-8.p-small{
-						width:39px !important;
-						background-position:-1364px -96px !important;
-					}
-					.price.p63 > span.p-9.p-small, .price.big > span.p-9.p-small{
-						width:39px !important;
-						background-position:-1421px -96px !important;
-					}
-
-		/* ### price 93px ### */
-		.price.p93 > span{
-			height:96px !important;
-			margin-left:-22px;
-		}
-			.price.p93 > span.p-0{
-				width:77px !important;
-				background-position:0px 0px !important;
-			}
-				.price.p93 > span.p-0 + span.p-2{ margin-left:-31px; }
-				.price.p93 > span.p-0 + span.p-7{ margin-left:-20px; }
-				.price.p93 > span.p-0 + span.p-c,
-				.price.p93 > span.p-0 + span.p-d{ margin-left:-29px; }
-			.price.p93 > span.p-1{
-				width:62px !important;
-				background-position:-77px 0px !important;
-			}
-				.price.p93 > span.p-1 + span.p-1{ margin-left:-28px; }
-				.price.p93 > span.p-1 + span.p-2{ margin-left:-35px; }
-				.price.p93 > span.p-1 + span.p-3,
-				.price.p93 > span.p-1 + span.p-4{ margin-left:-30px; }
-				.price.p93 > span.p-1 + span.p-5,
-				.price.p93 > span.p-1 + span.p-6{ margin-left:-28px; }
-				.price.p93 > span.p-1 + span.p-7{ margin-left:-26px; }
-				.price.p93 > span.p-1 + span.p-8,
-				.price.p93 > span.p-1 + span.p-9,
-				.price.p93 > span.p-1 + span.p-0{ margin-left:-28px; }
-				.price.p93 > span.p-1 + span.p-c,
-				.price.p93 > span.p-1 + span.p-d{ margin-left:-36px; }
-			.price.p93 > span.p-2{
-				width:86px !important;
-				background-position:-139px 0px !important;
-			}
-				.price.p93 > span.p-2 + span.p-2{ margin-left:-28px; }
-				.price.p93 > span.p-2 + span.p-4{ margin-left:-25px; }
-				.price.p93 > span.p-2 + span.p-7{ margin-left:-20px; }
-				.price.p93 > span.p-2 + span.p-c,
-				.price.p93 > span.p-2 + span.p-d{ margin-left:-30px; }
-			.price.p93 > span.p-3{
-				width:77px !important;
-				background-position:-225px 0px !important;
-			}
-				.price.p93 > span.p-3 + span.p-1{ margin-left:-20px; }
-				.price.p93 > span.p-3 + span.p-2{ margin-left:-29px; }
-				.price.p93 > span.p-3 + span.p-7{ margin-left:-20px; }
-				.price.p93 > span.p-3 + span.p-c,
-				.price.p93 > span.p-3 + span.p-d{ margin-left:-30px; }
-			.price.p93 > span.p-4{
-				width:83px !important;
-				background-position:-302px 0px !important;
-			}
-				.price.p93 > span.p-4 + span.p-1{ margin-left:-27px; }
-				.price.p93 > span.p-4 + span.p-2{ margin-left:-32px; }
-				.price.p93 > span.p-4 + span.p-3{ margin-left:-23px; }
-				.price.p93 > span.p-4 + span.p-4,
-				.price.p93 > span.p-4 + span.p-7{ margin-left:-25px; }
-				.price.p93 > span.p-4 + span.p-9{ margin-left:-24px; }
-				.price.p93 > span.p-4 + span.p-c,
-				.price.p93 > span.p-4 + span.p-d{ margin-left:-31px; }
-			.price.p93 > span.p-5{
-				width:80px !important;
-				background-position:-385px 0px !important;
-			}
-				.price.p93 > span.p-5 + span.p-1{ margin-left:-27px; }
-				.price.p93 > span.p-5 + span.p-2{ margin-left:-34px; }
-				.price.p93 > span.p-5 + span.p-3,
-				.price.p93 > span.p-5 + span.p-4{ margin-left:-27px; }
-				.price.p93 > span.p-5 + span.p-5,
-				.price.p93 > span.p-5 + span.p-6,
-				.price.p93 > span.p-5 + span.p-7,
-				.price.p93 > span.p-5 + span.p-8,
-				.price.p93 > span.p-5 + span.p-9,
-				.price.p93 > span.p-5 + span.p-0{ margin-left:-26px; }
-				.price.p93 > span.p-5 + span.p-c,
-				.price.p93 > span.p-5 + span.p-d{ margin-left:-34px; }
-			.price.p93 > span.p-6{
-				width:75px !important;
-				background-position:-465px 0px !important;
-			}
-				.price.p93 > span.p-6 + span.p-1{ margin-left:-21px; }
-				.price.p93 > span.p-6 + span.p-2{ margin-left:-29px; }
-				.price.p93 > span.p-6 + span.p-7{ margin-left:-20px; }
-				.price.p93 > span.p-6 + span.p-c,
-				.price.p93 > span.p-6 + span.p-d{ margin-left:-28px; }
-			.price.p93 > span.p-7{
-				width:83px !important;
-				background-position:-540px 0px !important;
-			}
-				.price.p93 > span.p-7 + span.p-1{ margin-left:-27px; }
-				.price.p93 > span.p-7 + span.p-2{ margin-left:-38px; }
-				.price.p93 > span.p-7 + span.p-3{ margin-left:-29px; }
-				.price.p93 > span.p-7 + span.p-4{ margin-left:-43px; }
-				.price.p93 > span.p-7 + span.p-5,
-				.price.p93 > span.p-7 + span.p-6{ margin-left:-28px; }
-				.price.p93 > span.p-7 + span.p-7{ margin-left:-25px; }
-				.price.p93 > span.p-7 + span.p-8{ margin-left:-29px; }
-				.price.p93 > span.p-7 + span.p-9,
-				.price.p93 > span.p-7 + span.p-0{ margin-left:-28px; }
-				.price.p93 > span.p-7 + span.p-c,
-				.price.p93 > span.p-7 + span.p-d{ margin-left:-51px; }
-			.price.p93 > span.p-8{
-				width:76px !important;
-				background-position:-623px 0px !important;
-			}
-				.price.p93 > span.p-8 + span.p-1{ margin-left:-21px; }
-				.price.p93 > span.p-8 + span.p-2{ margin-left:-29px; }
-				.price.p93 > span.p-8 + span.p-4{ margin-left:-22px; }
-				.price.p93 > span.p-8 + span.p-7{ margin-left:-20px; }
-				.price.p93 > span.p-8 + span.p-c,
-				.price.p93 > span.p-8 + span.p-d{ margin-left:-29px; }
-			.price.p93 > span.p-9{
-				width:75px !important;
-				background-position:-699px 0px !important;
-			}
-				.price.p93 > span.p-9 + span.p-1{ margin-left:-21px; }
-				.price.p93 > span.p-9 + span.p-2{ margin-left:-29px; }
-				.price.p93 > span.p-9 + span.p-4{ margin-left:-22px; }
-				.price.p93 > span.p-9 + span.p-7{ margin-left:-20px; }
-				.price.p93 > span.p-9 + span.p-c,
-				.price.p93 > span.p-9 + span.p-d{ margin-left:-29px; }
-			.price.p93 > span.p-c{
-				width:41px !important;
-				background-position:-855px 0px !important;
-			}
-			.price.p93 > span.p-d{
-				width:81px !important;
-				background-position:-774px 0px !important;
-			}
-					.price.p93 > span.p-small{
-						margin-left:-18px !important;
-					}
-					.price.p93 > span.p-0.p-small{
-						width:58px !important;
-						background-position:-896px 0px !important;
-					}
-					.price.p93 > span.p-1.p-small{
-						width:47px !important;
-						background-position:-954px 0px !important;
-					}
-					.price.p93 > span.p-2.p-small{
-						width:64px !important;
-						background-position:-1001px 0px !important;
-					}
-					.price.p93 > span.p-3.p-small{
-						width:58px !important;
-						background-position:-1065px 0px !important;
-					}
-					.price.p93 > span.p-4.p-small{
-						width:62px !important;
-						background-position:-1123px 0px !important;
-					}
-					.price.p93 > span.p-5.p-small{
-						width:60px !important;
-						background-position:-1185px 0px !important;
-					}
-					.price.p93 > span.p-6.p-small{
-						width:57px !important;
-						background-position:-1245px 0px !important;
-					}
-					.price.p93 > span.p-7.p-small{
-						width:62px !important;
-						background-position:-1302px 0px !important;
-					}
-					.price.p93 > span.p-8.p-small{
-						width:57px !important;
-						background-position:-1364px 0px !important;
-					}
-					.price.p93 > span.p-9.p-small{
-						width:57px !important;
-						background-position:-1421px 0px !important;
-					}
-
-	/* ### first character reset ### */
-	.price > span:first-child{
-		margin-left:0px !important;
-	}
-}
-
-/* ### Price Sprite RETINA ### */
-@media screen and (-webkit-min-device-pixel-ratio: 2),
-	handheld and (-webkit-min-device-pixel-ratio: 2){
-	.price > span{
-		background:url('images/general/price-sprite-retina.png') 0px 0px no-repeat !important;
-		background-size:1478px 353px !important;
-	}
-}
-
-/* ### webkit browser fix for prices like "x7,xx" with negativ margin bug ### */
-@media screen and (-webkit-min-device-pixel-ratio: 0),
-	handheld and (-webkit-min-device-pixel-ratio: 0){
-	.price.p24 > span.p-7 + span.p-c,
-	.price.p24 > span.p-7 + span.p-d{
-		margin-left:-13px !important;
-	}
-	.price.p28 > span.p-7 + span.p-c,
-		.price.price-xs > span.p-7 + span.p-c,
-	.price.p28 > span.p-7 + span.p-d,
-		.price.price-xs > span.p-7 + span.p-d{
-		margin-left:-15px !important;
-	}
-	.price.p33 > span.p-7 + span.p-c,
-	.price.p33 > span.p-7 + span.p-d{
-		margin-left:-16px !important;
-	}
-	.price.p43 > span.p-7 + span.p-c,
-		.price.small > span.p-7 + span.p-c,
-	.price.p43 > span.p-7 + span.p-d,
-		.price.small > span.p-7 + span.p-d{
-		margin-left:-21px !important;
-	}
-	.price.p53 > span.p-7 + span.p-c,
-	.price.p53 > span.p-7 + span.p-d{
-		margin-left:-25px !important;
-	}
-	.price.p63 > span.p-7 + span.p-c,
-		.price.big > span.p-7 + span.p-c,
-	.price.p63 > span.p-7 + span.p-d,
-		.price.big > span.p-7 + span.p-d{
-		margin-left:-28px !important;
-	}
-	.price.p93 > span.p-7 + span.p-c,
-	.price.p93 > span.p-7 + span.p-d{
-		margin-left:-41px !important;
-	}
-}
-
-/* PRICE-ENDING */
 span.opt-value:after {
     content: ':-';
     background: #fff;
