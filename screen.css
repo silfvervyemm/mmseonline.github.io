@@ -6667,9 +6667,6 @@ form#filters .categories li a {
 	margin: 12px 0 12px 0;
 }
 /***** Spezikikation *****/
-.specification {
-	margin: 0 0 30px;
-}
 .specification dt {
 	padding: 5px 5px 5px 30px;
 	color: #555555;
@@ -6678,14 +6675,7 @@ form#filters .categories li a {
 	width: 233px;
 	color: #545454;
 }
-.specification dd {
-	color: #000;
-}
-.specification dt:before {
-	background: url("images/general/sprites.png") no-repeat scroll -360px -21px transparent;
-	height: 15px;
-	top: 6px;
-}
+
 .specification dt.false:before {
 	background-position: -36px 0;
 }
@@ -9757,4 +9747,3 @@ input[type="checkbox"], input[type="radio"] {
 			margin: 1em 0 1em 0;
 		}
 	}
-
