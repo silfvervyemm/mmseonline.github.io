@@ -49,10 +49,6 @@ h1, h2, h2 a, h3, h3 a, h4, h4 a h5, h6 {
 	font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
 }
 
-.price span {
-    margin: 0 0 0 -1px !important;
-}
-
 .button {
 	font-weight: normal !important;
 }
