@@ -5251,7 +5251,7 @@ a.site-navigation2__link[data-tracking='outlet_head']:hover > .site-navigation2_
 	bottom: 0px;
 	right: 0px;
 }
-.product-price.alt a.to-details.button {
+.product-price.alt .to-details.button {
 	position: absolute;
 	bottom: 0px;
 	left: 0px;
