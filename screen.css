@@ -20,7 +20,7 @@
 @font-face {
 	font-family: "pricemm";
 	src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.eot");
-	src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.eot?#iefix") format("embedded-opentype"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/newpricemm.woff2") format("woff2"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/newpricemm.woff") format("woff"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/newpricem.ttf") format("truetype"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/newpricem.svg#svg") format("svg")
+	src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.eot?#iefix") format("embedded-opentype"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/newpricem.woff2") format("woff2"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/newpricemm.woff") format("woff"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/newpricem.ttf") format("truetype"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/newpricem.svg#svg") format("svg")
 }
 /*FONTER*/
 body div, body p, body a, body li {
@@ -3388,6 +3388,11 @@ li.loyaltyClub.chosenToBeShown p {
 #product-details .price-sidebar .online-finance {
 	margin: 0;
 }
+
+label.product-attributes__item-label {
+    font-weight: normal;
+}
+
 #product-sidebar .product-name {
 	color: #000;
 	font-size: 18px;
@@ -3559,6 +3564,10 @@ li.loyaltyClub.chosenToBeShown p {
 }
 #product-details .bv-cv2-cleanslate .bv-core-container-53 .bv-details-bar {
 	margin: 2px 0px 7px 0px!important;
+}
+
+.bv-cv2-cleanslate .bv-core-container-51 .bv-action-bar button {
+    padding: 0px !important;
 }
 /* Service */
 #product-details #product-service h2 {
@@ -5815,7 +5824,8 @@ caption, th, td {
 }
 #category.category-grid .products-grid .base-info h3 a, #product-preview .product-preview-content .base-info h3 a {
 	font-size: 14px;
-	font-family: 'mmtextboldpro';
+	font-family: 'mmtextregularpro';
+  font-weight: normal;
 }
 #category.category-grid .products-grid .base-info small.vat-info, #product-preview .product-preview-content .base-info small.vat-info {
 	position: absolute;
@@ -5825,6 +5835,8 @@ caption, th, td {
 /* Product Karusell */
 .products-grid .base-info h3 a, #product-preview .base-info h3 a {
 	color: #000 !important;
+  font-family: 'mmtextregularpro';
+  font-weight: normal;
 }
 #product-preview {
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.45);
@@ -6148,7 +6160,6 @@ caption, th, td {
 	line-height: 1.2;
 }
 .box.infobox ul li {
-	color: #535353;
 	font-size: 13px;
 }
 .box.infobox ul li:before {
