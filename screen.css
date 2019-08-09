@@ -3544,7 +3544,7 @@ display: block;
 position: absolute;
 height: 38px;
 width: calc(100%+ 40px);
-left: 12px;
+left: 36px;
 top: -5px;
 transform: rotate(0deg) !important;
 -webkit-transform: rotate(0deg) !important;
@@ -8501,6 +8501,7 @@ margin: 20px 0 0 0;
 @media screen, handheld {
 .price.price-old {
 	margin-left: 12px;
+  font-size: 40px;
 }
 .price.big {
 	height: 70px;
@@ -8514,7 +8515,6 @@ margin: 20px 0 0 0;
 	float: left !important;
 	font-family: 'pricemm', 'mmtextboldpro', sans-serif;
 	color: #000;
-	width: 35px !important;
 	visibility: visible;
 }
 .js body .price {
