@@ -5475,6 +5475,7 @@ top: 7px;
 .prev, .next {
 background-image: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png");
 background-repeat: no-repeat;
+top: 36%;
 }
 .next {
 background-position: -107px -131px;
