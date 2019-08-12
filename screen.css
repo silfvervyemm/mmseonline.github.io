@@ -8503,11 +8503,8 @@ margin: 20px 0 0 0;
 	margin-left: 12px;
   font-size: 40px;
 }
-.price.big {
-	height: 70px;
-	font-size: 62px;
-}
-.price > span, .price-box .price.small {
+
+/*.price > span, .price-box .price.small {
 	display: contents;
 	background: none !important;
 	overflow: hidden !important;
@@ -8516,7 +8513,26 @@ margin: 20px 0 0 0;
 	font-family: 'pricemm', 'mmtextboldpro', sans-serif;
 	color: #000;
 	visibility: visible;
+}*/
+
+.price span {
+    margin: 0!important;
+    float: none!important;
+    background-image: none !important;
+    text-indent: inherit;
+    overflow: visible;
 }
+
+.price {
+    font-size: 58px;
+}
+
+#product-details .price.big {
+    font-size: 64px;
+    line-height: 64px;
+    height: 64px;
+}
+
 .js body .price {
 	text-shadow: 0 0 1em transparent, 0 -0.04em 0 #fff, 0.04em 0 0 #fff, 0 0.04em 0 #fff, -0.034em -0.024em 0 #fff, -0.03em -0.04em 0 #fff, -0.01em -0.04em 0 #fff, 0.052em -0.04em 0 #fff, 0.04em -0.04em 0 #fff, 0.02em -0.04em 0 #fff, 0.047em -0.025em 0 #fff, -0.045em 0.016em 0 #fff, -0.039em 0.038em 0 #fff, -0.052em 0.04em 0 #fff, -0.042em 0.04em 0 #fff, 0.031em 0.028em 0 #fff, 0.029em 0.04em 0 #fff, rgba(0, 0, 0, 0.2) 0.05em 0 0.05em, rgba(0, 0, 0, 0.2) 0 0.05em 0.05em, rgba(0, 0, 0, 0.2) 0.05em 0.05em 0.05em;
 	color: #000;
