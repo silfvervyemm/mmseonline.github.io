@@ -3973,6 +3973,10 @@ margin: 0 auto;
 width: 226px;
 }
 
+.products-carousel img.flags {
+    left: 10px !important;
+}
+
 .products-carousel .products-grid .old-price-block {
 position: absolute;
 top: 85px;
