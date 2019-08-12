@@ -3951,9 +3951,6 @@ padding: 10px;
 z-index: 1000;
 }
 
-.product-container-layout-regular .products-grid>li {
-    margin-left: 14px;
-}
 /* RUBRIK-STYLING PÅ PRODUKTSNURRA */
 .header.border {
 text-align: left !important;
