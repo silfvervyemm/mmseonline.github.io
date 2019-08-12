@@ -33,6 +33,7 @@ font-family: 'mmtextregularpro', sans-serif;
 h1, h2, h2 a, h3, h3 a, h4, h4 a h5, h6 {
 font-family: 'mmtextboldpro', sans-serif;
 text-transform: none !important;
+font-weight: normal !important;
 }
 .site-navigation2__child-item[data-nav-level="level 2"] .site-navigation2__link-label {
 font-family: 'mmtextregularpro', sans-serif;
@@ -8507,17 +8508,6 @@ margin: 20px 0 0 0;
 	margin-left: 12px;
   font-size: 40px;
 }
-
-/*.price > span, .price-box .price.small {
-	display: contents;
-	background: none !important;
-	overflow: hidden !important;
-	text-indent: 0em !important;
-	float: left !important;
-	font-family: 'pricemm', 'mmtextboldpro', sans-serif;
-	color: #000;
-	visibility: visible;
-}*/
 
 .price span, .price-box .price.small {
     margin: 0!important;
