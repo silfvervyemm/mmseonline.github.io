@@ -8521,6 +8521,7 @@ margin: 20px 0 0 0;
     background-image: none !important;
     text-indent: inherit;
     overflow: visible;
+    font-family: 'pricemm', 'mmtextboldpro', sans-serif;
 }
 
 .price {
