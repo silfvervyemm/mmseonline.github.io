@@ -4493,12 +4493,13 @@ padding-left: 15px;
 position: relative;
 cursor: pointer;
 }
-.page-categorycontent #filters .categories .active.child-active a {
-color: #000000;
-cursor: pointer;
-padding: 4px 5px;
-margin-left: 0;
-display: inline-block;
+.page-categorycontent #filters .categories a {
+  color: #000000 !important;
+  cursor: pointer;
+  padding: 4px 5px !important;
+  margin-left: 0;
+  display: inline-block;
+  font-size: 14px;
 }
 .page-categorycontent #filters .categories .active > ul {
 margin-bottom: 20px;
@@ -5890,6 +5891,7 @@ padding: 0;
 position: absolute;
 top: 210px;
 left: 0px;
+display: block;
 }
 #category.category-grid .products-grid .base-info h3, #product-preview .product-preview-content .base-info h3 {
 position: absolute;
