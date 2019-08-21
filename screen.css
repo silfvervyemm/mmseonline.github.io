@@ -195,7 +195,7 @@ box-shadow: none !important;
 }
 }
 
-#uspWrapperP @media screen and (max-width: 989px){
+@media screen and (max-width: 989px){
 #uspWrapperP{
 	padding: 0px;
 }
