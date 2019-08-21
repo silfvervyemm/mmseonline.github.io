@@ -57,108 +57,172 @@ font-weight: normal !important;
 .ms-textarea, .ms-textarea:focus, .ms-textfield, .ms-textfield:focus {
 box-shadow: none !important;
 }
-.grey-box-teaser {
-position: relative;
-margin: 0 0 10px 0;
-border: 1px solid #dddddd;
-background: url("images/teaser/grey-box/grey-box-teaser-bg.png") right bottom no-repeat;
+
+.ms-header2--nav-active~.ms-header2-sticky-spacer {
+	padding-top:0 !important;
 }
-.grey-box-teaser.prospekte {
-margin: 0 !important;
+
+.ms-header2 {
+    background-image: unset !important;
+    box-shadow: 0 0.2rem .8rem rgba(0,0,0,.2);
 }
-.grey-box-teaser * {
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
+
+.ms-header2--glued.ms-glue--fixed:not(.ms-header2--nav-active) {
+    box-shadow: 0 .2rem .6rem rgba(0,0,0,.2) !important;
 }
-.grey-box-teaser:after {
-content: ".";
-display: block;
-clear: both;
-visibility: hidden;
-line-height: 0;
-height: 0;
+
+#uspWrapperP {
+	position: absolute;
+	display: none;
+	padding: 6px 0 6px 0 !important;
+	background: #f8f8f8;
+	top: 0px;
+	left: 0px;
+	width: 100%;
 }
-.grey-box-teaser .grey-box {
-position: relative;
-width: 303px;
-height: 254px;
-margin: 9px 0 10px 10px;
-padding: 18px 10px 18px 18px;
-overflow: hidden;
-background: url("images/teaser/grey-box/grey-box-bg-large.png") left top no-repeat;
-z-index: 2;
+
+#uspWrapperP a {
+    text-decoration: none;
 }
-.grey-box-teaser .grey-box h3 {
-color: #000;
-font-size: 30px;
-line-height: 31px;
-margin: 0 0 12px 0;
+
+#uspWrapperP .usp-row{
+    	display: flex;
+    	flex-direction: row;
+    	justify-content: space-between;
+	width: 1188px;
+    	margin: 0 auto;
 }
-.grey-box-teaser.prospekte .grey-box h3 {
-font-size: 35px;
-line-height: 36px;
+
+#uspWrapperP .usp-row .usp-wrapper{
+	width: 70%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+     align-items: center;
 }
-.grey-box-teaser .grey-box p {
-font-size: 16px;
-line-height: 19px;
-width: 95%;
+
+#uspWrapperP .usp-row .usp-wrapper .usp{
+	position: relative;
+	margin-left: 30px;
+     height: 16px;
 }
-.grey-box-teaser .grey-box ul {
-font-size: 13px;
-line-height: 16px;
+
+#uspWrapperP .usp-row .usp-wrapper .usp:before{
+	position: absolute;
+    	content: '.';
+    	text-indent: -999em;
+    	background: url(images/css_sprites.png) no-repeat -10px -93px !important;
+    	background-size: 158px !important;
+    	width: 19px;
+    	height: 19px;
+    	top: 0px;
+    	left: -25px;
 }
-.grey-box-teaser .grey-box ul li {
-margin: 0 0 8px 0;
-padding: 3px 0 0 0;
+
+#uspWrapperP .usp-row .logo-wrapper{
+	width: 8%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
-.grey-box-teaser .grey-box a {
-color: #000;
-padding: 0 0 1px 0;
-border-bottom: 1px solid #c9c9c9;
+
+#uspWrapperP .usp-row .logo-wrapper .inside{
+	width: 40px;
+    	height: 40px;
 }
-.grey-box-teaser .grey-box a:hover {
-color: #df0000;
-border-bottom: 1px solid #df0000;
-text-decoration: none;
+
+#uspWrapperP .usp-row .inside-logo-wrapper{
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	width: 40%;
+	height: 15px;
 }
-.grey-box-teaser .teaser-content {
-width: 633px;
-max-width: 633px;
-position: absolute;
-top: 0;
-right: 0;
+
+#uspWrapperP .usp-row .inside-logo-wrapper .inside-logo-wrapper-child{
+	width: 19px;
+    	height: 19px;
 }
-.grey-box-teaser .teaser-content img {
-position: absolute;
-top: 0;
-right: 0;
+
+#uspWrapperP .rating-wrapper{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 1px 0 0 10px;
+     width: 140px;
+     height: 16px;
 }
-.grey-box-teaser .button.large {
-position: absolute;
-right: 10px;
-bottom: 10px;
-height: 34px !important;
+
+#uspWrapperP .rating-wrapper p{
+	margin: 0px 0px 5px 0px;
 }
-.grey-box-teaser .button.large span {
-line-height: 33px !important;
-font-size: 16px !important;
-padding: 0 22px 0 13px !important;
+
+#uspWrapperP .text-rating{
+	font-size: 17px;
 }
-.grey-box-teaser .button.large span:after {
-top: 15px !important;
-right: 10px !important;
+
+#uspWrapperP .star-rating{
+	position: relative;
+	margin-left: 10px;
+     font-size: 17px;
 }
-.grey-box-teaser .grey-box ul.grey-box-checklist li {
-padding-left: 20px;
-background: url("images/teaser/grey-box/grey-box-check-icon.png") 0 2px no-repeat;
+
+#uspWrapperP .usp-row .inside-logo-wrapper .star-rating:before{
+	content: "";
+	position: absolute;
+	top: -2px;
+    	left: -20px;
+   	width: 18px;
+    	height: 18px;
+	background: url(images/sprite-mediamarkt.png) 0 39%;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-.grey-box-teaser .grey-box ul.grey-box-checklist li a {
-border: 0;
+
+
+@media screen and (max-width: 1229px){
+#uspWrapperP .usp-row {
+    width: 952px;
 }
-.grey-box-teaser .grey-box ul.grey-box-checklist li a:hover {
-text-decoration: underline;
+
+
+#uspWrapperP .usp-row .usp-wrapper {
+    width: 85%;
 }
+
+#uspWrapperP .usp-row .logo-wrapper {
+    width: 10%;
+}
+}
+
+#uspWrapperP @media screen and (max-width: 989px){
+#uspWrapperP{
+	padding: 0px;
+}
+
+#uspWrapperP .usp-row {
+    width: 95%;
+    padding: 3px 0 3px 0 !important;
+    background: #f8f8f8;
+    z-index: -1;
+}
+}
+
+@media screen and (max-width: 880px){
+#uspWrapperP .usp-row .usp-wrapper {
+    width: 89%;
+}
+
+#uspWrapperP .usp-row .logo-wrapper {
+    width: 11%;
+}
+
+#uspWrapperP .usp-row .inside-logo-wrapper {
+    width: 30%;
+}
+}
+
+/* SWEMODULE*/
 .swemodule h1 {
 font-size: 42px;
 line-height: 48px;
