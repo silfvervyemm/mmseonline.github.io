@@ -2709,10 +2709,7 @@ background: #f2f2f2;
 .pagination-next {
 width: 30px;
 }
-.pagination-next a:after {
-background: url("images/general/sprites.png") no-repeat scroll -111px -13px transparent;
-right: 6px;
-}
+
 .filters-content fieldset.active .headline span {
 color: #000;
 font-size: 20px;
@@ -6211,21 +6208,7 @@ padding: 0;
 .pagination-prev a {
 padding: 4px 11px 4px 16px;
 }
-.pagination-prev a:before, .pagination-next a:after {
-height: 8px;
-width: 6px;
-content: "";
-position: absolute;
-top: 5px;
-}
-.pagination-prev a:before {
-background: url("images/general/sprites.png") no-repeat scroll -104px -13px transparent;
-left: 6px;
-}
-.pagination-next a:after {
-background: url("images/general/sprites.png") no-repeat scroll -111px -13px transparent;
-right: 6px;
-}
+
 .pagination-prev a:hover:before {
 background-position: -117px -13px;
 }
