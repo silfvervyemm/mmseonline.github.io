@@ -7829,7 +7829,6 @@ font-size: 11px;
 /**** Forms ****/
 .forms.double-border input[type='text'], .forms.double-border input[type='password'], .forms.double-border textarea, .forms input[type="text"], .forms input[type="password"], .forms textarea {
 border: 1px solid #E0E0E0;
-background: url("images/general/select.png") no-repeat scroll 0 -90px transparent;
 -webkit-border-radius: 0;
 -moz-border-radius: 0;
 border-radius: 0;
