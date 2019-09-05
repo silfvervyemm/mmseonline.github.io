@@ -6231,23 +6231,23 @@ line-height: 1.2;
 font-size: 13px;
 }
 .box.infobox ul li:before {
-background: url("images/css_sprites.png") no-repeat -10px -93px !important;
-background-size: 158px !important;
-width: 18px;
-height: 18px;
-top: 38%;
+      background: url("images/icon_sprites.png") no-repeat -245px -5px !important;
+      background-size: contain;
+      width: 20px;
+      height: 20px;
+      top: 38%;
 }
 .box.infobox ul li.false:before {
-background: url("images/css_sprites.png") no-repeat -49px -93px !important;
-background-size: 158px !important;
-width: 18px;
-height: 18px;
+      background: url("images/icon_sprites.png") no-repeat -65px -5px !important;
+      background-size: contain;
+      width: 20px;
+      height: 20px;
 }
 .box.infobox ul li.false.online-nostock:before {
-background: url("images/css_sprites.png") no-repeat -99px -10px !important;
-background-size: 158px !important;
-width: 18px;
-height: 18px;
+      background: url("images/icon_sprites.png") no-repeat -35px -5px !important;
+      background-size: contain;
+      width: 20px;
+      height: 20px;
 }
 .box.infobox ul li a.instockonline:hover {
 color: #00ac45;
