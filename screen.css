@@ -174,15 +174,14 @@ box-shadow: none !important;
 }
 
 #uspWrapperP .usp-row .inside-logo-wrapper .star-rating:before{
-	content: "";
-	position: absolute;
-	top: -2px;
-    	left: -20px;
-   	width: 18px;
-    	height: 18px;
-	background: url(images/sprite-mediamarkt.png) 0 39%;
-	background-repeat: no-repeat;
-	background-size: cover;
+  content: "\E637";
+  position: absolute;
+  top: 0px;
+  left: -20px;
+  width: 18px;
+  height: 18px;
+  font-family: 'mm-icons';
+  color: #df0000;
 }
 
 
