@@ -116,7 +116,8 @@ box-shadow: none !important;
 }
 
 #uspWrapperP .usp-row .usp-wrapper .usp:before{
-	     position: absolute;
+	    position: absolute;
+      content: " ";
       background: url("images/icon_sprites.png") no-repeat -245px -5px !important;
       background-size: contain;
       width: 20px;
