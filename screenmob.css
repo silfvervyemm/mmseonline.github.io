@@ -993,3 +993,9 @@ a.site-navigation2__link[data-tracking='outlet_head'] {
 span.rating-count {
     color: #000;
 }
+
+/* CMS */
+
+.cms_html_container img{
+	width: 100%;
+}
