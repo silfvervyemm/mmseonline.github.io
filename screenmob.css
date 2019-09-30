@@ -1,577 +1,995 @@
+
+@font-face {
+    font-family: 'mmheadline';
+    src: url('//www.mediamarkt.se/static/fonts/mmheadlinepro-regular-webfont.eot') format('eot'),  url('//www.mediamarkt.se/static/fonts/mmheadlinepro-regular-webfont.woff') format('woff'),  url('//www.mediamarkt.se/static/fonts/mmheadlinepro-regular-webfont.ttf') format('truetype'),  url('//www.mediamarkt.se/static/fonts/mmheadlinepro-regular-webfont.svg') format('svg');
+}
+@font-face {
+    font-family: 'mmtextregular';
+    src: url('//www.mediamarkt.se/static/fonts/mmtextpro-regular-webfont.eot') format('eot'),  url('//www.mediamarkt.se/static/fonts/mmtextpro-regular-webfont.woff') format('woff'),  url('//www.mediamarkt.se/static/fonts/mmtextpro-regular-webfont.ttf') format('truetype'),  url('//www.mediamarkt.se/static/fonts/mmtextpro-regular-webfont-webfont.svg#mm_text_proregular') format('svg');
+}
+@font-face {
+    font-family: 'mmtextbold';
+    src: url('//www.mediamarkt.se/static/fonts/mmtextpro-bold-webfont.eot') format('eot'),  url('//www.mediamarkt.se/static/fonts/mmtextpro-bold-webfont.woff') format('woff'),  url('//www.mediamarkt.se/static/fonts/mmtextpro-bold-webfont.ttf') format('truetype'),  url('//www.mediamarkt.se/static/fonts/mmtextpro-bold-webfont.svg#mm_text_proregular') format('svg');
+}
+
+@font-face {
+    font-family: 'mmheadlinepro';
+    src: url('//www.mediamarkt.se/static/fonts/MM/MMHeadlinePro-Regular.otf'),  url('//www.mediamarkt.se/static/fonts/MMHeadlineProWebTT-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'mmtextboldpro';
+    src: url('//www.mediamarkt.se/static/fonts/MM/MMTextPro-Bold.otf'),  url('//www.mediamarkt.se/static/fonts/MMTextProWebTT-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'mmtextregularpro';
+    src: url('//www.mediamarkt.se/static/fonts/MM/MMTextPro-Regular.otf'),  url('//www.mediamarkt.se/static/fonts/MMTextProWebTT-Regular.ttf') format('truetype');
+}
+
+h1, h2{
+ font-family: 'mmheadlinepro', 'mmheadline', sans-serif;
+}
+
+h3, h4, h5, h6, b{
+  font-family: 'mmtextboldpro', 'mmtextbold', sans-serif;
+}
+
+p, ul, li, a{
+  font-family: 'mmtextregularpro', 'mmtextregular', sans-serif;
+}
+
 #logo > a {
-	display: block;
-	background: transparent url("images/general/mm-logo.png") no-repeat 0 50% !important;
-	background-size: auto 19px;
-	width: 165px;
-	height: 30px;
-	position: relative;
+    display: block;
+    background: transparent url("images/general/mm-logo.png") no-repeat 0 50% !important;
+    background-size: auto 19px;
+    width: 165px;
+    height: 30px;
+    position: relative;
 }
 .swemodule h1 {
-	font-size: 42px;
-	line-height: 48px;
-	margin: 0px 0 19px 0;
-	display: block;
-	font-family: "FGMedium", Arial, sans-serif;
-	color: #000;
+    font-size: 42px;
+    line-height: 48px;
+    margin: 0px 0 19px 0;
+    display: block;
+    color: #000;
 }
 .swemodule h2, h2 {
-	font-size: 22px;
-	line-height: 25px;
-	margin: 0 0 18px 0;
-	display: block;
-	font-family: "FGMedium", Arial, sans-serif;
-	color: #525252;
-	Text-transform: none;
-	Border-top: none;
+    font-size: 22px;
+    line-height: 25px;
+    margin: 0 0 18px 0;
+    display: block;
+    color: #000;
+    Text-transform: none;
+    Border-top: none;
 }
 .swemodule h3, .sweteaser h3 {
-	font-size: 18px;
-	line-height: 25px;
-	margin: 0 0 20px 0;
-	display: block;
-	font-family: "FGMedium", Arial, sans-serif;
-	color: #525252;
-	Text-transform: none;
-	Border-top: none;
+    font-size: 18px;
+    line-height: 25px;
+    margin: 0 0 20px 0;
+    display: block;
+    color: #525252;
+    Text-transform: none;
+    Border-top: none;
 }
 .swemodule h4 {
-	font-size: 19px;
-	line-height: 15px;
-	margin: 0 0 18px 0;
-	display: block;
-	font-family: "FGMedium", Arial, sans-serif;
-	color: #525252;
+    font-size: 19px;
+    line-height: 15px;
+    margin: 0 0 18px 0;
+    display: block;
+    color: #525252;
 }
 .swemodule h4 a {
-	color: #df0000;
-	font-family: "FGMedium", Arial, sans-serif;
-	margin: 16px 0 4px 0;
+    color: #df0000;
+    margin: 16px 0 4px 0;
 }
 .swemodule h4 a:hover {
-	color: #555;
+    color: #555;
 }
 .swemodule h5 {
-	font-size: 16px;
-	line-height: 16px;
-	margin: 0 0 12px 0;
-	display: block;
-	font-family: "FGMedium", Arial, sans-serif;
-	color: #525252;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0 0 12px 0;
+    display: block;
+    color: #525252;
 }
 .swemodule h6 a {
-	font-size: 14px;
-	line-height: 14px;
-	margin: 0 0 12px 0;
-	display: block;
-	font-family: "FGMedium", Arial, sans-serif;
-	color: #525252;
+    font-size: 14px;
+    line-height: 14px;
+    margin: 0 0 12px 0;
+    display: block;
+    color: #525252;
 }
 .swemodule p, p {
-	font-size: 14px;
-	line-height: 18px;
-	margin: 0 0 20px 0;
-	display: block;
-	font-family: "FGBook", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 0 20px 0;
+    display: block;
 }
 li {
-	font-size: 14px;
-	font-family: "FGBook", Arial, sans-serif;
+    font-size: 14px;
 }
 .swemodule a {
-	color: #df0000;
-	text-decoration: underline;
+    color: #df0000;
+    text-decoration: underline;
 }
 .swemodule a:hover {
-	text-decoration: none;
+    text-decoration: none;
 }
 .swemodule.klickbar a, .swemodule.klickbar a:hover {
-	text-decoration: none;
-	color: inherit;
+    text-decoration: none;
+    color: inherit;
 }
-.swemodule b {
-	font-family: 'mmtextbold', Arial, sans-serif;
-}
+
 .cms_html_container i {
-	font-style: italic;
-	font-size: 10px;
-	line-height: 17px;
+    font-style: italic;
+    font-size: 10px;
+    line-height: 17px;
 }
 .finstilt {
-	font-style: italic;
-	font-size: 10px;
-	line-height: 17px;
+    font-style: italic;
+    font-size: 10px;
+    line-height: 17px;
 }
 .finstiltstort {
-	font-style: italic;
-	line-height: 17px;
+    font-style: italic;
+    line-height: 17px;
 }
 .punktlista ul, .punktlista { /* till?ter att man ser punkterna, finns ocks? i checkout.css */
-	list-style: disc;
-	margin-left: 20px;
-	padding: 0 0 30px;
+    list-style: disc;
+    margin-left: 20px;
+    padding: 0 0 30px;
 }
 .swemodule .right {
-	float: right;
+    float: right;
 }
 .swemodule .center {
-	text-align: center;
+    text-align: center;
 }
 .swemodule img {
-	width: 50%
+    width: 50%
 }
 .swemodule .textsektion {
-	padding: 0;
+    padding: 0;
 }
 .swemodule .third, .swemodule .quarter, .m03 {
-	border: 1px solid #ddd;
-	display: block;
-	padding: 12px;
-	margin: 12px 0;
+    border: 1px solid #ddd;
+    display: block;
+    padding: 12px;
+    margin: 12px 0;
 }
 .swemodule .third:last-child {
-	margin-bottom: -10px;
+    margin-bottom: -10px;
 }
 .swemodule .third:last-child.mindre {
-	margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 .swemodule .third h3, .swemodule .quarter h3, .m03 p, .m03 h3, .m22 h2, .m22 p, .m03 h2 {
-	text-align: center;
+    text-align: center;
 }
 .swemodule .sweknapp, .sweteaser.menu a {
-	-webkit-border-top-left-radius: 4px;
-	-moz-border-radius-topleft: 4px;
-	border-top-left-radius: 4px;
-	-webkit-border-top-right-radius: 4px;
-	-moz-border-radius-topright: 4px;
-	border-top-right-radius: 4px;
-	-webkit-border-bottom-right-radius: 4px;
-	-moz-border-radius-bottomright: 4px;
-	border-bottom-right-radius: 4px;
-	-webkit-border-bottom-left-radius: 4px;
-	-moz-border-radius-bottomleft: 4px;
-	border-bottom-left-radius: 4px;
-	text-indent: 0;
-	font-family: "FGMedium", Arial, sans-serif;
-	font-size: 15px;
-	font-weight: bold;
-	font-style: normal;
-	height: 28px;
-	line-height: 28px;
-	width: auto;
-	text-decoration: none;
-	text-align: center;
-	margin: 6px 6px 6px 0;
-	padding: 0 12px;
-	display: inline-table;
-	border: 1px solid #ddd;
-	color: #000;
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-radius-topleft: 4px;
+    border-top-left-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    -moz-border-radius-bottomright: 4px;
+    border-bottom-right-radius: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-bottomleft: 4px;
+    border-bottom-left-radius: 4px;
+    text-indent: 0;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    height: 28px;
+    line-height: 28px;
+    width: auto;
+    text-decoration: none;
+    text-align: center;
+    margin: 6px 6px 6px 0;
+    padding: 0 12px;
+    display: inline-table;
+    border: 1px solid #ddd;
+    color: #000;
 }
 .swemodule.m22 img {
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 .swemodule.m22 a {
-	text-decoration: none;
-	color: #000;
+    text-decoration: none;
+    color: #000;
 }
 .swemodule.m22 .sweknapp {
-	display: block;
-	margin: 20px auto;
-	width: 70px
+    display: block;
+    margin: 20px auto;
+    width: 70px
 }
-.cms_html_container img:first-child {
-	width: 100%;
-}
+
 .cms_html_container .swemodule img {
-	width: 50%;
+    width: 50%;
 }
 .swemodule.m09 {
-	margin: 20px 0;
+    margin: 20px 0;
 }
 .swemodule.m03 img {
-	margin: 20px auto;
-	position: relative;
-	display: block;
+    margin: 20px auto;
+    position: relative;
+    display: block;
 }
 .swemodule a.go-up {
-	margin: 20px 0;
-	display: inline-block;
+    margin: 20px 0;
+    display: inline-block;
 }
 .swemodule.noborder {
-	border: none;
+    border: none;
 }
 .sweteaser.menu {
-	background: none repeat scroll 0% 0% #F2F2F2;
-	border: 1px solid #DDD;
-	padding: 20px;
-	position: relative;
-	height: 100%;
-	width: 100%;
-	box-sizing: border-box;
-	overflow: visible;
-	margin: 12px 0;
+    background: none repeat scroll 0% 0% #F2F2F2;
+    border: 1px solid #DDD;
+    padding: 20px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: visible;
+    margin: 12px 0;
 }
-[for="idbillingAddressBusinessTitle"], [name="billingAddressBusinessTitle"], [name="businessTitle"], [for="idbusinessTitle"], [for="iddisplayName"], [for="idfax"] /* D�ljer irrelevanta saker i formul�r */ {
-	display: none;
+[for="idbillingAddressBusinessTitle"], [name="billingAddressBusinessTitle"], [name="businessTitle"], [for="idbusinessTitle"], [for="iddisplayName"], [for="idfax"] /* Dï¿½ljer irrelevanta saker i formulï¿½r */ {
+    display: none;
 }
 .mrh-button-passbook-container {
-	display: none !important;
+    display: none !important;
 }
 .button.background-type-2, .button.button-add-to-wishlist-pdp, .button.button-recommend {
-	background: #FFF !important;
 }
 /* --- LOGIN --- */
+
 .bg-white h1 span#logInText {
-	font-family: 'MMTextProWeb-Regular', sans-serif !important;
-	line-height: 18px !important;
-	font-size: 16px !important;
-	text-transform: none !important;
-	display: block !important;
-	position: relative !important;
-	left: 0px !important;
+    line-height: 18px !important;
+    font-size: 16px !important;
+    text-transform: none !important;
+    display: block !important;
+    margin: 20px 0 !important;
+    position: absolute !important;
+    left: 10px !important;
 }
-span#logInText ul {
-	padding-left: 0px !important;
-}
-.login-section .cf.box.register-box ul {
-	padding-left: 0px !important;
-	margin: 0px;
-}
-section.bg-white.login-section.login-ie-border .grid {
-	margin-top: 0px;
-}
-section.bg-white.login-section.login-ie-border p.gridbox {
-	margin: 0px !important;
-	padding: 0px;
-}
-li.green-bock {
-	list-style: none !important;
-	padding-left: 22px;
-	margin-left: 0px !important;
-	padding-bottom: 5px;
-	color: #000;
-	position: relative;
-}
-li.green-bock:before {
-	position: absolute;
-	content: "";
-	background: url(https://perf.mediamarkt.se/static/icons/check-green.png) no-repeat;
-	background-size: 15px 20px;
-	width: 15px;
-	height: 20px;
-	top: 2px;
-	left: 0px;
-}
-li.green-bock.long:before {
-	top: 10px;
+#wrapper-main section.login-section {
+    margin-top: 80px;
 }
 section.bg-white.login-section.login-ie-border {
-	margin: 20px 0 !important;
-	padding-left: 10px;
+    margin: 20px 0 !important;
+    padding-left: 10px;
 }
 section.bg-white.login-section.login-ie-border p {
-	margin-bottom: 10px !important;
+    margin-bottom: 10px !important;
 }
 section.bg-white.status-red {
-	top: 80px;
-	position: relative;
-	margin-left: 10px !important;
+    top: 80px;
+    position: relative;
+    margin-left: 10px !important;
 }
 section.bg-white.status-red h2 {
-	padding-left: 0 !important;
+    padding-left: 0 !important;
 }
 section.bg-white.status-red ul {
-	list-style: none;
-	padding-left: 5px;
+    list-style: none;
+    padding-left: 5px;
 }
 /* --- Layers --- */
 .layer-header h2 {
-	line-height: 28px !important;
-	white-space: normal !important;
-	font-size: 25px !important;
+    line-height: 28px !important;
+    white-space: normal !important;
+    font-size: 25px !important;
 }
 .mrh-layer-content h2 {
-	line-height: 20px !important;
-	white-space: normal !important;
-	font-size: 18px;
-	padding-bottom: 4px;
-	margin-bottom: 10px;
+    line-height: 20px !important;
+    white-space: normal !important;
+    font-size: 18px;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
 }
 a.button.background-type-1.async-layer-link {
-	margin-top: 20px;
+    margin-top: 20px;
 }
+/* ------------------PRICE------------------------ */
+
+.price {
+    color: #000;
+}
+
+.pdp-product-info .wrapper-price .price{
+	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff, 2px 2px 1px rgba(147, 147, 147, 1);
+}
+
+
 /* ---------- TIDIGARE PRISER JUNI 2016 ---------- */
 .crossed-price-wrapper .crossed-price-layer span {
-	font-size: 16px;
-	color: #000;
+    font-size: 16px;
+    color: #000;
 }
 .crossed-price-wrapper .product-crossed-price {
-	color: #000;
-	font-size: 30px;
-	line-height: 30px;
-	margin-left: 5px;
+    color: #000;
+    font-size: 30px;
+    line-height: 30px;
+    margin-left: 5px;
 }
 .crossed-price-wrapper .product-crossed-price:before {
-	width: 82%;
-	height: 2px;
-	top: 18px;
-	-ms-transform: rotate(-10deg);
-	-webkit-transform: rotate(-10deg);
-	transform: rotate(-10deg);
+    width: 82%;
+    height: 2px;
+    top: 18px;
+    -ms-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
 }
-/* ---------- SÖK JUNI OCH AUGUSTI 2016 ---------- */
+/* ---------- SÃ–K JUNI OCH AUGUSTI 2016 ---------- */
+
 .mrh-mobile-channel ul.content-link-list.level-1, .mrh-mobile-channel section.wrapper-full-width.bg-white.tab-categories, .mrh-mobile-channel section.wrapper-full-width.bg-white.tab-categories .grid, .mrh-mobile-channel div#filter-container, .mrh-mobile-channel a.current-category.mrh-accordion-headline.mrh-accordion-trigger {
-	margin: 0 !important;
+    margin: 0 !important;
 }
 section.bg-white.fixed-search-container {
-	margin-bottom: 0 !important;
+    margin-bottom: 0 !important;
 }
 .mrh-pagetypeid-mobile_searchresult div#filter-container {
-	padding: 0 !important;
+    padding: 0 !important;
 }
 .fixed-search-container .gridbox.column-1-1 {
-	padding-bottom: 0;
+    padding: 0;
 }
-/*----------------------Göm fält i sök efter varuhus temporärt för avvikande öppettider------------------------*/
-form.mrh-market-search-form .gridbox.column-1-2:first-child {
-	width: 100% !important;
+/*----------Ingresser till kategorisidor 2018.04.20-------------------*/
+.breadcrumbs {
+    border-top: 1px solid #dddddd;
 }
-form.mrh-market-search-form .column-1-1 {
-	display: none;
+section.ingress {
+    padding: 0 0 20px 0;
 }
-form.mrh-market-search-form .column-1-2:last-child {
-	display: none;
+.ingress h1, .ingress h2 {
+    font-size: 18px;
+    color: #000000;
+    margin: 0px;
 }
-/*--------------------Flyttad hit från HideMobileAppSearch för att minska antal CSS filer och  öka laddningstid------------------*/
+.ingress p {
+    max-width: 700px;
+    font-size: 16px;
+    line-height: 20px;
+}
+/*-------------------------------Ingresser slut-----------------------*/
+
+/*--------------------Flyttad hit frÃ¥n HideMobileAppSearch fÃ¶r att minska antal CSS filer och  Ã¶ka laddningstid------------------*/
 .mrh-app-channel.mrh-pagetypeid-mobile_category .app-product-search {
-	display: none;
+    display: none;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------*/
+
+
 /* ------------------ COOKIES maj 2018------------------ */
 .mrh-bottom-layer-stack-wrapper .cookies-banner {
-	background: #dddddd;
+    background: #dddddd;
 }
 .cookies-banner .cookie-banner-text {
-	color: #000000;
-	font-size: 12px;
-	-ms-word-break: normal;
-	word-break: normal;
-	text-align: center;
+    color: #000000;
+    font-size: 12px;
+    -ms-word-break: normal;
+    word-break: normal;
+    text-align: center;
 }
 .cookies-banner a.button.background-type-1, .cookies-banner a.button.background-type-1 span, .cookies-banner a.button.background-type-2, .cookies-banner a.button.background-type-2 span {
-	height: 20px;
-	line-height: 20px;
-	font-size: 12px;
-	border: none;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    border: none;
 }
 .cookies-banner .second-page-content.cookie-layer {
-	padding-top: 24px;
+    padding-top: 24px;
+}
+/*----GÃ¶mmer instÃ¤llningar knappen i cookie layer mobil-----*/
+a.button.background-type-2.set-up-cookies.second-cookie-btn {
+    display: none;
+}
+a.button.background-type-1.accept-cookies.first-cookie-btn {
+    margin: auto;
+    float: none;
 }
 /*-----------------------------------------------------------*/
-/*---------------------Styling för Sidorna Användarvillkor 2018 för GDPR---------------------*/
-/*--------------Viktors CSS------------------------------*/
+
+/*---------------------Styling fÃ¶r Sidorna AnvÃ¤ndarvillkor 2018 fÃ¶r GDPR---------------------*/
 .layer-wrapper.common h2 {
-	padding: 12px 0 22px 0;
+    padding: 12px 0 22px 0;
 }
 .layer-wrapper.common a {
-	color: #000;
-	font-size: 14px;
+    color: #000;
+    font-size: 14px;
 }
 .layer-anchors {
-	border: 1px solid #ddd;
-	background: #F2F2F2;
-	margin-bottom: 12px;
-	overflow: hidden;
-	padding-bottom: 12px;
+    border: 1px solid #ddd;
+    background: #F2F2F2;
+    margin-bottom: 12px;
+    overflow: hidden;
+    padding-bottom: 12px;
 }
 .layer-anchors h2 {
-	padding: 15px 0 15px 22px !important;
-	margin: 0;
+    padding: 15px 0 15px 22px !important;
+    margin: 0;
 }
 .layer-anchors ul {
-	margin-right: 20px;
-	list-style: none;
+    margin-right: 20px;
+    list-style: none;
 }
 .layer-anchors li {
-	margin: 0 12px 12px 0;
-	float: left;
-	height: 30px;
-	width: 100%;
+    margin: 0 12px 12px 0;
+    float: left;
+    height: 30px;
+    width: 100%;
 }
-.layer-anchors li > a {
-	background: none repeat scroll 0 0 #fff;
-	border: 1px solid #ddd;
-	border-radius: 4px;
-	font-size: 13px !important;
-	font-weight: normal;
-	padding: 5px 25px 7px 10px !important;
-	position: relative;
-	display: block;
+.layer-anchors li>a {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 13px !important;
+    font-weight: normal;
+    padding: 5px 25px 7px 10px !important;
+    position: relative;
+    display: block;
 }
-.layer-anchors li > a:after {
-	background: none;
-	content: url('http://www.mediamarkt.se/static/img/icons/liten_pil_ner.png');
-	font-size: 8px;
-	height: 7px;
-	position: absolute;
-	right: 11px;
-	text-indent: 0;
-	top: 7px;
-	width: 8px;
+.layer-anchors li>a:after {
+    background: none;
+    content: url('https://www.mediamarkt.se/static/img/icons/liten_pil_ner.png');
+    font-size: 8px;
+    height: 7px;
+    position: absolute;
+    right: 11px;
+    text-indent: 0;
+    top: 7px;
+    width: 8px;
 }
 p.intro {
-	color: #444;
-	font-size: 16px;
-	line-height: 20px;
-	margin: 0 20px !important;
+    color: #444;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 20px !important;
 }
 .fsd-accordion {
-	margin-top: 12px;
-	border-bottom: 1px solid #ddd;
+    margin-top: 12px;
+    border-bottom: 1px solid #ddd;
+}
+.fsd-accordion h1, .fsd-accordion h2, .fsd-accordion h3, .fsd-accordion h4, .fsd-accordion h5 {
+    margin-bottom: 0;
+}
+.fsd-accordion h2, .fsd-accordion h3 {
+    padding: 0 !important;
+}
+.fsd-accordion p {
+    margin: 0 !important;
 }
 .fsd-accordion dd {
-	display: none;
-	margin: 0;
-	padding-bottom: 20px;
-	padding-left: 25px;
-	font-size: 14px;
-	line-height: 16px;
-	color: #444;
+    display: none;
+    margin: 0;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #444;
 }
 .fsd-accordion dt {
-	position: relative;
-	cursor: pointer;
-	border-top: 1px solid #ddd;
-	padding-top: 20px;
-	padding-left: 50px;
-	padding-bottom: 20px;
-	font-size: 20px;
-	line-height: 22px;
+    position: relative;
+    cursor: pointer;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    line-height: 22px;
 }
 .fsd-accordion dt:before {
-	transition: transform .3s ease-in-out;
-	border-radius: 50%;
-	font-size: 21px;
-	line-height: 21px;
-	color: #000;
-	content: url(http://www.mediamarkt.se/static/img/icons/pil_ner_svart.png);
-	display: block;
-	position: absolute;
-	text-indent: 0;
-	text-align: center;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	margin: auto;
-	padding: 7px;
-	box-sizing: border-box;
-	width: 38px;
-	height: 38px;
-	border: 1px solid #ddd;
-	background: #fff;
-	transform: rotate(-90deg);
+    transition: transform .3s ease-in-out;
+    border-radius: 50%;
+    font-size: 21px;
+    line-height: 21px;
+    color: #000;
+    content: url(https://www.mediamarkt.se/static/img/icons/pil_ner_svart.png);
+    display: block;
+    position: absolute;
+    text-indent: 0;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    padding: 7px;
+    box-sizing: border-box;
+    width: 38px;
+    height: 38px;
+    border: 1px solid #ddd;
+    background: #fff;
+    transform: rotate(-90deg);
 }
 .fsd-accordion dt.expanded:before {
-	transform: rotate(0deg);
+    transform: rotate(0deg);
 }
 .fsd-accordion dt, .fsd-accordion dd {
-	padding-right: 25px;
+    padding-right: 25px;
 }
 .fsd-accordion dt {
-	position: relative;
-	cursor: pointer;
-	border-top: 1px solid #ddd;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	font-size: 20px;
-	line-height: 22px;
+    position: relative;
+    cursor: pointer;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    line-height: 22px;
 }
 .fsd-accordion dd ul {
-	margin: 8px 0 18px 0;
-	list-style: none;
-	padding: 0;
+    margin: 8px 0 18px 0;
+    list-style: none;
+    padding: 0;
 }
 .fsd-accordion dd ul li {
-	padding-left: 15px;
-	position: relative;
+    padding-left: 15px;
+    position: relative;
 }
 .fsd-accordion dd ul li:before {
-	content: ' ';
-	width: 3px;
-	height: 3px;
-	background: black;
-	display: inline-block;
-	position: absolute;
-	left: 6px;
-	top: 8px;
+    content: ' ';
+    width: 3px;
+    height: 3px;
+    background: black;
+    display: inline-block;
+    position: absolute;
+    left: 6px;
+    top: 8px;
 }
-.fsd-accordion dd p > a {
-	text-decoration: none;
-	border-bottom: 1px solid #bbb;
+.fsd-accordion dd p>a {
+    text-decoration: none;
+    border-bottom: 1px solid #bbb;
 }
-.fsd-accordion dd p > a:hover {
-	border-bottom-color: #DF0000;
-}
-/*-------------för "Sekretesspolicy Cookies" sidan------------*/
-.fsd-accordion h1, .fsd-accordion h2, .fsd-accordion h3, .fsd-accordion h4, .fsd-accordion h5 {
-	margin-bottom: 0;
-}
-h2, h3 {
-	padding: 0 !important;
-}
-p {
-	margin: 0 !important;
-}
-#CookiesOnlineshop {
-	padding: 12px 20px 12px 20px !important;
+.fsd-accordion dd p>a:hover {
+    border-bottom-color: #DF0000;
 }
 .accordion-title {
-	background: url(//picscdn.redblue.de/doi/msh-pixelboxx-553487607/feecms_x_x_x) no-repeat;
+    background: url(//picscdn.redblue.de/doi/msh-pixelboxx-553487607/feecms_x_x_x) no-repeat;
 }
 .accordion-title {
-	margin-top: -1px;
-	background-position: top 10px left 0 !important;
-	height: 35px;
-	border-top: #ddd solid 1px;
-	border-bottom: #ddd solid 1px;
-	padding: 10px 0 0 40px;
-	cursor: pointer;
+    margin-top: -1px;
+    background-position: top 10px left 0 !important;
+    height: 35px;
+    border-top: #ddd solid 1px;
+    border-bottom: #ddd solid 1px;
+    padding: 10px 0 0 40px;
+    cursor: pointer;
 }
 .accordion-title.active {
-	border-bottom: none;
+    border-bottom: none;
 }
 .accordion-detail {
-	display: none;
-	border-bottom: #ddd solid 1px;
-	margin-left: 40px;
+    display: none;
+    border-bottom: #ddd solid 1px;
+    margin-left: 40px;
 }
 .accordion-title {
-	clear: both;
+    clear: both;
 }
-/*-------------för "Sekretesspolicy MediaMarkt sidan"-------------*/
+#CookiesOnlineshop {
+    padding: 12px 20px 12px 20px !important;
+}
 #DSClub {
-	padding: 12px 20px 0px 20px !important;
+    padding: 12px 20px 0px 20px !important;
+}
+#DSOnlineshop {
+    padding: 12px 20px 12px 20px !important;
 }
 h4.auszug {
-	text-indent: 4em !important;
+    text-indent: 4em !important;
 }
 p.auszug {
-	padding-left: 4em !important;
+    padding-left: 4em !important;
 }
-/*---------------------för "Dataskydd Club" sidan-------------------*/
-#DSOnlineshop {
-	padding: 12px 0 12px 0 !important;
+/*--------------------------- HAMBURGERMENY-----------------------*/
+ul.site-navigation2__list li {
+    font-size: 18px;
 }
-/*-------------------------------------------------------------------*/
-/*---------------------för produktgrid startsidan mobil 2018-06-------------------*/
-.dynamic-product-list.template-grid .dynamic-grid-bordered-item img.product-teaser-image {
-	max-width: 100%;
+/*-------------------- LOCAL MENY CATEGORIES ---------------------*/
+
+#nav-categories li a {
+    color: #000;
+    background: #f8f8f8;
+    border-top: 1px solid #a5a1a1;
 }
-.dynamic-product-list.template-grid .product-teaser-container {
-	padding-top: 0;
+#nav-categories li a:after, #nav-categories li a.background-type-2:after {
+    background: url('images/sprites.png') no-repeat -410px -11px rgba(0,0,0,0);
+    width: 14px;
+    height: 14px;
+    margin-top: -6px;
 }
-.dynamic-product-list.template-grid .dynamic-grid-bordered-item img.product-teaser-image {
-	max-width: 100%;
-	margin: -27% auto;
+#nav-categories li a.background-type-2:first-child {
+    border-top: 1px solid #a5a1a1;
+}
+#nav-categories li a.background-type-2:last-child {
+    border-bottom: 1px solid #a5a1a1;
+}
+/*------------------------------ SEARCH -------------------------------------*/
+
+.content-link-list.level-1 a.current-category.mrh-accordion-headline.mrh-accordion-trigger {
+    background: #df0000;
+    color: #fff;
+    padding: 8px;
+    border-radius: 4px;
+}
+.content-link-list.level-1 a.current-category.mrh-accordion-headline.mrh-accordion-trigger:after {
+    background: url('https://www.mediamarkt.se/static/icons/vit-pil.png') no-repeat 0 50% rgba(0,0,0,0);
+    background-size: contain;
+    right: 10px;
+    height: 18px;
+    top: 7px;
+    width: 14px;
+}
+.content-link-list.level-1 .mrh-accordion.mrh-accordion-container.displayed a.current-category.mrh-accordion-headline.mrh-accordion-trigger:after {
+    background: url('https://www.mediamarkt.se/static/icons/vit-pil_ner.png') no-repeat 0 50% rgba(0,0,0,0);
+    background-size: contain;
+    right: 10px;
+    height: 18px;
+    top: 7px;
+    width: 18px;
+}
+.tab-categories .gridbox {
+    padding-bottom: 0px !important;
+}
+#filter-container, #filter-container .gridbox {
+    padding: 0px 2.5px !important;
+}
+
+.button.background-type-2.dropdown-wrapper span {
+    padding-right: 25px;
+}
+
+.button.background-type-2.dropdown-wrapper span:after {
+    background: url("images/css_sprites.png") no-repeat -7px -40px rgba(0,0,0,0);
+    background-size: 120px auto;
+    top: 12px;
+    right: 0px;
+	width: 18px;
+    height: 18px;
+}
+
+p.button.background-type-2.dropdown-wrapper {
+    margin: 0px;
+}
+
+
+/*-------------------- BREADCRUMBS-----------------------------------*/
+a.category-breadcrumb, a.category-breadcrumb:link, a.category-breadcrumb:visited {
+    color: #df0000;
+}
+a.category-breadcrumb:before {
+    content: '...';
+    margin-bottom: 4px;
+    margin-right: 0px;
+}
+a.category-breadcrumb:after {
+    background: url(http://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png) no-repeat scroll -404px -25px;
+    width: 5px;
+    height: 10px;
+    display: inline-block;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    vertical-align: middle;
+    content: " ";
+}
+
+/*------------------------ Lagerstatus-------------------------------------*/
+
+a.instockonline {
+    color: #000;
+}
+
+span.greentext{
+  color: #00ac45;
+}
+
+span.redtext {
+    color: #df0000;
+}
+
+/*----------------------- GRIDBOX AND BOXES---------------------------- */
+
+.grid h4.gridbox, .gridbox{
+	padding: 0 5px 5px 5px;
+}
+
+/*---------------------- OUTLET ----------------------------------------*/
+
+a.site-navigation2__link[data-tracking='outlet'] {
+    background-image: url(https://perf.mediamarkt.se/static/icons/background_outlet_small.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+    margin-left: 3px;
+    margin-bottom: -2px;
+    color: #df0000;
+}
+a.site-navigation2__link[data-tracking='outlet_head'] .site-navigation2__link-label {
+    margin-bottom: 2px;
+}
+a.site-navigation2__link[data-tracking='outlet_head'] .site-navigation2__link-label:hover {
+    text-decoration: none;
+}
+.site-navigation2--dropdown a.site-navigation2__link[data-tracking='outlet_head']:hover {
+    text-decoration: none;
+}
+.site-navigation2__child-item[data-tracking-nav="outlet_nav"] a {
+    color: #df0000;
+}
+
+@media screen and (max-width: 990px) {
+a.site-navigation2__link[data-tracking='outlet_head'] {
+    display: none;
+    color: #df0000;
+}
+.site-navigation2__child-item[data-tracking-nav="outlet_nav"] a {
+    background-image: url(https://mediamarkt.se/static/icons/background_outlet_big.png);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: unset;
+    text-align: left;
+    color: #df0000;
+}
+.site-navigation2__child-item[data-tracking-nav="outlet_nav"] {
+    border-color: transparent;
+}
+.site-navigation2__child-item[data-tracking-nav="outlet_nav"] a .site-navigation2__link-label:after {
+    color: #df0000;
+}
+.site-navigation2__item {
+    border-color: transparent;
+}
+}
+
+/* CMS PRODUCT GRID */
+
+.cms-products-grid .ct-products-grid>li .base-info .price {
+    top: 145px;
+    left: auto;
+    right: unset;
+}
+.cms-products-grid .ct-products-grid>li .base-info .ee-wrapper {
+    margin: 35px 0 0 0px;
+}
+.cms-products-grid .ee-wrapper > a.energy-usage-label {
+    width: 50% !important;
+    margin: 0px 0 0 0px;
+}
+.cms-products-grid a.ee-pdf, a.ee-layer {
+    margin: 0px 0 20px 0px;
+}
+.cms-products-grid .pavailability li {
+    vertical-align: text-top;
+    text-align: left;
+    font-size: 12px;
+}
+.cms-products-grid .online-verylowstock p span {
+    padding-left: 22px;
+    color: #ed7811;
+}
+.cms-products-grid .online-verylowstock p span .redtext {
+    padding-left: 0px;
+    color: #df0000;
+}
+.cms-products-grid .pavailability ul li:before {
+    background: url(images/greenbox.png) no-repeat !important;
+    background-size: 16px 16px !important;
+    background-position: center;
+    content: '.';
+    padding: 0 0px 3px 19px;
+    color: transparent;
+}
+.cms-products-grid .action-bar {
+    background: rgba(88,88,88,0.9);
+}
+.cms-products-grid .ct-products-grid>li.selected {
+    border-color: #df0000;
+    box-shadow: 0 0 0 1px #df0000;
+}
+.cms-products-grid .ct-products-grid>li .base-info h3 {
+    max-height: 65px;
+    font-size: 18px;
+    line-height: 18px;
+    opacity: 1.0;
+    margin: 10px 0px 0;
+    padding: 0;
+    border: none;
+    overflow: hidden;
+    text-transform: none;
+}
+.cms-products-grid .ct-products-grid>li .base-info h3 a {
+    color: #000;
+}
+.cms-products-grid .ct-products-grid>li .has-variants-text {
+    color: #df0000;
+    margin: 5px 0px;
+    font-size: 11px
+}
+.cms-products-grid .rating-link {
+    display: none;
+}
+.cms-products-grid .ct-products-grid>li .base-info {
+    height: 370px !important;
+    padding: 10px !important;
+}
+
+/*PRICE*/
+.cms-products-grid .ct-products-grid>li .base-info .price-old {
+    top: 115px;
+    left: 15px;
+}
+.cms-products-grid .ct-products-grid>li .base-info .vat-info {
+    margin: 0 0px;
+    font-size: 12px;
+    left: auto;
+    right: unset;
+    top: 200px;
+    text-align: left;
+}
+/*PRICE END*/
+
+.cms-products-grid .ct-products-grid>li .actions {
+    text-align: center;
+    padding: 10px 0px;
+    width: 92%;
+    margin: 0 auto;
+    background: #000;
+    color: #fff;
+    border-radius: 4px;
+}
+.cms-products-grid .price-old-info-icon {
+    display: none;
+}
+.cms-products-grid .ct-products-grid>li .cart-checkbox input {
+    display: none;
+}
+.cms-products-grid .ct-products-grid>li.selected .actions input+label:after {
+    left: -25px;
+    top: 3px;
+}
+.cms-products-grid .action-bar .large.button.add-to-cart .count {
+    position: absolute;
+    top: -10px;
+    right: -5px;
+    display: block;
+    margin: 0px !important;
+    padding: 8px !important;
+    height: auto;
+    width: auto;
+    font-size: 12px !important;
+    line-height: 4px !important;
+    text-align: center;
+    color: #fff;
+    background: #df0000 !important;
+    border-radius: 50px;
+}
+.cms-products-grid .add-to-cart.button.large {
+    padding: 0px !important;
+    height: auto !important;
+}
+.cms-products-grid .add-to-cart.button.large:hover {
+    padding: 0px !important;
+    height: auto !important;
+}
+.cms-products-grid .action-bar .large.button.add-to-cart:before {
+    top: 10px;
+    right: unset;
+    left: 5px;
+    background: url(https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png) no-repeat scroll -582px -32px transparent;
+    width: 21px;
+    height: 16px;
+}
+/* LAYER */
+
+.ct-modal--show .add-to-cart.button.large {
+    padding: 3px 20px 3px 28px!important;
+}
+.ct-modal--show .product-short-details .action-box .details {
+    padding: 4px 10px 4px 10px!important;
+}
+.ct-modal--show .product-short-details .action-box .details span:after {
+    display: none;
+}
+.ct-modal--show .add-to-cart.button.large:hover {
+    padding: 3px 18px 1px 28px!important;
+}
+.ct-modal--show .button.add-to-cart:hover:before {
+    background: url(https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png) no-repeat scroll -581px -5px transparent !important;
+}
+.ct-modal--show .product-short-details .action-box .details:hover {
+    padding: 4px 10px 3px 10px!important;
+    background: #f2f2f2 !important;
+    border: 1px solid #ddd;
+    color: #df0000;
+}
+.ct-modal--show .product-short-details .action-box .details:hover .button span:after {
+    background: url(images/general/sprites.png) no-repeat scroll -52px -1px transparent !important;
+}
+.ct-modal--show .product-short-details .product-details dd {
+    width: 240px;
+}
+.ct-modal--show .product-rate {
+    display: none;
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 640px) {
+.dynamic-product-list.grid-view-products .product-teaser-details {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.dynamic-product-list.grid-view-products span.product-teaser-fee-container {
+    position: absolute;
+    top: 33px;
+    right: 0px;
+}
+.dynamic-product-list.grid-view-products span.product-teaser-vatLabel {
+    margin-bottom: 10px;
+}
+.dynamic-product-list.grid-view-products .mrh-ee-container {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.dynamic-product-list.grid-view-products .add-to-compare-list-wrapper.clearfix {
+    width: 60% !important;
+    padding: 8px 4px;
+}
+.dynamic-product-list.grid-view-products .add-to-wish-list-wrapper.clearfix {
+    width: 35% !important;
+    margin: 0px !important;
+    text-indent: 9999px;
+    background-image: url(https://www.mediamarkt.se/static/icons/heart.png);
+    background-repeat: no-repeat;
+    background-size: 25px 23px;
+    background-position: center;
+}
+.dynamic-product-list.grid-view-products .add-to-wish-list:after {
+    display: none;
+}
+.dynamic-product-list.grid-view-products a.ee-pdf, a.ee-layer {
+    margin: 0px 0 0px 0px;
+}
+.dynamic-product-list.grid-view-products a.ellipsis.add-to-compare-list.async-layer-link {
+    color: #000!important;
+}
+
+.dynamic-product-list.grid-view-products h3.product-teaser-headline {
+    min-height: 35px;
+}
+
+.dynamic-product-list.grid-view-products img.product-brand-logo {
+    min-height: 18px;
+}
+
+.dynamic-product-list.grid-view-products span.price.product-teaser-price {
+    margin: 5px 0 5px 5px;
+}
+}
+
+/* RATINGS */
+
+.rating {
+    background-image: url(https://www.mediamarkt.se/static/icons/ratingyellowgrey.png);
+    background-position: 0px 2px;
+}
+
+.rating div {
+    background-image: url(https://www.mediamarkt.se/static/icons/ratingyellowgrey.png);
+    background-position: 0 -7px;
+}
+
+span.rating-count {
+    color: #000;
 }
