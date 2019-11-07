@@ -44,7 +44,7 @@
 }
 
 h1, h2 {
-    font-family: 'mmheadlinepro', 'mmtextboldpro', sans-serif;
+    font-family: 'mmtextboldpro', sans-serif;
 }
 
 h3, h4, h5, h6, b {
@@ -672,7 +672,6 @@ ul.site-navigation2__list li {
 p.button.background-type-2.dropdown-wrapper {
     margin: 0px;
 }
-
 
 /*-------------------- BREADCRUMBS-----------------------------------*/
 a.category-breadcrumb, a.category-breadcrumb:link, a.category-breadcrumb:visited {
