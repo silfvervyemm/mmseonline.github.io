@@ -323,27 +323,25 @@ body .product-teaser-container .product-teaser-details .wrapper-price .price {
     padding-right: 0.25em; /* == Make some room for the :- characters in a cursive price font */
 	text-shadow: 0 0 1em transparent, 0 -0.04em 0 #fff, 0.04em 0 0 #fff, 0 0.04em 0 #fff, -0.034em -0.024em 0 #fff, -0.03em -0.04em 0 #fff, -0.01em -0.04em 0 #fff, 0.052em -0.04em 0 #fff, 0.04em -0.04em 0 #fff, 0.02em -0.04em 0 #fff, 0.047em -0.025em 0 #fff, -0.045em 0.016em 0 #fff, -0.039em 0.038em 0 #fff, -0.052em 0.04em 0 #fff, -0.042em 0.04em 0 #fff, 0.031em 0.028em 0 #fff, 0.029em 0.04em 0 #fff, rgba(0, 0, 0, 0.2) 0.05em 0 0.05em, rgba(0, 0, 0, 0.2) 0 0.05em 0.05em, rgba(0, 0, 0, 0.2) 0.05em 0.05em 0.05em;
 }
-/* --------------------   End: PRICE  -------------------- */
-
-/* ---------- TIDIGARE PRISER JUNI 2016 ---------- */
-.crossed-price-wrapper .crossed-price-layer span {
-    font-size: 16px;
-    color: #000;
-}
 .crossed-price-wrapper .product-crossed-price {
-    color: #000;
     font-size: 30px;
     line-height: 30px;
     margin-left: 5px;
 }
 .crossed-price-wrapper .product-crossed-price:before {
-    width: 82%;
     height: 2px;
     top: 18px;
-    -ms-transform: rotate(-10deg);
     -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
     transform: rotate(-10deg);
+    width: 82%;
 }
+.crossed-price-wrapper .crossed-price-layer span {
+    color: #000;
+    font-size: 16px;
+}
+/* --------------------   End: PRICE  -------------------- */
+
 /* ---------- SÖK JUNI OCH AUGUSTI 2016 ---------- */
 
 .mrh-mobile-channel ul.content-link-list.level-1, .mrh-mobile-channel section.wrapper-full-width.bg-white.tab-categories, .mrh-mobile-channel section.wrapper-full-width.bg-white.tab-categories .grid, .mrh-mobile-channel div#filter-container, .mrh-mobile-channel a.current-category.mrh-accordion-headline.mrh-accordion-trigger {
