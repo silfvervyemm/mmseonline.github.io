@@ -47,11 +47,11 @@ h1, h2 {
     font-family: 'mmheadlinepro', 'mmtextboldpro', sans-serif;
 }
 
-h3, h4, h5, h6, b{
+h3, h4, h5, h6, b {
   font-family: 'mmtextboldpro', 'mmtextbold', sans-serif;
 }
 
-p, ul, li, a{
+p, ul, li, a {
   font-family: 'mmtextregularpro', 'mmtextregular', sans-serif;
 }
 
@@ -312,16 +312,16 @@ section.bg-white.status-red ul {
 a.button.background-type-1.async-layer-link {
     margin-top: 20px;
 }
-/* ------------------PRICE------------------------ */
-
-.price {
-    color: #000;
+/* -------------------- Start: PRICE  -------------------- */
+body .price,
+body .wrapper-price .price,
+body .pdp-product-info .wrapper-price .price,
+body .product-teaser-container .product-teaser-details .wrapper-price .price {
+	color: #000;
+	font-family: 'pricemm', 'mmtextboldpro', sans-serif;
+	text-shadow: 0 0 1em transparent, 0 -0.04em 0 #fff, 0.04em 0 0 #fff, 0 0.04em 0 #fff, -0.034em -0.024em 0 #fff, -0.03em -0.04em 0 #fff, -0.01em -0.04em 0 #fff, 0.052em -0.04em 0 #fff, 0.04em -0.04em 0 #fff, 0.02em -0.04em 0 #fff, 0.047em -0.025em 0 #fff, -0.045em 0.016em 0 #fff, -0.039em 0.038em 0 #fff, -0.052em 0.04em 0 #fff, -0.042em 0.04em 0 #fff, 0.031em 0.028em 0 #fff, 0.029em 0.04em 0 #fff, rgba(0, 0, 0, 0.2) 0.05em 0 0.05em, rgba(0, 0, 0, 0.2) 0 0.05em 0.05em, rgba(0, 0, 0, 0.2) 0.05em 0.05em 0.05em;
 }
-
-.pdp-product-info .wrapper-price .price{
-	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff, 2px 2px 1px rgba(147, 147, 147, 1);
-}
-
+/* --------------------   End: PRICE  -------------------- */
 
 /* ---------- TIDIGARE PRISER JUNI 2016 ---------- */
 .crossed-price-wrapper .crossed-price-layer span {
