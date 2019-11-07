@@ -255,7 +255,7 @@ li {
     overflow: visible;
     margin: 12px 0;
 }
-[for="idbillingAddressBusinessTitle"], [name="billingAddressBusinessTitle"], [name="businessTitle"], [for="idbusinessTitle"], [for="iddisplayName"], [for="idfax"] /* Dï¿½ljer irrelevanta saker i formulï¿½r */ {
+[for="idbillingAddressBusinessTitle"], [name="billingAddressBusinessTitle"], [name="businessTitle"], [for="idbusinessTitle"], [for="iddisplayName"], [for="idfax"] /* Döljer irrelevanta saker i formulär */ {
     display: none;
 }
 .mrh-button-passbook-container {
@@ -342,7 +342,7 @@ body .product-teaser-container .product-teaser-details .wrapper-price .price {
     -webkit-transform: rotate(-10deg);
     transform: rotate(-10deg);
 }
-/* ---------- SÃ–K JUNI OCH AUGUSTI 2016 ---------- */
+/* ---------- SÖK JUNI OCH AUGUSTI 2016 ---------- */
 
 .mrh-mobile-channel ul.content-link-list.level-1, .mrh-mobile-channel section.wrapper-full-width.bg-white.tab-categories, .mrh-mobile-channel section.wrapper-full-width.bg-white.tab-categories .grid, .mrh-mobile-channel div#filter-container, .mrh-mobile-channel a.current-category.mrh-accordion-headline.mrh-accordion-trigger {
     margin: 0 !important;
@@ -375,14 +375,14 @@ section.ingress {
 }
 /*-------------------------------Ingresser slut-----------------------*/
 
-/*--------------------Flyttad hit frÃ¥n HideMobileAppSearch fÃ¶r att minska antal CSS filer och  Ã¶ka laddningstid------------------*/
+/*-------------------- Flyttad hit från HideMobileAppSearch för att minska antal CSS filer och öka laddningstid ------------------*/
 .mrh-app-channel.mrh-pagetypeid-mobile_category .app-product-search {
     display: none;
 }
 /*--------------------------------------------------------------------------------------------------------------------------------*/
 
 
-/* ------------------ COOKIES maj 2018------------------ */
+/* ------------------ COOKIES maj 2018 ------------------ */
 .mrh-bottom-layer-stack-wrapper .cookies-banner {
     background: #dddddd;
 }
@@ -402,7 +402,7 @@ section.ingress {
 .cookies-banner .second-page-content.cookie-layer {
     padding-top: 24px;
 }
-/*----GÃ¶mmer instÃ¤llningar knappen i cookie layer mobil-----*/
+/*---- Gömmer inställningar-knappen i cookie layer mobil-----*/
 a.button.background-type-2.set-up-cookies.second-cookie-btn {
     display: none;
 }
@@ -412,7 +412,7 @@ a.button.background-type-1.accept-cookies.first-cookie-btn {
 }
 /*-----------------------------------------------------------*/
 
-/*---------------------Styling fÃ¶r Sidorna AnvÃ¤ndarvillkor 2018 fÃ¶r GDPR---------------------*/
+/*---------------------Styling för sidorna användarvillkor 2018 för GDPR---------------------*/
 .layer-wrapper.common h2 {
     padding: 12px 0 22px 0;
 }
