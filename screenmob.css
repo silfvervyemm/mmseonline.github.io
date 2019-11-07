@@ -61,6 +61,7 @@ p, ul, li, a {
 body .price,
 body .wrapper-price .price,
 body .pdp-product-info .wrapper-price .price,
+body .crossed-price-wrapper .product-crossed-price,
 body .product-teaser-container .product-teaser-details .wrapper-price .price {
 	color: #000;
 	font-family: 'pricemm', 'mmtextboldpro', sans-serif;
@@ -71,22 +72,22 @@ body .product-teaser-container .product-teaser-details .wrapper-price .price {
 body .product-teaser-container .product-teaser-details .wrapper-price {
     font-weight: normal;
 }
-.crossed-price-wrapper .product-crossed-price {
+body .crossed-price-wrapper .product-crossed-price {
     font-size: 30px;
     line-height: 30px;
     margin-left: 5px;
 }
-.crossed-price-wrapper .product-crossed-price:before {
+body .crossed-price-wrapper .crossed-price-layer span {
+    color: #000;
+    font-size: 16px;
+}
+body .pdp-product-info .crossed-price-wrapper .product-crossed-price:before {
     height: 2px;
-    top: 18px;
+    top: 50%;
     -webkit-transform: rotate(-10deg);
     -ms-transform: rotate(-10deg);
     transform: rotate(-10deg);
     width: 82%;
-}
-.crossed-price-wrapper .crossed-price-layer span {
-    color: #000;
-    font-size: 16px;
 }
 /* --------------------   End: PRICE  -------------------- */
 
