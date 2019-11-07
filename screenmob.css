@@ -734,55 +734,6 @@ span.redtext {
 	padding: 0 5px 5px 5px;
 }
 
-/*---------------------- OUTLET ----------------------------------------*/
-
-a.site-navigation2__link[data-tracking="outlet"] {
-    background-image: url('https://perf.mediamarkt.se/static/icons/background_outlet_small.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    text-align: center;
-    margin-left: 3px;
-    margin-bottom: -2px;
-    color: #df0000;
-}
-a.site-navigation2__link[data-tracking="outlet_head"] .site-navigation2__link-label {
-    margin-bottom: 2px;
-}
-a.site-navigation2__link[data-tracking="outlet_head"] .site-navigation2__link-label:hover {
-    text-decoration: none;
-}
-.site-navigation2--dropdown a.site-navigation2__link[data-tracking="outlet_head"]:hover {
-    text-decoration: none;
-}
-.site-navigation2__child-item[data-tracking-nav="outlet_nav"] a {
-    color: #df0000;
-}
-
-@media screen and (max-width: 990px) {
-a.site-navigation2__link[data-tracking="outlet_head"] {
-    display: none;
-    color: #df0000;
-}
-.site-navigation2__child-item[data-tracking-nav="outlet_nav"] a {
-    background-image: url('https://mediamarkt.se/static/icons/background_outlet_big.png');
-    background-repeat: repeat;
-    background-size: cover;
-    background-position: unset;
-    text-align: left;
-    color: #df0000;
-}
-.site-navigation2__child-item[data-tracking-nav="outlet_nav"] {
-    border-color: transparent;
-}
-.site-navigation2__child-item[data-tracking-nav="outlet_nav"] a .site-navigation2__link-label:after {
-    color: #df0000;
-}
-.site-navigation2__item {
-    border-color: transparent;
-}
-}
-
 /* CMS PRODUCT GRID */
 
 .cms-products-grid .ct-products-grid>li .base-info .price {
