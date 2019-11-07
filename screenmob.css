@@ -90,6 +90,20 @@ body .product-teaser-container .product-teaser-details .wrapper-price {
 }
 /* --------------------   End: PRICE  -------------------- */
 
+/* -------------------- Start: PDP -------------------- */
+body .pdp-slider .swiper-container {
+    /* == Based on the image ratio in combination with viewport width (vw)
+     *    we propose a minimum height to the container to avoid a jumping
+     *    and flickering PDP layout when loading
+     *
+     *    Image ratio (based on mobile_580_430_png)
+     *    (430/580) = 0.74137931
+     *    0.74137931 * 100 = 74.137931034
+     */
+    min-height: 74.137931034vw;
+}
+/* --------------------   End: PDP -------------------- */
+
 #logo > a {
     display: block;
     background: transparent url('images/general/mm-logo.png') no-repeat 0 50% !important;
