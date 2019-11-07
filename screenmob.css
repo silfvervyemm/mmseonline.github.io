@@ -19,28 +19,28 @@
 @font-face {
     font-family: 'sourcesanspro-regular';
     font-weight: normal;
-    src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.eot");
-    src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.eot?#iefix") format("embedded-opentype"),
-         url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.woff2") format("woff2"),
-         url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.woff") format("woff"),
-         url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.ttf") format("truetype"),
-         url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.svg#svg") format("svg");
+    src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.eot');
+    src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.woff2') format('woff2'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.woff') format('woff'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.ttf') format('truetype'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.svg#svg') format('svg');
 }
 @font-face {
-    font-family: "pricemm";
-    src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.eot");
-    src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.eot?#iefix") format("embedded-opentype"),
-         url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.woff2") format("woff2"),
-         url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.woff") format("woff"),
-         url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.ttf") format("truetype"),
-         url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.svg#svg") format("svg")
+    font-family: 'pricemm';
+    src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.eot');
+    src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.eot?#iefix') format('embedded-opentype'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.woff2') format('woff2'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.woff') format('woff'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.ttf') format('truetype'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.svg#svg') format('svg')
 }
 @font-face {
-    font-family:"mm-icons";
-    src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.eot");
-    src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.eot?#iefix") format("embedded-opentype"),
-         url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.woff2") format("woff2"),
-         url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.woff") format("woff")
+    font-family:'mm-icons';
+    src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.eot');
+    src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.eot?#iefix') format('embedded-opentype'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.woff2') format('woff2'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.woff') format('woff')
 }
 
 h1, h2 {
@@ -57,7 +57,7 @@ p, ul, li, a {
 
 #logo > a {
     display: block;
-    background: transparent url("images/general/mm-logo.png") no-repeat 0 50% !important;
+    background: transparent url('images/general/mm-logo.png') no-repeat 0 50% !important;
     background-size: auto 19px;
     width: 165px;
     height: 30px;
@@ -319,6 +319,7 @@ body .pdp-product-info .wrapper-price .price,
 body .product-teaser-container .product-teaser-details .wrapper-price .price {
 	color: #000;
 	font-family: 'pricemm', 'mmtextboldpro', sans-serif;
+    padding-right: 0.25em; /* == Make some room for the :- characters in a cursive price font */
 	text-shadow: 0 0 1em transparent, 0 -0.04em 0 #fff, 0.04em 0 0 #fff, 0 0.04em 0 #fff, -0.034em -0.024em 0 #fff, -0.03em -0.04em 0 #fff, -0.01em -0.04em 0 #fff, 0.052em -0.04em 0 #fff, 0.04em -0.04em 0 #fff, 0.02em -0.04em 0 #fff, 0.047em -0.025em 0 #fff, -0.045em 0.016em 0 #fff, -0.039em 0.038em 0 #fff, -0.052em 0.04em 0 #fff, -0.042em 0.04em 0 #fff, 0.031em 0.028em 0 #fff, 0.029em 0.04em 0 #fff, rgba(0, 0, 0, 0.2) 0.05em 0 0.05em, rgba(0, 0, 0, 0.2) 0 0.05em 0.05em, rgba(0, 0, 0, 0.2) 0.05em 0.05em 0.05em;
 }
 /* --------------------   End: PRICE  -------------------- */
@@ -506,7 +507,7 @@ p.intro {
     font-size: 21px;
     line-height: 21px;
     color: #000;
-    content: url(https://www.mediamarkt.se/static/img/icons/pil_ner_svart.png);
+    content: url('https://www.mediamarkt.se/static/img/icons/pil_ner_svart.png');
     display: block;
     position: absolute;
     text-indent: 0;
@@ -548,7 +549,7 @@ p.intro {
     position: relative;
 }
 .fsd-accordion dd ul li:before {
-    content: ' ';
+    content: " ";
     width: 3px;
     height: 3px;
     background: black;
@@ -565,7 +566,7 @@ p.intro {
     border-bottom-color: #DF0000;
 }
 .accordion-title {
-    background: url(//picscdn.redblue.de/doi/msh-pixelboxx-553487607/feecms_x_x_x) no-repeat;
+    background: url('//picscdn.redblue.de/doi/msh-pixelboxx-553487607/feecms_x_x_x') no-repeat;
 }
 .accordion-title {
     margin-top: -1px;
@@ -661,7 +662,7 @@ ul.site-navigation2__list li {
 }
 
 .button.background-type-2.dropdown-wrapper span:after {
-    background: url("images/css_sprites.png") no-repeat -7px -40px rgba(0,0,0,0);
+    background: url('images/css_sprites.png') no-repeat -7px -40px rgba(0,0,0,0);
     background-size: 120px auto;
     top: 12px;
     right: 0px;
@@ -679,12 +680,12 @@ a.category-breadcrumb, a.category-breadcrumb:link, a.category-breadcrumb:visited
     color: #df0000;
 }
 a.category-breadcrumb:before {
-    content: '...';
+    content: "...";
     margin-bottom: 4px;
     margin-right: 0px;
 }
 a.category-breadcrumb:after {
-    background: url(http://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png) no-repeat scroll -404px -25px;
+    background: url('http://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png') no-repeat scroll -404px -25px;
     width: 5px;
     height: 10px;
     display: inline-block;
@@ -716,8 +717,8 @@ span.redtext {
 
 /*---------------------- OUTLET ----------------------------------------*/
 
-a.site-navigation2__link[data-tracking='outlet'] {
-    background-image: url(https://perf.mediamarkt.se/static/icons/background_outlet_small.png);
+a.site-navigation2__link[data-tracking="outlet"] {
+    background-image: url('https://perf.mediamarkt.se/static/icons/background_outlet_small.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -726,13 +727,13 @@ a.site-navigation2__link[data-tracking='outlet'] {
     margin-bottom: -2px;
     color: #df0000;
 }
-a.site-navigation2__link[data-tracking='outlet_head'] .site-navigation2__link-label {
+a.site-navigation2__link[data-tracking="outlet_head"] .site-navigation2__link-label {
     margin-bottom: 2px;
 }
-a.site-navigation2__link[data-tracking='outlet_head'] .site-navigation2__link-label:hover {
+a.site-navigation2__link[data-tracking="outlet_head"] .site-navigation2__link-label:hover {
     text-decoration: none;
 }
-.site-navigation2--dropdown a.site-navigation2__link[data-tracking='outlet_head']:hover {
+.site-navigation2--dropdown a.site-navigation2__link[data-tracking="outlet_head"]:hover {
     text-decoration: none;
 }
 .site-navigation2__child-item[data-tracking-nav="outlet_nav"] a {
@@ -740,12 +741,12 @@ a.site-navigation2__link[data-tracking='outlet_head'] .site-navigation2__link-la
 }
 
 @media screen and (max-width: 990px) {
-a.site-navigation2__link[data-tracking='outlet_head'] {
+a.site-navigation2__link[data-tracking="outlet_head"] {
     display: none;
     color: #df0000;
 }
 .site-navigation2__child-item[data-tracking-nav="outlet_nav"] a {
-    background-image: url(https://mediamarkt.se/static/icons/background_outlet_big.png);
+    background-image: url('https://mediamarkt.se/static/icons/background_outlet_big.png');
     background-repeat: repeat;
     background-size: cover;
     background-position: unset;
@@ -794,10 +795,10 @@ a.site-navigation2__link[data-tracking='outlet_head'] {
     color: #df0000;
 }
 .cms-products-grid .pavailability ul li:before {
-    background: url(images/greenbox.png) no-repeat !important;
+    background: url('images/greenbox.png') no-repeat !important;
     background-size: 16px 16px !important;
     background-position: center;
-    content: '.';
+    content: ".";
     padding: 0 0px 3px 19px;
     color: transparent;
 }
@@ -897,7 +898,7 @@ a.site-navigation2__link[data-tracking='outlet_head'] {
     top: 10px;
     right: unset;
     left: 5px;
-    background: url(https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png) no-repeat scroll -582px -32px transparent;
+    background: url('https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png') no-repeat scroll -582px -32px transparent;
     width: 21px;
     height: 16px;
 }
@@ -916,7 +917,7 @@ a.site-navigation2__link[data-tracking='outlet_head'] {
     padding: 3px 18px 1px 28px!important;
 }
 .ct-modal--show .button.add-to-cart:hover:before {
-    background: url(https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png) no-repeat scroll -581px -5px transparent !important;
+    background: url('https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png') no-repeat scroll -581px -5px transparent !important;
 }
 .ct-modal--show .product-short-details .action-box .details:hover {
     padding: 4px 10px 3px 10px!important;
@@ -925,7 +926,7 @@ a.site-navigation2__link[data-tracking='outlet_head'] {
     color: #df0000;
 }
 .ct-modal--show .product-short-details .action-box .details:hover .button span:after {
-    background: url(images/general/sprites.png) no-repeat scroll -52px -1px transparent !important;
+    background: url('images/general/sprites.png') no-repeat scroll -52px -1px transparent !important;
 }
 .ct-modal--show .product-short-details .product-details dd {
     width: 240px;
@@ -968,7 +969,7 @@ a.site-navigation2__link[data-tracking='outlet_head'] {
     width: 35% !important;
     margin: 0px !important;
     text-indent: 9999px;
-    background-image: url(https://www.mediamarkt.se/static/icons/heart.png);
+    background-image: url('https://www.mediamarkt.se/static/icons/heart.png');
     background-repeat: no-repeat;
     background-size: 25px 23px;
     background-position: center;
@@ -999,12 +1000,12 @@ a.site-navigation2__link[data-tracking='outlet_head'] {
 /* RATINGS */
 
 .rating {
-    background-image: url(https://www.mediamarkt.se/static/icons/ratingyellowgrey.png);
+    background-image: url('https://www.mediamarkt.se/static/icons/ratingyellowgrey.png');
     background-position: 0px 2px;
 }
 
 .rating div {
-    background-image: url(https://www.mediamarkt.se/static/icons/ratingyellowgrey.png);
+    background-image: url('https://www.mediamarkt.se/static/icons/ratingyellowgrey.png');
     background-position: 0 -7px;
 }
 
