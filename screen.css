@@ -3269,7 +3269,7 @@ border: 1px solid #ddd;
 }
 
 .swogo-price span {
-    font-family: 'Mediamarkt';
+    font-family: 'pricemm', 'mmtextboldpro', sans-serif;
 }
 .premiumopts.extend-guarantee ul li {
 padding: 0;
