@@ -105,6 +105,23 @@ body .pdp-slider .swiper-container {
 }
 /* --------------------   End: PDP -------------------- */
 
+/* -------------------- Start: Header -------------------- */
+body .ms-header2 {
+    background-image: none;
+}
+body .ms-header2--glued.ms-glue--fixed:not(.ms-header2--nav-active) {
+    box-shadow: 0 .2rem .6rem rgba(0,0,0,.2);
+}
+@media (min-width: 61.875em) {
+    body .ms-header2 {
+        border-bottom-width: 1px;
+    }
+    body .ms-header2--glued.ms-glue--fixed:not(.ms-header2--nav-active) {
+        box-shadow: 0 .2rem .6rem rgba(0,0,0,.2);
+    }
+}
+/* --------------------   End: Header -------------------- */
+
 #logo > a {
     display: block;
     background: transparent url('images/general/mm-logo.png') no-repeat 0 50% !important;
