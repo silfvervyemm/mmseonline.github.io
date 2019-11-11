@@ -51,7 +51,7 @@ font-weight: normal;
 font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
 }
 #filters span {
-font-family: 'mmtextregularpro', sans-serif;
+font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
 }
 
 .box.infobox.availability span{
@@ -2731,27 +2731,15 @@ padding-left: 28px;
 }
 #filters .active h2 a:after, #filters .active .headline a:after {
 background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") no-repeat scroll -538px -88px transparent!important;
-height: 22px !important;
-width: 22px !important;
 content: ".";
-position: absolute;
-margin: 0 !important;
-text-indent: -999em;
-}
-#filters .active h2 a:hover:after, #filters .active .headline a:hover:after {
-background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") no-repeat scroll -538px -110px transparent!important;
 }
 #filters h2 a:after, #filters .headline a:after {
 background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") no-repeat scroll -538px -44px transparent!important;
 height: 22px !important;
 width: 22px !important;
 content: ".";
-position: absolute;
-margin: 0 !important;
-text-indent: -999em;
-}
-#filters h2 a:hover:after, #filters .headline a:hover:after {
-background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") no-repeat scroll -538px -66px transparent!important;
+left: 0px;
+top: 2px;
 }
 #product-details .product-anchors {
 background: #fff;
@@ -5773,6 +5761,16 @@ position: absolute;
 top: 50%;
 left: 0px;
 }
+
+.breadcrumbs li.home a {
+background: url("images/sprites.png") no-repeat scroll -164px -42px transparent;
+height: 10px;
+width: 11px;
+margin-top: -5px;
+position: absolute;
+top: 50%;
+left: 0px;
+}
 /**** Catagory Infield ****/
 .side .contentspot {
 padding: 0 0 12px;
@@ -6369,23 +6367,12 @@ border: none;
 #filters h2, #filters h2 a, #filters .headline {
 color: #000;
 }
-#filters h2 a:after, #filters .headline a:after {
-left: 0;
-background: url("images/general/sprites.png") no-repeat scroll -390px -40px transparent;
-height: 8px;
-width: 6px;
-top: 2px;
-}
 #filters h2 a:hover:after, #filters .headline a:hover:after {
 height: 6px;
 width: 8px;
 background-position: -127px -43px;
 }
-#filters fieldset {
-border-bottom: 1px solid #dddddd;
-width: 213px;
-padding: 12px 0 0 0;
-}
+
 #filters .icon {
 float: right;
 margin-top: 0;
@@ -6485,12 +6472,7 @@ font-size: 13px;
 background: none;
 border: none;
 }
-#filters .content .button:after {
-background: url("images/general/sprites.png") no-repeat scroll -28px -8px transparent;
-width: 7px;
-height: 8px;
-margin: -4px 0 0 -2px;
-}
+
 #filters.state-off .toggle-sidebar {
 width: 30px;
 height: 27px;
