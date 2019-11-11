@@ -2290,11 +2290,6 @@ width: 110% !important;
 /* -------------------------------------
 					 Responsivitet
 --------------------------------------*/
-@media (min-width: 1200px) {
-#product-sidebar .sidebar-form form {
-	margin-bottom: 0;
-}
-}
 @media (max-width: 1200px) {
 .m01 .textsektion {
 	width: 270px;
@@ -3398,9 +3393,6 @@ text-decoration: underline;
 #product-details .details .more:before {
 background: none;
 }
-#product-sidebar .sidebar-form .price-details {
-text-align: left;
-}
 #product-details .price-sidebar .online-finance {
 margin: 0;
 }
@@ -3412,7 +3404,8 @@ label.product-attributes__item-label {
 #product-sidebar .product-name {
 color: #000;
 font-size: 18px;
-padding-top: 10px;
+padding: 15px 0px 5px 0px;
+font-family: 'mmtextboldpro';
 }
 #product-sidebar .fullscreen:after {
 background: url("images/sprites.png") no-repeat scroll -136px 0 transparent;
@@ -5541,7 +5534,7 @@ font-size: 14px;
 height: 37px !important;
 }
 .button.large span {
-line-height: 36px !important;
+line-height: 46px !important;
 }
 /*Buttons Icons*/
 .button.gray span:after {
@@ -6828,7 +6821,7 @@ margin: 12px 0 12px 0;
 }
 /***** Spezikikation *****/
 .specification dt {
-padding: 5px 5px 5px 30px;
+padding: 5px 5px 5px 25px;
 color: #555555;
 }
 .specification.energy-efficiency dt {
@@ -8549,15 +8542,17 @@ margin: 20px 0 0 0;
 	width: 804px;
 }
 .responsive #product-sidebar .sidebar-form .price-details {
-	float: left;
 	width: 100%;
 }
 .responsive #product-sidebar .sidebar-form .price-button {
 	bottom: 10px;
 	float: left;
 	top: auto;
-	width: auto;
+	width: 200px;
 	position: static;
+}
+.responsive #product-sidebar .sidebar-form .price-button a.button.large.block.add-to-cart span {
+    text-align: center;
 }
 .responsive .my-account.wishlist .content .action .sort {
 	margin-left: 560px;
@@ -8669,7 +8664,7 @@ span.opt-value:after {
 }
 /***** IE10 *****/
 .ie10 .button.large span, .ie8 .button.large span {
-	line-height: 36px;
+	line-height: 46px;
 }
 /***** Dummy Display none *****/
 .more-details {
