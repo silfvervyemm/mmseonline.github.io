@@ -5761,6 +5761,16 @@ position: absolute;
 top: 50%;
 left: 0px;
 }
+
+.breadcrumbs li.home a {
+background: url("images/sprites.png") no-repeat scroll -164px -42px transparent;
+height: 10px;
+width: 11px;
+margin-top: -5px;
+position: absolute;
+top: 50%;
+left: 0px;
+}
 /**** Catagory Infield ****/
 .side .contentspot {
 padding: 0 0 12px;
@@ -6462,12 +6472,7 @@ font-size: 13px;
 background: none;
 border: none;
 }
-#filters .content .button:after {
-background: url("images/general/sprites.png") no-repeat scroll -28px -8px transparent;
-width: 7px;
-height: 8px;
-margin: -4px 0 0 -2px;
-}
+
 #filters.state-off .toggle-sidebar {
 width: 30px;
 height: 27px;
