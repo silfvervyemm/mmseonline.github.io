@@ -462,19 +462,7 @@ background: none !important;
 -o-transition: .2s ease-in-out;
 transition: .2s ease-in-out;
 }
-.button.arrow span:after {
-height: 10px !important;
-right: 8px !important;
-top: 9px !important;
-width: 7px !important;
-content: ".";
-position: absolute;
-margin: 0 !important;
-text-indent: -999em;
-}
-.button.arrow:hover span:after {
-background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") -402px -13px no-repeat scroll !important;
-}
+
 .button.arrow:hover {
 color: #df0000;
 }
@@ -2690,12 +2678,7 @@ text-indent: -999em;
 -o-transition: .2s ease-in-out;
 transition: .2s ease-in-out;
 }
-.to-details.button.arrow span:after, #product-preview .button.arrow span:after {
-background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") no-repeat scroll -415px -13px transparent!important;
-}
-.to-details.button:hover.arrow span:after, #product-preview .button:hover.arrow span:after {
-background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") no-repeat scroll -403px -13px transparent!important;
-}
+
 #header .basket .content .buttons .button span {
 padding: 0 11px 0 32px!important;
 }
@@ -5423,17 +5406,6 @@ height: 37px !important;
 line-height: 36px !important;
 }
 /*Buttons Icons*/
-.button span:after {
-background: url("images/general/sprites.png") no-repeat scroll -386px -20px transparent !important;
-height: 7px !important;
-right: 8px !important;
-top: 11px !important;
-width: 5px !important;
-content: ".";
-position: absolute;
-margin: 0 !important;
-text-indent: -999em;
-}
 .button.gray span:after {
 background-position: -98px -35px !important;
 height: 7px !important;
@@ -6119,9 +6091,6 @@ margin-right: 10px !important;
 line-height: 26px !important;
 padding: 0 7px 0 0 !important;
 font-family: 'mmtextregularpro', sans-serif;
-}
-.products-list > li .product-price .buttons .button + .button span:after {
-right: 5px !important;
 }
 .products-list > li .product-price .add-to-cart:before {
 background: url("images/general/sprites.png") no-repeat scroll -365px 0 transparent !important;
