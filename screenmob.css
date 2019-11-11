@@ -48,10 +48,10 @@ h1, h2 {
     font-family: 'mmtextboldpro', sans-serif;
 }
 h3, h4, h5, h6, b {
-  font-family: 'mmtextboldpro', 'mmtextbold', sans-serif;
+    font-family: 'mmtextboldpro', sans-serif;
 }
 p, ul, li, a {
-  font-family: 'mmtextregularpro', 'mmtextregular', sans-serif;
+    font-family: 'mmtextregularpro', sans-serif;
 }
 /* -------------------- End: Typography   -------------------- */
 
