@@ -434,7 +434,7 @@ border-bottom: 0 solid #DDDDDD;
 padding-bottom: 20px;
 }
 .select2-container .select2-choice, .select2-container .select2-choice .select2-arrow, .select2-container.select2-container-disabled .select2-choice {
-background: url("images/general/select.png") no-repeat scroll 0 0 transparent;
+background: url("images/select.png") no-repeat scroll 0 0 transparent;
 height: 26px;
 }
 #continue-shopping.button span:after { /* Forts�tt handla knapp n�r man l�ggar n�got i varukorgen */
@@ -462,19 +462,7 @@ background: none !important;
 -o-transition: .2s ease-in-out;
 transition: .2s ease-in-out;
 }
-.button.arrow span:after {
-height: 10px !important;
-right: 8px !important;
-top: 9px !important;
-width: 7px !important;
-content: ".";
-position: absolute;
-margin: 0 !important;
-text-indent: -999em;
-}
-.button.arrow:hover span:after {
-background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") -402px -13px no-repeat scroll !important;
-}
+
 .button.arrow:hover {
 color: #df0000;
 }
@@ -2690,12 +2678,7 @@ text-indent: -999em;
 -o-transition: .2s ease-in-out;
 transition: .2s ease-in-out;
 }
-.to-details.button.arrow span:after, #product-preview .button.arrow span:after {
-background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") no-repeat scroll -415px -13px transparent!important;
-}
-.to-details.button:hover.arrow span:after, #product-preview .button:hover.arrow span:after {
-background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") no-repeat scroll -403px -13px transparent!important;
-}
+
 #header .basket .content .buttons .button span {
 padding: 0 11px 0 32px!important;
 }
@@ -3057,7 +3040,7 @@ left: 17px;
 height: 20px;
 }
 .button.add-to-cart:hover:before {
-background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") no-repeat scroll -561px -0px transparent !important;
+background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") no-repeat scroll -560px -0px transparent !important;
 }
 .products-grid .button.add-to-cart:hover:before { /*So the above doesn't add extra :before icon to this one */
 background: none!important;
@@ -3185,15 +3168,7 @@ padding-top: 5px;
 padding: 0 !important;
 border: none;
 }
-/* ----- PIL NER ----- */
-#filters .content .categories-tree-has-descendants::before {
-background: url("images/general/filter-pil-ner.png") 2px 4px no-repeat;
-top: 6px;
-}
-/* ----- PIL VÄNSTER ----- */
-#filters .content .categories-tree-ancestors a::before {
-display: none;
-}
+
 /*================= Sure Thing 2016 =================*/
 .premiumboxes {
 display: inline-block;
@@ -3413,7 +3388,7 @@ border: none;
 text-decoration: underline;
 }
 #product-details .options a:before {
-background: url("images/general/sprites.png") no-repeat scroll 0 0 transparent;
+background: url("images/sprites.png") no-repeat scroll 0 0 transparent;
 }
 #product-details .options .print a:before {
 background-position: -249px -25px;
@@ -3459,7 +3434,7 @@ font-size: 18px;
 padding-top: 10px;
 }
 #product-sidebar .fullscreen:after {
-background: url("images/general/sprites.png") no-repeat scroll -136px 0 transparent;
+background: url("images/sprites.png") no-repeat scroll -136px 0 transparent;
 }
 #product-sidebar .thumbs a {
 width: 55px;
@@ -3475,7 +3450,7 @@ height: auto;
 border-color: #df0000;
 }
 #product-sidebar .thumbs .video a:after, #product-sidebar .thumbs .deg360 a:after, #gallery-view footer .thumbs .video a:after, #gallery-view footer .thumbs .deg360 a:after {
-background: url("images/general/sprites.png") no-repeat scroll -77px -44px transparent;
+background: url("images/sprites.png") no-repeat scroll -77px -44px transparent;
 width: 7px;
 height: 10px;
 }
@@ -3572,7 +3547,7 @@ margin: 0 20px 0 0;
 margin: 5px 5px 0 0;
 }
 .button.rate-product:before {
-background: url("images/general/sprites.png") no-repeat scroll -112px -31px transparent;
+background: url("images/sprites.png") no-repeat scroll -112px -31px transparent;
 }
 #product-details .product-reviews .button.gray.arrow {
 margin: 8px 0 30px;
@@ -4261,7 +4236,7 @@ border: 1px solid #ddd;
 color: #df0000;
 }
 .ct-modal--show .product-short-details .action-box .details:hover .button span:after {
-background: url(images/general/sprites.png) no-repeat scroll -52px -1px transparent !important;
+background: url(images/sprites.png) no-repeat scroll -52px -1px transparent !important;
 }
 .ct-modal--show .product-short-details .product-details dd {
 width: 240px;
@@ -4496,7 +4471,7 @@ display: none;
 }
 .page-categorycontent #filters .categories li.active:after {
 content: "";
-background: url('images/general/plus.png') no-repeat;
+background: url('images/plus.png') no-repeat;
 background-size: 10px 10px;
 height: 10px;
 width: 10px;
@@ -4518,7 +4493,7 @@ opacity: 0.5;
 }
 .page-categorycontent #filters .categories li.active:hover:after {
 content: "";
-background: url('images/general/plus.png') no-repeat;
+background: url('images/plus.png') no-repeat;
 background-size: 10px 10px;
 height: 10px;
 width: 10px;
@@ -4529,7 +4504,7 @@ opacity: 1;
 }
 .page-categorycontent #filters .categories li.active.child-active.visible:after {
 content: "";
-background: url('images/general/minus.png') no-repeat;
+background: url('images/minus.png') no-repeat;
 background-size: 10px 10px;
 height: 10px;
 width: 10px;
@@ -4551,7 +4526,7 @@ opacity: 0.5;
 }
 .page-categorycontent #filters .categories li.active.child-active.visible:hover:after {
 content: "";
-background: url('images/general/minus.png') no-repeat;
+background: url('images/minus.png') no-repeat;
 background-size: 10px 10px;
 height: 10px;
 width: 10px;
@@ -5369,7 +5344,7 @@ caption, th, td {
 font-weight: normal !important;
 }
 .product-container .products-carousel.loading, #all-markets-box.loading, .product-container-vertical .products-vertical-list.loading, .info-window .layer-loading, #loading .spinner {
-background: url("images/general/mm-loader.gif") no-repeat 50% 50% rgba(0, 0, 0, 0);
+background: url("images/mm-loader.gif") no-repeat 50% 50% rgba(0, 0, 0, 0);
 }
 .infield.cf {
 margin-bottom: -12px;
@@ -5423,17 +5398,6 @@ height: 37px !important;
 line-height: 36px !important;
 }
 /*Buttons Icons*/
-.button span:after {
-background: url("images/general/sprites.png") no-repeat scroll -386px -20px transparent !important;
-height: 7px !important;
-right: 8px !important;
-top: 11px !important;
-width: 5px !important;
-content: ".";
-position: absolute;
-margin: 0 !important;
-text-indent: -999em;
-}
 .button.gray span:after {
 background-position: -98px -35px !important;
 height: 7px !important;
@@ -5456,7 +5420,7 @@ width: 7px!important;
 padding: 0 10px 0 28px !important;
 }
 .button.client-advisor:before {
-background: url("images/general/sprites.png") no-repeat scroll -208px -36px transparent;
+background: url("images/sprites.png") no-repeat scroll -208px -36px transparent;
 }
 .button.client-advisor span:after {
 background: none!important;
@@ -5472,7 +5436,7 @@ border: none;
 padding: 0 10px 0 28px !important;
 }
 .button.print:before {
-background: url("images/general/sprites.png") no-repeat scroll -249px -26px transparent;
+background: url("images/sprites.png") no-repeat scroll -249px -26px transparent;
 top: 6px;
 height: 15px;
 }
@@ -5515,7 +5479,7 @@ background: none!important;
 margin: -1px 0 0 !important;
 }
 .button.trash:before {
-background: url("images/general/sprites.png") no-repeat scroll -320px -36px transparent;
+background: url("images/sprites.png") no-repeat scroll -320px -36px transparent;
 height: 16px;
 top: 5px;
 left: 6px;
@@ -5553,7 +5517,7 @@ left: 1%;
 background: none;
 }
 .go-up {
-background: url("images/general/up.png") no-repeat scroll 100% 0 transparent;
+background: url("images/up.png") no-repeat scroll 100% 0 transparent;
 height: 21px;
 line-height: 21px;
 padding: 0 28px 0 0;
@@ -5564,7 +5528,7 @@ color: #7E7E7E;
 background-position: 100% -21px;
 }
 .icon {
-background: url("images/general/sprites.png") no-repeat scroll -193px -35px;
+background: url("images/sprites.png") no-repeat scroll -193px -35px;
 }
 .tooltip_value {
 text-decoration: underline;
@@ -5608,13 +5572,13 @@ margin-left: 0;
 color: #797979;
 }
 #infobar .wrapper > ul a:after {
-background: url("images/general/sprites.png") no-repeat scroll -98px -35px transparent;
+background: url("images/sprites.png") no-repeat scroll -98px -35px transparent;
 width: 5px;
 height: 7px;
 margin: -3px 0 0;
 }
 #infobar .wrapper .close {
-background: url("images/general/close.png") repeat scroll 0 -31px transparent;
+background: url("images/close.png") repeat scroll 0 -31px transparent;
 }
 #infobar .wrapper .close:hover {
 background-position: 0 -31px;
@@ -5753,7 +5717,7 @@ position: relative;
 margin: 0;
 }
 .breadcrumbs li.home a {
-background: url("images/general/sprites.png") no-repeat scroll -164px -42px transparent;
+background: url("images/sprites.png") no-repeat scroll -164px -42px transparent;
 height: 10px;
 width: 11px;
 margin-top: -5px;
@@ -5795,7 +5759,7 @@ text-decoration: none;
 color: #df0000;
 }
 .infield li h2 a:after {
-background: url("images/general/sprites.png") no-repeat scroll -92px -35px transparent;
+background: url("images/sprites.png") no-repeat scroll -92px -35px transparent;
 content: ".";
 height: 7px;
 position: absolute;
@@ -5870,7 +5834,7 @@ text-align: left;
 color: #000;
 }
 .product-container-vertical .pos {
-background: url("images/general/sprites.png") no-repeat scroll -226px -141px transparent;
+background: url("images/sprites.png") no-repeat scroll -226px -141px transparent;
 width: 25px;
 height: 21px;
 color: #000000;
@@ -5955,7 +5919,7 @@ text-align: left;
 margin: 0 7px 0 0;
 }
 #product-preview .content .b-set .button.add-to-cart:before {
-background: url("images/general/sprites.png") no-repeat scroll -365px 0 transparent;
+background: url("images/sprites.png") no-repeat scroll -365px 0 transparent;
 height: 16px;
 left: 7px;
 top: 5px;
@@ -6082,7 +6046,7 @@ background: none;
 text-decoration: underline;
 }
 .products-list > li footer ul li a:before {
-background: url("images/general/sprites.png") no-repeat scroll 0 0 transparent;
+background: url("images/sprites.png") no-repeat scroll 0 0 transparent;
 }
 .products-list > li footer ul li.remove-wishlist a:before {
 background-position: -249px 0;
@@ -6120,18 +6084,15 @@ line-height: 26px !important;
 padding: 0 7px 0 0 !important;
 font-family: 'mmtextregularpro', sans-serif;
 }
-.products-list > li .product-price .buttons .button + .button span:after {
-right: 5px !important;
-}
 .products-list > li .product-price .add-to-cart:before {
-background: url("images/general/sprites.png") no-repeat scroll -365px 0 transparent !important;
+background: url("images/sprites.png") no-repeat scroll -365px 0 transparent !important;
 width: 20px !important;
 height: 16px !important;
 left: 7px !important;
 top: 5px !important;
 }
 .products-list > li .product-price .add-to-cart:after {
-background: url("images/general/sprites.png") no-repeat scroll -386px -20px transparent !important;
+background: url("images/sprites.png") no-repeat scroll -386px -20px transparent !important;
 right: 8px !important;
 height: 7px !important;
 width: 6px !important;
@@ -6279,17 +6240,17 @@ color: #ff9900;
 }
 /*Lagerstatus i varukorg*/
 .cproduct .cproduct-info .description h4.delivery:before {
-background: url("images/general/bock-i-cirkel-green.png") no-repeat !important;
+background: url("images/bock-i-cirkel-green.png") no-repeat !important;
 background-size: 16px 18px !important;
 /*top: 36%;*/
 }
 .cproduct .cproduct-info .description h4.false:before {
-background: url("images/general/klocka_orange.png") no-repeat !important;
+background: url("images/klocka_orange.png") no-repeat !important;
 background-size: 16px 18px !important;
 }
 /* Enercy Usage */
 .installment-compact .label, .installment-compact .value {
-background: url("images/general/sprites.png") no-repeat scroll -49px -303px transparent;
+background: url("images/sprites.png") no-repeat scroll -49px -303px transparent;
 text-align: left;
 font-weight: normal;
 text-shadow: none;
@@ -6420,7 +6381,7 @@ line-height: 22px;
 font-size: 13px;
 }
 .filters li:before {
-background: url("images/general/sprites.png") no-repeat scroll -89px -2px transparent;
+background: url("images/sprites.png") no-repeat scroll -89px -2px transparent;
 height: 7px;
 top: 8px;
 width: 8px;
@@ -6448,14 +6409,14 @@ margin: 0 0 10px 0 !important;
 width: 75%;
 }
 #filters .active .options .expand > a:before, #filters .options .reset > a:before {
-background: url("images/general/sprites.png") no-repeat scroll -137px -49px transparent !important;
+background: url("images/sprites.png") no-repeat scroll -137px -49px transparent !important;
 width: 8px;
 height: 7px;
 top: 9px;
 left: 8px;
 }
 #filters .inactive .options .expand > a:before {
-background: url("images/general/filter-pil-ner.png") 2px 4px no-repeat;
+background: url("images/filter-pil-ner.png") 2px 4px no-repeat;
 width: 10px;
 height: 12px;
 left: 8px;
@@ -6476,13 +6437,13 @@ border: none;
 #filters.state-off .toggle-sidebar {
 width: 30px;
 height: 27px;
-background: url("images/general/sidebar-anchor.png") no-repeat -30px 0;
+background: url("images/sidebar-anchor.png") no-repeat -30px 0;
 top: 5px;
 }
 #filters.state-on .toggle-sidebar {
 width: 32px;
 height: 27px;
-background: url("images/general/sidebar-anchor.png") 2px 0 no-repeat;
+background: url("images/sidebar-anchor.png") 2px 0 no-repeat;
 top: 5px;
 }
 #filters .toggle-sidebar.hide-sidebar:hover {
@@ -6532,7 +6493,7 @@ border-top: 1px solid #A8010B;
 }
 /***** Layer *****/
 #cboxClose:after, .layer-close:after {
-background: url("images/general/sprites.png") 0 -130px no-repeat;
+background: url("images/sprites.png") 0 -130px no-repeat;
 height: 35px;
 width: 35px;
 }
@@ -6545,7 +6506,7 @@ right: 12px;
 top: 7px;
 }
 #cboxPrevious, #cboxNext {
-background: url("images/general/sprites.png") no-repeat scroll -72px -130px transparent;
+background: url("images/sprites.png") no-repeat scroll -72px -130px transparent;
 height: 35px;
 width: 35px;
 left: 10px;
@@ -6596,7 +6557,7 @@ line-height: 50px;
 line-height: 50px;
 }
 .toplayer .header .close {
-background: url("images/general/sprites.png") no-repeat scroll 0 -130px rgba(0, 0, 0, 0);
+background: url("images/sprites.png") no-repeat scroll 0 -130px rgba(0, 0, 0, 0);
 height: 35px;
 width: 35px;
 margin: -17px 0 0;
@@ -6629,7 +6590,7 @@ color: #000;
 font-size: 22px;
 }
 #review-form .header h2:before, #review-form .header h3:before {
-background: url("images/general/sprites.png") no-repeat scroll -112px -31px transparent;
+background: url("images/sprites.png") no-repeat scroll -112px -31px transparent;
 }
 .tracklist > h2 {
 margin-bottom: 7px;
@@ -6678,7 +6639,7 @@ color: #777777;
 width: 120px;
 }
 .media-play.media-play-audio:before {
-background: url("images/general/sprites.png") no-repeat scroll -294px -144px transparent;
+background: url("images/sprites.png") no-repeat scroll -294px -144px transparent;
 }
 /* Bundles */
 .bundles h3 {
@@ -6695,7 +6656,7 @@ font-size: 28px;
 float: right;
 }
 .bundles aside .button.add-to-cart:before {
-background: url("images/general/sprites.png") no-repeat scroll -365px 0 transparent;
+background: url("images/sprites.png") no-repeat scroll -365px 0 transparent;
 left: 9px;
 top: 5px;
 width: 20px;
@@ -6770,15 +6731,13 @@ margin-left: -45px;
 margin-top: -20px;
 }
 .tooltip_content .arrow {
-background: url("images/general/sprites.png") no-repeat scroll -269px 0 transparent;
+background: url("images/sprites.png") no-repeat scroll -269px 0 transparent;
 height: 31px;
 left: 20%;
 width: 26px;
 bottom: -31px;
 }
-.tooltip_content .txt {
-xbackground: url("../images/weiterlesen.png") no-repeat scroll 0 50% rgba(0, 0, 0, 0);
-}
+
 .tooltip_content .arrow .arrow-element {
 display: none;
 }
@@ -6812,7 +6771,7 @@ border-bottom-right-radius: 4px;
 color: #df0000;
 }
 #gallery-view header .close:after {
-background: url("images/general/sprites.png") no-repeat scroll -272px -33px transparent;
+background: url("images/sprites.png") no-repeat scroll -272px -33px transparent;
 height: 21px;
 width: 21px;
 right: 7px;
@@ -6828,7 +6787,7 @@ border-color: #df0000;
 border: 1px solid #dddddd;
 }
 #gallery-view header:before {
-background: url("images/general/logo-small.png") no-repeat scroll 0 0 transparent;
+background: url("images/logo-small.png") no-repeat scroll 0 0 transparent;
 clear: both;
 content: "";
 display: block;
@@ -6878,7 +6837,7 @@ padding: 12px 0 12px 24px;
 font-weight: normal;
 }
 .accordion ul li > a:before, .accordion ul li > a:after {
-background: url("images/general/sprites.png") no-repeat scroll 0 0 transparent;
+background: url("images/sprites.png") no-repeat scroll 0 0 transparent;
 }
 .accordion ul li > a:before {
 background-position: -28px -17px;
@@ -7144,7 +7103,7 @@ top: 0;
 text-indent: -999em;
 }
 .my-account > .content .button-facebook > span:after {
-background: url("images/general/sprites.png") no-repeat scroll -386px -20px transparent;
+background: url("images/sprites.png") no-repeat scroll -386px -20px transparent;
 width: 5px;
 height: 8px;
 right: 2px;
@@ -7229,12 +7188,12 @@ color: #df0000;
 background: none;
 }
 .my-account .content .products-list > li .order-status .box.infobox p.done:before {
-background: url("images/general/sprites.png") no-repeat scroll -61px -27px transparent !important;
+background: url("images/sprites.png") no-repeat scroll -61px -27px transparent !important;
 width: 15px;
 height: 15px;
 }
 .my-account .content .products-list > li .order-status .box.infobox p.processing:before {
-background: url("images/general/sprites.png") no-repeat scroll -36px 0 transparent !important;
+background: url("images/sprites.png") no-repeat scroll -36px 0 transparent !important;
 width: 14px;
 height: 14px;
 left: 2px;
@@ -7244,7 +7203,7 @@ top: 1px;
 color: #DF0000 !important;
 }
 .my-account .content li aside p.status:before {
-background: url("images/general/sprites.png") no-repeat scroll 0 0 transparent !important;
+background: url("images/sprites.png") no-repeat scroll 0 0 transparent !important;
 }
 .my-account .content li aside p.status.s1:before {
 background-position: -89px -9px !important;
@@ -7691,14 +7650,14 @@ width: 35px;
 background: none;
 }
 .compare-table-wrapper thead .product-head .cart-button span:after {
-background: url("images/general/sprites.png") no-repeat scroll -365px 0 transparent !important;
+background: url("images/sprites.png") no-repeat scroll -365px 0 transparent !important;
 height: 16px!important;
 left: 8px!important;
 top: 5px!important;
 width: 20px!important;
 }
 .compare-table-wrapper thead .product-head .remove-trigger {
-background: url("images/general/sprites.png") no-repeat scroll -272px -33px transparent!important;
+background: url("images/sprites.png") no-repeat scroll -272px -33px transparent!important;
 width: 21px;
 height: 21px;
 top: 5px;
@@ -7738,7 +7697,7 @@ font-size: 12px;
 padding: 15px 0 10px 7px;
 }
 .compare-table-wrapper .trigger .arrow {
-background: url("images/general/sprites.png") no-repeat scroll -104px -48px transparent;
+background: url("images/sprites.png") no-repeat scroll -104px -48px transparent;
 left: 0;
 right: auto;
 width: 8px!important;
@@ -7749,7 +7708,7 @@ margin-top: -3px;
 background-position: -112px -47px;
 }
 .compare-table-wrapper .yes, .compare-table-wrapper .no {
-background: url("images/general/sprites.png") no-repeat scroll -28px -17px transparent;
+background: url("images/sprites.png") no-repeat scroll -28px -17px transparent;
 height: 15px;
 width: 15px;
 }
@@ -7827,7 +7786,7 @@ margin-right: 4px;
 /* Errors */
 .forms input.error[type="text"], .forms input.error[type="password"], .forms textarea.error {
 border: 1px solid #DFDFB4 !important;
-background: url("images/general/select.png") no-repeat scroll 0 -118px transparent;
+background: url("images/select.png") no-repeat scroll 0 -118px transparent;
 }
 .error-wrapper {
 -webkit-border-radius: 0;
@@ -7851,7 +7810,7 @@ margin-top: 0;
 color: #df0000 !important;
 }
 .error-box:before, .error-wrapper .icon {
-background: url("images/general/sprites.png") no-repeat scroll -224px -20px transparent;
+background: url("images/sprites.png") no-repeat scroll -224px -20px transparent;
 height: 14px;
 margin-top: -7px;
 width: 14px;
@@ -7868,22 +7827,7 @@ width: 100%;
 margin-left: 0;
 width: auto;
 }
-/**** Markets ****/
-.homepage .market-teaser {
-background: #FFFFFF url("images/markt/market-box-bg.jpg") left bottom no-repeat;
-height: 282px;
-}
-.homepage .market-teaser .market-info {
-height: 200px;
-}
-.homepage .market-teaser .market-actions {
-top: 8px;
-position: relative;
-text-align: left;
-padding: 12px 0 12px 0;
-background: none;
-border-top: none;
-}
+
 /***** GoogleMaps - Pins *****/
 #gm-custom-pins .pin-icon-small {
 background-image: url("images/markt/map-pin-red-small.png");
@@ -8386,13 +8330,13 @@ margin: 20px 0 0 0;
 	border-top: 1px solid #dddddd;
 }
 .responsive #my-market-wrapper .state-on .toggle-sidebar {
-	background: url("images/general/sidebar-anchor.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: url("images/sidebar-anchor.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
 	height: 27px;
 	top: 12px;
 	width: 30px;
 }
 .responsive #my-market-wrapper .state-off .toggle-sidebar {
-	background: url(images/general/sidebar-anchor.png) no-repeat -30px 0;
+	background: url(images/sidebar-anchor.png) no-repeat -30px 0;
 	height: 27px;
 	top: 12px;
 	width: 30px;
@@ -8602,7 +8546,7 @@ span.opt-value:after {
 	height: 105px;
 	margin: 0px 0px -150px -350px;
 	font-size: 0px;
-	background: url('images/general/footer-logo.png') 0px 0px no-repeat;
+	background: url('images/footer-logo.png') 0px 0px no-repeat;
 	content: '.';
 	overflow: hidden;
 	text-indent: -9999px;
@@ -9659,7 +9603,7 @@ span.opt-value:after {
 	margin: 0;
 	padding: 0;
 	cursor: pointer;
-	background: url(images/general/sprites.png) -72px -130px no-repeat;
+	background: url(images/sprites.png) -72px -130px no-repeat;
 }
 .marken-ticker .tickeroverlay-right .icon {
 	background-position: -107px -131px;
@@ -9693,7 +9637,7 @@ span.opt-value:after {
 	border-top-color: #df0000;
 }
 .touch .responsive .prev, .touch .responsive .next {
-	background: url("images/general/sprites.png") no-repeat;
+	background: url("images/sprites.png") no-repeat;
 }
 .touch .responsive .next {
 	background-position: -107px -131px;
