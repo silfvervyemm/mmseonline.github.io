@@ -158,10 +158,14 @@ body .ms-header2--glued.ms-glue--fixed:not(.ms-header2--nav-active) {
 /* --------------------   End: Header -------------------- */
 
 /* -------------------- Start: Search Field -------------------- */
+body .ms-header2__search-wrapper input[type=search],
+body .ms-header2__search-wrapper input[type=text],
 body .wrapper-search-form input[type=search],
 body .wrapper-search-form input[type=text] {
     border-radius: 3px;
 }
+body .ms-header2__search-wrapper input[type=search],
+body .ms-header2__search-wrapper input[type=text],
 body .wrapper-search-form input[type=search],
 body .wrapper-search-form input[type=text],
 body .fixed-search-container .fixed-search-close-btn {
