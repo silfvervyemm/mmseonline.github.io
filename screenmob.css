@@ -149,6 +149,19 @@ body .ms-header2--glued.ms-glue--fixed:not(.ms-header2--nav-active) {
 }
 /* --------------------   End: Header -------------------- */
 
+/* -------------------- Start: Search Field -------------------- */
+body .wrapper-search-form input[type=search],
+body .wrapper-search-form input[type=text] {
+    border-radius: 3px;
+}
+body .wrapper-search-form input[type=search],
+body .wrapper-search-form input[type=text],
+body .fixed-search-container .fixed-search-close-btn {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+/* --------------------   End: Search Field -------------------- */
+
 #logo > a {
     display: block;
     background: transparent url('images/general/mm-logo.png') no-repeat 0 50% !important;
