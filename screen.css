@@ -2731,21 +2731,15 @@ padding-left: 28px;
 }
 #filters .active h2 a:after, #filters .active .headline a:after {
 background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") no-repeat scroll -538px -88px transparent!important;
-height: 22px !important;
-width: 22px !important;
 content: ".";
-position: absolute;
-margin: 0 !important;
-text-indent: -999em;
 }
 #filters h2 a:after, #filters .headline a:after {
 background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") no-repeat scroll -538px -44px transparent!important;
 height: 22px !important;
 width: 22px !important;
 content: ".";
-position: absolute;
-margin: 0 !important;
-text-indent: -999em;
+left: 0px;
+top: 2px;
 }
 #product-details .product-anchors {
 background: #fff;
