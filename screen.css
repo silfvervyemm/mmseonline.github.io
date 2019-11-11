@@ -930,14 +930,6 @@ height: 35px;
 .page-product .prev, .page-product .next {  /* La in z-index s� att inga bibler hoppas upp ovanf�r knapparna i karusellen */
 top: 62%;
 }
-#product-details .price-sidebar {  /* Denna och de tv� under �r fix f�r  Priset f�r inte plats om det �r 5-siffrigt */
-width: 273px;
-background: #f2f2f2;
-border: 1px solid #ddd;
-}
-.responsive #product-details .details {
-width: 518px;
-}
 .alatest-widget { /* alaScore recentioner plupp flyttad eftersom prisboxen blev utvidgad*/
 left: 460px !important;
 }
@@ -3381,12 +3373,6 @@ padding: 5px 12px 12px;
 #product-details .details .more, #product-details .options {
 font-size: 11px;
 }
-#product-details .options li {
-border: none;
-}
-#product-details .options a {
-text-decoration: underline;
-}
 #product-details .options a:before {
 background: url("images/sprites.png") no-repeat scroll 0 0 transparent;
 }
@@ -3586,9 +3572,7 @@ transform: rotate(0deg) !important;
 -ms-transform: rotate(0deg) !important;
 border: none;
 }
-.product-details {
-line-height: 1.1;
-}
+
 /*Bazaarvoice*/
 #product-details .bv-cv2-cleanslate .bv-core-container-53 .bv-summary-bar .bv-action-bar {
 padding-top: 0px !important;
@@ -5275,11 +5259,6 @@ float: right;
 padding: 15px 5px 20px 0 !important;
 max-width: 405px !important;
 }
-@media (min-width: 1200px) {
-.responsive .product-details dd {
-	width: 210px;
-}
-}
 /*PRICECONTAINER */
 .product-wrapper .box.infobox {
 padding: 10px 15px 10px;
@@ -6121,7 +6100,6 @@ position: static;
 padding: 0;
 color: #525252;
 margin: 0 0 2px;
-width: 170px;
 }
 .product-details dd {
 color: #000;
