@@ -147,6 +147,14 @@ body .ms-header2--glued.ms-glue--fixed:not(.ms-header2--nav-active) {
         box-shadow: 0 .2rem .6rem rgba(0,0,0,.2);
     }
 }
+@media (max-width: 61.865em) {
+    body .ms-header2__meta-nav {
+        background-image: none;
+    }
+    body .site-navigation2__wrapper--is-open {
+        box-shadow: none;
+    }
+}
 /* --------------------   End: Header -------------------- */
 
 /* -------------------- Start: Search Field -------------------- */
