@@ -955,10 +955,13 @@ display: none;
 top: 1px;
 background: url('images/sprites.png') -360px -21px no-repeat;
 }
-.specification dt:before { /* Checkmarks p� produktbeskrivningarna ny sprite */
-background: url("images/sprites.png") no-repeat scroll -360px -21px transparent;
-height: 15px;
-top: 6px;
+.specification dt:before {
+      background: none !important;
+      width: auto;
+      height: auto;
+      content: '✔';
+      text-indent: 0px;
+      color: #00ac45;
 }
 .icon-info { /* Ers�tter tyska sprites med ny */
 background: url("images/sprites.png") no-repeat scroll -193px -35px;
