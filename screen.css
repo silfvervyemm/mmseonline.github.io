@@ -1941,10 +1941,8 @@ height: 37px;
 }
 .add-to-cart.button.large {
 height: 46px !important;
-padding: 4px 20px 4px 53px!important;
 }
 .add-to-cart.button.large:hover {
-height: 46px !important;
 padding: 3px 19px 3px 52px!important;
 }
 .add-to-cart.button.large.add-to-cart.block span {
@@ -3322,7 +3320,6 @@ max-width: 500px;
 #product-details h1 {
 color: #000 !important;
 border-bottom: 1px solid #ddd;
-padding-bottom: 5px;
 font-weight: normal!important;
 font-size: 24px!important;
 }
@@ -3391,7 +3388,6 @@ margin-right: 0px;
 }
 #product-details .model span[itemprop="sku"] {
 color: #838383;
-font-family: 'mmtextregularpro', sans-serif;
 }
 #product-details .details .more {
 padding: 0;
@@ -3402,9 +3398,6 @@ background: none;
 }
 #product-sidebar .sidebar-form .price-details {
 text-align: left;
-}
-#product-details .model dd + .product-rate {
-bottom: 6px;
 }
 #product-details .price-sidebar .online-finance {
 margin: 0;
@@ -5505,9 +5498,6 @@ color: #7E7E7E;
 }
 .go-up:hover {
 background-position: 100% -21px;
-}
-.icon {
-background: url("images/sprites.png") no-repeat scroll -193px -35px;
 }
 .tooltip_value {
 text-decoration: underline;
