@@ -73,21 +73,48 @@ body .product-teaser-container .product-teaser-details .wrapper-price {
     font-weight: normal;
 }
 body .crossed-price-wrapper .product-crossed-price {
-    font-size: 30px;
-    line-height: 30px;
-    margin-left: 5px;
+    /* @TODO: check this font-size */
+    /* font-size: 30px; */
+    line-height: 100%;
+    margin-left: 0;
+}
+body .crossed-price-wrapper .product-crossed-price::after,
+body .pdp-product-info .crossed-price-wrapper .product-crossed-price::after,
+body .crossed-price-wrapper .product-crossed-price::before,
+body .pdp-product-info .crossed-price-wrapper .product-crossed-price::before {
+    background-color: #df0000;
+    content: "";
+    height: 2px;
+    left: 8%;
+    position: absolute;
+    top: 48%;
+    width: 100%;
+    max-width: 84%;
+}
+body .crossed-price-wrapper .product-crossed-price::after {
+    -webkit-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+body .crossed-price-wrapper .product-crossed-price::before {
+    -webkit-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+body .product-list .crossed-price-wrapper .product-crossed-price {
+    font-size: 1.5em;
+}
+body .pdp-product-info .crossed-price-wrapper .product-crossed-price {
+    font-size: 1.75em;
+}
+body .pdp-product-info .crossed-price-wrapper .product-crossed-price::after {}
+body .pdp-product-info .crossed-price-wrapper .product-crossed-price::before {}
+body .crossed-price-wrapper.product-price-info {
+    margin: 8px 0;
 }
 body .crossed-price-wrapper .crossed-price-layer span {
     color: #000;
     font-size: 16px;
-}
-body .pdp-product-info .crossed-price-wrapper .product-crossed-price:before {
-    height: 2px;
-    top: 50%;
-    -webkit-transform: rotate(-10deg);
-    -ms-transform: rotate(-10deg);
-    transform: rotate(-10deg);
-    width: 82%;
 }
 /* --------------------   End: PRICE  -------------------- */
 
