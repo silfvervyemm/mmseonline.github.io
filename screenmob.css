@@ -181,6 +181,58 @@ body .fixed-search-container .fixed-search-close-btn {
 }
 /* --------------------   End: Search Field -------------------- */
 
+/* -------------------- Start: Filter & Sorting -------------------- */
+body #filter-container .button {
+    background: #df0000;
+    border-width: 0;
+    color: #fff;
+    margin: 0;
+}
+body #wrapper-main .tab-categories ul.content-link-list li a.mrh-accordion-headline {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #525252;
+    font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
+    font-weight: normal;
+    padding: 8px;
+}
+body #wrapper-main .tab-categories ul.content-link-list li a.mrh-accordion-headline:after {
+    background: url("https://www.mediamarkt.se/static/icons/Arrow_grey.png") no-repeat 0 50% !important;
+    background-size: contain !important;
+    right: 10px;
+    height: 18px;
+    top: 8px;
+    width: 14px;
+}
+body #wrapper-main .tab-categories ul.content-link-list li.displayed a.mrh-accordion-headline:after {
+    top: 12px;
+    transform: rotate(90deg);
+}
+body .button.background-type-2 span:after {
+    background: url("https://www.mediamarkt.se/static/icons/Arrow_white.png") no-repeat 0px 0px rgba(0,0,0,0);
+    background-size: contain;
+}
+body .button.background-type-2.dropdown-wrapper span:after {
+    background: url("https://www.mediamarkt.se/static/icons/sort_white.png") no-repeat 0px 0px rgba(0,0,0,0);
+    background-size: contain;
+}
+body #wrapper-main .tab-categories ul.content-link-list li.displayed {
+    padding-bottom: 10px;
+}
+body #wrapper-main .tab-categories ul.content-link-list li > a,
+body #wrapper-main .tab-categories ul.content-link-list li > ul {
+    margin-bottom: 0;
+}
+body #wrapper-main .tab-categories ul.content-link-list li.displayed > ul {
+    margin-top: 10px;
+}
+body #wrapper-main .tab-categories ul.content-link-list li a,
+body #wrapper-main .tab-categories ul.content-link-list li span {
+    font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
+}
+/* --------------------   End: Filter & Sorting -------------------- */
+
 #logo > a {
     display: block;
     background: transparent url('images/general/mm-logo.png') no-repeat 0 50% !important;
@@ -386,8 +438,6 @@ li {
 }
 .mrh-button-passbook-container {
     display: none !important;
-}
-.button.background-type-2, .button.button-add-to-wishlist-pdp, .button.button-recommend {
 }
 /* --- LOGIN --- */
 
@@ -724,28 +774,6 @@ ul.site-navigation2__list li {
 }
 /*------------------------------ SEARCH -------------------------------------*/
 
-.content-link-list.level-1 a.current-category.mrh-accordion-headline.mrh-accordion-trigger {
-    background: #df0000;
-    color: #fff;
-    padding: 8px;
-    border-radius: 4px;
-}
-.content-link-list.level-1 a.current-category.mrh-accordion-headline.mrh-accordion-trigger:after {
-    background: url('https://www.mediamarkt.se/static/icons/vit-pil.png') no-repeat 0 50% rgba(0,0,0,0);
-    background-size: contain;
-    right: 10px;
-    height: 18px;
-    top: 7px;
-    width: 14px;
-}
-.content-link-list.level-1 .mrh-accordion.mrh-accordion-container.displayed a.current-category.mrh-accordion-headline.mrh-accordion-trigger:after {
-    background: url('https://www.mediamarkt.se/static/icons/vit-pil_ner.png') no-repeat 0 50% rgba(0,0,0,0);
-    background-size: contain;
-    right: 10px;
-    height: 18px;
-    top: 7px;
-    width: 18px;
-}
 .tab-categories .gridbox {
     padding-bottom: 0px !important;
 }
@@ -764,10 +792,6 @@ ul.site-navigation2__list li {
     right: 0px;
 	width: 18px;
     height: 18px;
-}
-
-p.button.background-type-2.dropdown-wrapper {
-    margin: 0px;
 }
 
 /*-------------------- BREADCRUMBS-----------------------------------*/
