@@ -3314,9 +3314,8 @@ max-width: 500px;
 	width: 444px !important;
 }
 }
-/* ---------- ÖVERKRYSSADE PRISER - JUNI 2016 ---------- */
+
 /* ---- PDP ---- */
-/***** Produkt Detail *****/
 #product-details h1 {
 color: #000 !important;
 border-bottom: 1px solid #ddd;
@@ -4021,6 +4020,178 @@ left: 10px;
 display: block;
 }
 /*----------------------------- PDP ----------------------*/
+#product-details .price-sidebar {
+    float: left !important;
+    width: 360px;
+}
+
+#product-details .price-sidebar .availability {
+    background-color: #fff !important;
+    padding: 12px 10px;
+}
+
+#product-details .box.infobox ul li+li {
+    margin-top: 16px;
+}
+
+#product-details .prisjakttag {
+    position: absolute;
+    right: 12px;
+    top: 4px;
+}
+
+#product-details .details {
+    float: right !important;
+    width: 400px !important;
+}
+
+a#pdp-add-to-cart {
+    padding: 5px 30px 5px 10px !important;
+}
+
+a#pdp-add-to-cart span {
+    text-align: center;
+}
+
+#product-details .prodrel{
+    float: right;
+    width: 100%;
+}
+
+#product-details .product-details dd {
+    width: 235px !important;
+}
+
+.product-details dt {
+    width: 135px;
+}
+
+#product-details .swogo-container.swogo-container-mini {
+    display: none;
+}
+
+#product-details .premiumboxes {
+    display: none;
+}
+
+#product-sidebar .premiumboxes.state-shown{
+    display: none;
+}
+
+#product-details .price-sidebar {
+    background: #f8f8f8 !important;
+    border: none;
+}
+
+#product-details  .model {
+    padding-bottom: 0px !important;
+}
+
+#product-details .model dl.group {
+    max-width: 330px;
+}
+
+button.bv-write-review.bv-focusable.bv-submission-button {
+    padding: 0px !important;
+}
+
+#product-details .details ul.options.no-border {
+    float: right;
+}
+
+#product-details .details a.more.clickable {
+    width: 100%;
+    text-align: right;
+}
+
+#product-details .details a.more.clickable:before{
+  display: none;
+}
+
+form#product-service {
+    border: 1px solid #ddd;
+}
+
+#product-details #product-service {
+    border: none !important;
+}
+
+.responsive #product-details #product-service li {
+    width: 95%;
+    border: none;
+}
+
+#product-details #product-service h2 {
+    background: #f8f8f8;
+    font-family: 'mmtextregularpro';
+    font-size: 18px;
+}
+
+#product-details #product-service ul.cf {
+    border: 1px solid #ddd;
+    border-top: none;
+    margin-top: 0px !important;
+}
+
+#product-details #product-service span.label {
+    width: auto !important;
+}
+
+#product-details #product-service span.service-name, #product-details #product-service span.service-value {
+    font-family: 'sourcesanspro-regular';
+}
+
+@media screen and (max-width: 1199px){
+
+  #product-sidebar {
+    width: 270px;
+}
+
+  #product-details {
+    width: 665px;
+}
+
+  #product-details .details {
+    width: 290px !important;
+}
+
+#product-details .product-attributes.js-product-attributes {
+    width: auto;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+#product-details .product-details dd {
+    width: 135px !important;
+    max-height: unset;
+}
+}
+
+@media screen and (max-width: 954px){
+  #product-details {
+      width: 100%;
+  }
+
+  #product-details .details {
+    float: left;
+    width: 100% !important;
+}
+
+#product-details .price-sidebar {
+    float: right !important;
+    width: 275px;
+}
+#product-details h1 {
+    border-bottom: none !important;
+}
+
+#product-details .product-details dd {
+    width: 500px !important;
+    max-height: unset;
+}
+
+}
+
 /* ALTERNATIVE PRODUCT FUNCTION STYLE */
 .prodrel-price {
 display: none;
