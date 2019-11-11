@@ -1,46 +1,33 @@
 @font-face {
-    font-family: 'mmheadlinepro';
-    src: url('//www.mediamarkt.se/static/fonts/MM/MMHeadlineProWebTT-Regular.woff2'),
-         url('//www.mediamarkt.se/static/fonts/MM/MMHeadlinePro-Regular.otf'),
-         url('//www.mediamarkt.se/static/fonts/MMHeadlineProWebTT-Regular.ttf') format('truetype');
+font-family: 'mmheadlinepro';
+src: url('//www.mediamarkt.se/static/fonts/MM/MMHeadlineProWebTT-Regular.woff2'), url('//www.mediamarkt.se/static/fonts/MM/MMHeadlinePro-Regular.otf'), url('//www.mediamarkt.se/static/fonts/MMHeadlineProWebTT-Regular.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'mmtextboldpro';
-    src: url('//www.mediamarkt.se/static/fonts/MM/MMTextProWebTT-Bold.woff2'),
-         url('//www.mediamarkt.se/static/fonts/MM/MMTextPro-Bold.otf'),
-         url('//www.mediamarkt.se/static/fonts/MMTextProWebTT-Bold.ttf') format('truetype');
+font-family: 'mmtextboldpro';
+src: url('//www.mediamarkt.se/static/fonts/MM/MMTextProWebTT-Bold.woff2'), url('//www.mediamarkt.se/static/fonts/MM/MMTextPro-Bold.otf'), url('//www.mediamarkt.se/static/fonts/MMTextProWebTT-Bold.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'mmtextregularpro';
-    src: url('//www.mediamarkt.se/static/fonts/MM/MMTextProWebTT-Regular.woff2'),
-         url('//www.mediamarkt.se/static/fonts/MM/MMTextPro-Regular.otf'),
-         url('//www.mediamarkt.se/static/fonts/MMTextProWebTT-Regular.ttf') format('truetype');
+font-family: 'mmtextregularpro';
+src: url('//www.mediamarkt.se/static/fonts/MM/MMTextProWebTT-Regular.woff2'), url('//www.mediamarkt.se/static/fonts/MM/MMTextPro-Regular.otf'), url('//www.mediamarkt.se/static/fonts/MMTextProWebTT-Regular.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'sourcesanspro-regular';
-    font-weight: normal;
-    src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.eot");
-    src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.eot?#iefix") format("embedded-opentype"),
-         url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.woff2") format("woff2"),
-         url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.woff") format("woff"),
-         url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.ttf") format("truetype"),
-         url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.svg#svg") format("svg");
+font-family: 'sourcesanspro-regular';
+font-weight: normal;
+src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.eot");
+src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.eot?#iefix") format("embedded-opentype"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.woff2") format("woff2"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.woff") format("woff"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.ttf") format("truetype"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.svg#svg") format("svg");
 }
+
 @font-face {
-    font-family: "pricemm";
-    src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.eot");
-    src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.eot?#iefix") format("embedded-opentype"),
-         url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.woff2") format("woff2"),
-         url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.woff") format("woff"),
-         url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.ttf") format("truetype"),
-         url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.svg#svg") format("svg")
+font-family: "pricemm";
+src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.eot");
+src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.eot?#iefix") format("embedded-opentype"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.woff2") format("woff2"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.woff") format("woff"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.ttf") format("truetype"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.svg#svg") format("svg")
 }
-@font-face {
-    font-family:"mm-icons";
-    src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.eot");
-    src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.eot?#iefix") format("embedded-opentype"),
-         url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.woff2") format("woff2"),
-         url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.woff") format("woff")
+
+@font-face{font-family:"mm-icons";
+    src:url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.eot");
+    src:url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.eot?#iefix") format("embedded-opentype"),
+        url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.woff2") format("woff2"),
+        url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.woff") format("woff")
 }
 
 /*FONTER*/
@@ -4375,9 +4362,7 @@ border-bottom: none;
 #filters .categories .categories-flat-descendants a {
 padding: 6px 5px;
 }
-#filters .categories .active > ul li a {
-padding: 6px 12px;
-}
+
 #filters .categories li:before {
 content: "";
 background: url(https://www.mediamarkt.se/static/img/icons/red-arrow-normal.png) no-repeat;
@@ -4385,7 +4370,7 @@ background-size: 7px 10px;
 height: 17px;
 width: 10px;
 position: absolute;
-margin-top: 5px;
+margin-top: 7px;
 }
 #filters .categories li:hover:before {
 content: "";
@@ -6370,7 +6355,6 @@ margin: 0;
 }
 #filters .categories .active > ul li a {
 display: block;
-padding: 7px 5px 7px 12px;
 }
 #filters .categories .active > ul li a, #filters .categories .active.child-active a {
 color: #545454;
