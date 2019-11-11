@@ -224,7 +224,7 @@ body #wrapper-main .tab-categories ul.content-link-list li > a,
 body #wrapper-main .tab-categories ul.content-link-list li > ul {
     margin-bottom: 0;
 }
-body #wrapper-main .tab-categories ul.content-link-list li > ul {
+body #wrapper-main .tab-categories ul.content-link-list > li > ul {
     margin-top: 10px;
 }
 body #wrapper-main .tab-categories ul.content-link-list li a,
