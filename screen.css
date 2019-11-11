@@ -16,17 +16,18 @@ font-weight: normal;
 src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.eot");
 src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.eot?#iefix") format("embedded-opentype"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.woff2") format("woff2"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.woff") format("woff"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.ttf") format("truetype"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/SourceSansPro-Regular.svg#svg") format("svg");
 }
+
 @font-face {
 font-family: "pricemm";
 src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.eot");
 src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.eot?#iefix") format("embedded-opentype"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.woff2") format("woff2"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.woff") format("woff"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.ttf") format("truetype"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.svg#svg") format("svg")
 }
-@font-face {
-    font-family:"mm-icons";
-    src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.eot");
-    src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.eot?#iefix") format("embedded-opentype"),
-         url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.woff2") format("woff2"),
-         url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.woff") format("woff")
+
+@font-face{font-family:"mm-icons";
+    src:url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.eot");
+    src:url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.eot?#iefix") format("embedded-opentype"),
+        url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.woff2") format("woff2"),
+        url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.woff") format("woff")
 }
 
 /*FONTER*/
@@ -115,14 +116,13 @@ box-shadow: none !important;
 }
 
 #uspWrapperP .usp-row .usp-wrapper .usp:before{
-	position: absolute;
-    	content: '.';
-    	text-indent: -999em;
-    	background: url(images/css_sprites.png) no-repeat -10px -93px !important;
-    	background-size: 158px !important;
-    	width: 19px;
-    	height: 19px;
-    	top: 0px;
+	    position: absolute;
+      content: " ";
+      background: url("images/icon_sprites.png") no-repeat -245px -5px !important;
+      background-size: contain;
+      width: 20px;
+      height: 20px;
+    	top: -2px;
     	left: -25px;
 }
 
@@ -175,15 +175,14 @@ box-shadow: none !important;
 }
 
 #uspWrapperP .usp-row .inside-logo-wrapper .star-rating:before{
-	content: "";
-	position: absolute;
-	top: -2px;
-    	left: -20px;
-   	width: 18px;
-    	height: 18px;
-	background: url(images/sprite-mediamarkt.png) 0 39%;
-	background-repeat: no-repeat;
-	background-size: cover;
+  content: "\E637";
+  position: absolute;
+  top: 0px;
+  left: -20px;
+  width: 18px;
+  height: 18px;
+  font-family: 'mm-icons';
+  color: #df0000;
 }
 
 
@@ -3257,7 +3256,7 @@ border: 1px solid #ddd;
 }
 
 .swogo-price span {
-    font-family: 'Mediamarkt';
+    font-family: 'pricemm', 'mmtextboldpro', sans-serif;
 }
 .premiumopts.extend-guarantee ul li {
 padding: 0;
@@ -6230,23 +6229,23 @@ line-height: 1.2;
 font-size: 13px;
 }
 .box.infobox ul li:before {
-background: url("images/css_sprites.png") no-repeat -10px -93px !important;
-background-size: 158px !important;
-width: 18px;
-height: 18px;
-top: 38%;
+      background: url("images/icon_sprites.png") no-repeat -245px -5px !important;
+      background-size: contain;
+      width: 20px;
+      height: 20px;
+      top: 38%;
 }
 .box.infobox ul li.false:before {
-background: url("images/css_sprites.png") no-repeat -49px -93px !important;
-background-size: 158px !important;
-width: 18px;
-height: 18px;
+      background: url("images/icon_sprites.png") no-repeat -65px -5px !important;
+      background-size: contain;
+      width: 20px;
+      height: 20px;
 }
 .box.infobox ul li.false.online-nostock:before {
-background: url("images/css_sprites.png") no-repeat -99px -10px !important;
-background-size: 158px !important;
-width: 18px;
-height: 18px;
+      background: url("images/icon_sprites.png") no-repeat -35px -5px !important;
+      background-size: contain;
+      width: 20px;
+      height: 20px;
 }
 .box.infobox ul li a.instockonline:hover {
 color: #00ac45;
