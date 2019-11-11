@@ -72,6 +72,16 @@ body .product-teaser-container .product-teaser-details .wrapper-price .price {
 body .product-teaser-container .product-teaser-details .wrapper-price {
     font-weight: normal;
 }
+
+body .product-teaser-container .product-teaser-details .wrapper-price .price {
+    display: block;
+}
+
+body .product-teaser-container .product-teaser-details .wrapper-price .product-teaser-vatLabel,
+body .product-teaser-container .product-teaser-details .wrapper-price .product-teaser-fee-container {
+    display: inline-block;
+}
+
 body .crossed-price-wrapper .product-crossed-price {
     /* @TODO: check this font-size */
     /* font-size: 30px; */
