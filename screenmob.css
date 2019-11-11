@@ -77,7 +77,6 @@ body .product-teaser-container .product-teaser-details .wrapper-price .product-t
 body .product-teaser-container .product-teaser-details .wrapper-price .product-teaser-fee-container {
     display: inline-block;
 }
-
 body .crossed-price-wrapper .product-crossed-price {
     /* @TODO: check this font-size */
     /* font-size: 30px; */
@@ -142,6 +141,8 @@ body .pdp-slider .swiper-container {
 body .ms-header2 {
     background-image: none;
 }
+body .ms-header2--glued.ms-glue--scroll-down:not(.ms-header2--nav-active),
+body .ms-header2--glued.ms-glue--scroll-up:not(.ms-header2--nav-active),
 body .ms-header2--glued.ms-glue--fixed:not(.ms-header2--nav-active) {
     box-shadow: 0 .2rem .6rem rgba(0,0,0,.2);
 }
