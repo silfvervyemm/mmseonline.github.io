@@ -204,6 +204,11 @@ body #wrapper-main .tab-categories ul.content-link-list li a.mrh-accordion-headl
     height: 18px;
     top: 8px;
     width: 14px;
+    -webkit-transition: all 150ms ease-out;
+    -moz-transition: all 150ms ease-out;
+    -ms-transition: all 150ms ease-out;
+    -o-transition: all 150ms ease-out;
+    transition: all 150ms ease-out;
 }
 body #wrapper-main .tab-categories ul.content-link-list li.displayed a.mrh-accordion-headline:after {
     top: 12px;
