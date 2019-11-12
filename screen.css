@@ -4590,9 +4590,6 @@ li.back-to-search:before {
   -o-transition: all 0.3s ease;
   /* Standard */
   transition: all 0.3s ease;
-  -ms-transform: rotate(-90deg); /* IE 9 */
-  -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
-  transform: rotate(-90deg);
   opacity: 0.5;
 }
 .page-categorycontent #filters .categories li.active:hover:after {
@@ -4724,7 +4721,7 @@ section.ingress {
   border-radius: 4px!important;
 }
 a#scroll-to-top:after {
-  background: url(https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png) no-repeat scroll -412px -36px transparent;
+  background: url("images/sprites.png") no-repeat scroll -412px -36px transparent;
   content: ".";
   height: 12px;
   position: relative;
@@ -4779,15 +4776,7 @@ a.cookie-info-cancel-button.js-cookie-info-cancel-button.button {
   padding: 5px 0 15px 0;
   position: relative;
 }
-.cookie-info-module .cookie-info-option-functional .cookie-info-option-image {
-  background-image: url("https://www.mediamarkt.se/static/img/cookielayer-functional.png");
-}
-.cookie-info-module .cookie-info-option-statistics .cookie-info-option-image {
-  background-image: url("https://www.mediamarkt.se/static/img/cookielayer-statistic.png");
-}
-.cookie-info-module .cookie-info-option-marketing .cookie-info-option-image {
-  background-image: url("https://www.mediamarkt.se/static/img/cookielayer-marketing.png");
-}
+
 .cookie-info-header.static h3 {
   margin-bottom: 8px;
   text-transform: initial;
@@ -4801,24 +4790,7 @@ a.cookie-info-cancel-button.js-cookie-info-cancel-button.button {
   position: relative;
   top: -4px;
 }
-.cookie-info-module .cookie-info-summary-list.cookie-info-allowed-list li:before {
-  content: '';
-  background: url({{MEDIA_REF_bock}}) no-repeat;
-  background-size: 18px;
-  width: 20px;
-  height: 20px;
-  color: #459300;
-  margin: 5px 5px 0 0;
-}
-.cookie-info-module .cookie-info-summary-list.cookie-info-notallowed-list li:before {
-  content: '';
-  background: url({{MEDIA_REF_kryss}}) no-repeat;
-  background-size: 18px;
-  width: 20px;
-  height: 20px;
-  color: #459300;
-  margin: 5px 5px 0 0;
-}
+
 .cookie-info-module .cookie-info-functional-allowed .cookie-info-option-functional .cookie-info-input-wrapper, .cookie-info-module .cookie-info-statistics-allowed .cookie-info-option-statistics .cookie-info-input-wrapper, .cookie-info-module .cookie-info-marketing-allowed .cookie-info-option-marketing .cookie-info-input-wrapper, .cookie-info-module .cookie-info-option-functional .cookie-info-input-wrapper, .cookie-info-module .cookie-info-option-statistics .cookie-info-input-wrapper, .cookie-info-module .cookie-info-option-marketing .cookie-info-input-wrapper {
   background: none;
   position: relative;
@@ -5493,7 +5465,7 @@ caption, th, td {
 }
 /* Buttos End */
 .prev, .next {
-  background-image: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png");
+  background-image: url("images/sprites.png");
   background-repeat: no-repeat;
   top: 36%;
 }
@@ -5669,12 +5641,7 @@ caption, th, td {
   width: 36px;
   z-index: 21;
 }
-.jcarousel-rtt-control a {
-  background: url("images/rtt/dots.png") no-repeat scroll -11px 0 rgba(0, 0, 0, 0);
-}
-.jcarousel-skin-rtt .jcarousel-prev, .jcarousel-skin-rtt .jcarousel-next {
-  background: url("images/rtt/arrows.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
-}
+
 .jcarousel-skin-rtt .jcarousel-prev {
   left: 5px;
 }
@@ -6160,16 +6127,7 @@ width: 90%;
 .box.infobox ul li.false .marketsel-open:hover {
   color: #ff9900;
 }
-/*Lagerstatus i varukorg*/
-.cproduct .cproduct-info .description h4.delivery:before {
-  background: url("images/bock-i-cirkel-green.png") no-repeat !important;
-  background-size: 16px 18px !important;
-  /*top: 36%;*/
-}
-.cproduct .cproduct-info .description h4.false:before {
-  background: url("images/klocka_orange.png") no-repeat !important;
-  background-size: 16px 18px !important;
-}
+
 /* Enercy Usage */
 .installment-compact .label, .installment-compact .value {
   background: url("images/sprites.png") no-repeat scroll -49px -303px transparent;
@@ -6285,39 +6243,6 @@ width: 90%;
   float: right;
 }
 
-.filters li {
-  background: -moz-linear-gradient(top, #FEFEFE, #F0F0F0); /* Firefox */
-  background: -webkit-linear-gradient(top, #FEFEFE, #F0F0F0); /* Safari, Chrome */
-  background: -o-linear-gradient(top, #FEFEFE, #F0F0F0); /* Opera */
-  background: -ms-linear-gradient(top, #FEFEFE, #F0F0F0); /* IE */
-  background: linear-gradient(top, #FEFEFE, #F0F0F0); /* W3C Standard */
-  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#FEFEFE', endColorstr='#F0F0F0');
-  border: 1px solid #DFDFDF;
-  color: #545454;
-  padding: 0 6px 0 19px;
-  margin: 12px 10px 2px 0;
-  line-height: 22px;
-  font-size: 13px;
-}
-.filters li:before {
-  background: url("images/sprites.png") no-repeat scroll -89px -2px transparent;
-  height: 7px;
-  top: 8px;
-  width: 8px;
-}
-.filters li:hover {
-  color: #df0000;
-  background: -moz-linear-gradient(top, #FEFEFE, #F0F0F0); /* Firefox */
-  background: -webkit-linear-gradient(top, #FEFEFE, #F0F0F0); /* Safari, Chrome */
-  background: -o-linear-gradient(top, #FEFEFE, #F0F0F0); /* Opera */
-  background: -ms-linear-gradient(top, #FEFEFE, #F0F0F0); /* IE */
-  background: linear-gradient(top, #FEFEFE, #F0F0F0); /* W3C Standard */
-  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#FEFEFE', endColorstr='#F0F0F0');
-  border-color: #DFDFDF;
-}
-.filters li:hover:before {
-  background-position: -97px -2px;
-}
 #filters .options {
   margin-bottom: 0px;
 }
