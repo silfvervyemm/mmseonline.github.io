@@ -5817,6 +5817,11 @@ caption, th, td {
   padding: 0;
 }
 /**** Catagory Page grid****/
+#category.category-grid .products-grid li {
+    height: auto;
+    padding-bottom: 30px;
+}
+
 #category.category-grid .products-grid .base-info .ee-wrapper, #product-preview .product-preview-content .base-info .ee-wrapper {
   display: flex;
   flex-direction: row;
