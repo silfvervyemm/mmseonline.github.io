@@ -2862,13 +2862,11 @@ top: -5px;
 right: 7px;
 position: relative;
 }
-#category ul.products-grid {
-padding-top: 12px;
-}
-#category.category-grid ul.products-grid li {
+
+/*#category.category-grid ul.products-grid li {
 height: 295px;
 padding-top: 12px;
-}
+}*/
 .category-grid .products-grid .ee-wrapper > a.energy-usage-label {
 width: 50% !important;
 height: 28px;
@@ -6484,10 +6482,7 @@ width: 45px;
 width: 23px;
 float: right;
 }
-.filters {
-margin: -12px 0 12px;
-border-top: 1px solid #dddddd;
-}
+
 .filters li {
 background: -moz-linear-gradient(top, #FEFEFE, #F0F0F0); /* Firefox */
 background: -webkit-linear-gradient(top, #FEFEFE, #F0F0F0); /* Safari, Chrome */
@@ -8625,9 +8620,6 @@ margin: 20px 0 0 0;
     font-family: 'pricemm', 'mmtextboldpro', sans-serif;
 }
 
-.price {
-    font-size: 58px;
-}
 
 #product-details .price.big {
     font-size: 64px;
