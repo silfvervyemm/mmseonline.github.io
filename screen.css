@@ -4463,7 +4463,7 @@ background-size: 7px 10px;
 height: 17px;
 width: 10px;
 position: absolute;
-margin-top: 7px;
+margin-top: 0px;
 }
 #filters .categories li:hover:before {
 content: "";
@@ -4473,12 +4473,6 @@ height: 17px;
 width: 10px;
 position: absolute;
 margin-top: 5px;
-}
-#filters .content ul.categories-tree-descendants li:before {
-margin-top: 4px;
-}
-#filters .categories li:last-child > a {
-/*border-bottom: 0;*/
 }
 ul.categories-tree-descendants {
 padding-left: 0 !important;
@@ -4548,7 +4542,7 @@ ul.categories-tree-ancestors li:last-child {
 padding: 0 0 0 20px !important;
 }
 #filters .content .categories-tree-descendants a {
-min-height: 10px;
+min-height: 25px;
 }
 /* --------------- Tillbaka till sök från PDP - DECEMBER 2016 ------------------ */
 .breadcrumbs li.back-to-search:before {
