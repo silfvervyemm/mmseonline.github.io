@@ -4532,7 +4532,6 @@ padding-bottom: 0 !important;
 }
 #filters .content .categories-tree-ancestors a {
 padding: 0;
-line-height: normal;
 }
 ul.categories-tree-ancestors li:last-child {
     padding-left: 20px;
@@ -4547,11 +4546,9 @@ ul.categories-tree-ancestors li:last-child {
 }
 #filters .content .categories-tree-current {
 padding: 0 0 0 20px !important;
-line-height: normal;
 }
 #filters .content .categories-tree-descendants a {
 min-height: 10px;
-line-height: 1;
 }
 /* --------------- Tillbaka till sök från PDP - DECEMBER 2016 ------------------ */
 .breadcrumbs li.back-to-search:before {
@@ -5176,7 +5173,6 @@ font-family: 'mmtextboldpro', sans-serif;
 padding: 0 10px;
 font-size: 100%;
 line-height: 2;
-*line-height: 1.9;
 font-weight: bold;
 color: #db0000;
 background: #fff;
@@ -6055,10 +6051,10 @@ left: 7px;
 top: 5px;
 width: 20px;
 }
-.products-grid .base-info .photo, #product-preview .base-info .photo {
+/*.products-grid .base-info .photo, #product-preview .base-info .photo {
 height: 155px;
 line-height: 155px;
-}
+}*/
 .products-grid .base-info .installment-compact, #product-preview .base-info .installment-compact {
 top: 170px !important;
 }
