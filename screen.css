@@ -5500,7 +5500,7 @@ border-top-left-radius: 0 !important;
 -moz-border-bottom-left-radius: 0!important;
 border-bottom-left-radius: 0!important;
 }
-.button.gray, .button.light-gray, .button.change-delivery, #product-preview .button.arrow, .to-details.button.arrow, #filters .a-z li a, #filters .a-z li.empty {
+.button.gray, .button.light-gray, .button.change-delivery, .to-details.button.arrow, #filters .a-z li a, #filters .a-z li.empty {
 height: 26px;
 line-height: 25px;
 border: 1px solid #ddd !important;
@@ -6011,7 +6011,7 @@ box-shadow: 0 0 5px rgba(0, 0, 0, 0.45);
 margin: -20px 0 35px;
 }
 .product-preview-content {
-height: 490px;
+height: 550px;
 }
 #product-preview .content dl {
 padding-top: 0;
@@ -6059,12 +6059,13 @@ line-height: 155px;
 top: 170px !important;
 }
 #product-preview .base-content {
-padding: 5px 0 0;
+padding: 0px;
 overflow: hidden;
 width: 100%;
 position: relative;
 text-align: center;
 top: 60px;
+background: #f8f8f8;
 }
 .base-info onair h3 {
 margin: 26px 12px 0 !important;
@@ -6075,6 +6076,10 @@ color: #535353 !important;
 }
 #product-preview .base-content dl dt {
 width: 110px;
+}
+
+#product-preview .box.availability {
+    margin-top: 0px !important;
 }
 /* Product Karusell End */
 #category > hgroup {
