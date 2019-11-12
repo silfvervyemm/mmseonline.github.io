@@ -3525,6 +3525,14 @@ label.product-attributes__item-label {
   border: none;
 }
 
+.button.add-to-cart:before {
+    background: url(https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png) no-repeat scroll -560px -27px transparent;
+    top: 12px;
+    width: 21px;
+    left: 17px;
+    height: 20px;
+}
+
 /*Bazaarvoice*/
 #product-details .bv-cv2-cleanslate .bv-core-container-53 .bv-summary-bar .bv-action-bar {
   padding-top: 0px !important;
