@@ -6445,8 +6445,8 @@ color: #df0000;
 color: #df0000;
 border: none;
 }
-#filters h2, #filters h2 a, #filters .headline {
-color: #000;
+.filters-content>h2.selected, .filters-content fieldset>h2.selected, .filters-content .headline.selected {
+    background: none;
 }
 #filters h2 a:hover:after, #filters .headline a:hover:after {
 height: 6px;
