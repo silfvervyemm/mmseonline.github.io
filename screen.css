@@ -3538,6 +3538,10 @@ label.product-attributes__item-label {
     background: url("images/sprites.png") no-repeat scroll -560px 1px transparent;
 }
 
+#product-sidebar .sidebar-form form{
+      margin: 0px;
+}
+
 /*Bazaarvoice*/
 #product-details .bv-cv2-cleanslate .bv-core-container-53 .bv-summary-bar .bv-action-bar {
   padding-top: 0px !important;
