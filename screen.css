@@ -2640,8 +2640,13 @@ Responsivitet
     height: 26px;
   }
   .products-list > li .product-price .add-to-cart:before {
-    background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") no-repeat scroll -587px -32px transparent!important;
-    top: 5px !important;
+    background: url("/images/sprites.png") no-repeat scroll -586px -32px transparent!important;
+    width: 17px;
+    height: 16px;
+  }
+
+  .products-list > li .product-price .add-to-cart:hover:before {
+    background: url("/images/sprites.png") no-repeat scroll -586px -4px transparent!important;
   }
 
   .button.arrow span:after {
