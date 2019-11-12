@@ -2617,12 +2617,7 @@ Responsivitet
   .filters li:hover, #filters .options a:hover {
     background: #f2f2f2;
   }
-  .filters li:before {
-    background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") no-repeat scroll -414px -2px transparent;
-    height: 8px;
-    top: 6px;
-    width: 8px;
-  }
+
   .filters li:hover:before {
     background-position: -402px -2px;
   }
