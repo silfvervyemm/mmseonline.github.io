@@ -1003,9 +1003,7 @@ background: url(images/sprites.png) no-repeat -586px -4px !important;
 #product-preview .button.add-to-cart {/*Lägger till en border för att knappen ska holla sig lika vid hover i varukorgs-knappen i gridview*/
 border: 1px solid #ddd;
 }
-#product-preview .base-info .ee-wrapper { /* Visar enegidekaler i gridview */
-display: block !important;
-}
+
 .products-grid .base-info .b-set, .product-accessories .products-grid .base-info .b-set {
 display: none;
 }
@@ -2863,23 +2861,11 @@ overflow: auto;
       height: auto;
 }
 
-.category-grid .products-grid .ee-wrapper > a.energy-usage-label {
+.category-grid .products-grid .ee-wrapper > a.energy-usage-label,  #product-preview .product-preview-content .base-info .ee-wrapper > a.energy-usage-label {
   width: 50% !important;
   margin: 0px;
 }
-#product-preview .ee-wrapper > a.energy-usage-label {
-width: 50% !important;
-height: 28px;
-margin-left: 14px;
-}
-#product-preview .base-info .energy-usage-label + a {
-margin: 6px 14px 0 0px;
-float: right !important;
-}
-#product-preview .base-info h3 a {
-font-family: 'mmtextregularpro', sans-serif;
-font-size: 14px;
-}
+
 #product-preview .base-content .rate {
 padding: 16px 5px !important
 }
@@ -5962,7 +5948,7 @@ left: auto;
 right: 7px;
 padding: 0;
 }
-/**** Catagory Page ****/
+/**** Catagory Page grid****/
 #category.category-grid .products-grid .base-info .ee-wrapper, #product-preview .product-preview-content .base-info .ee-wrapper {
     display: flex;
     flex-direction: row;
@@ -5971,13 +5957,13 @@ padding: 0;
 }
 #category.category-grid .products-grid .base-info h3, #product-preview .product-preview-content .base-info h3 {
 text-align: left;
+margin: 0px;
 }
 
-#category.category-grid .products-grid .base-info small.vat-info, #product-preview .product-preview-content .base-info small.vat-info {
-position: absolute;
-top: 55px;
-right: 0px;
+.products-grid .info-wrapper, #product-preview .info-wrapper {
+    margin: 5px 0px;
 }
+
 /* Product Karusell */
 .products-grid .base-info h3 a, #product-preview .base-info h3 a {
 color: #000 !important;
@@ -5987,9 +5973,7 @@ font-family: 'mmtextregularpro', sans-serif;
 #product-preview {
 box-shadow: 0 0 5px rgba(0, 0, 0, 0.45);
 }
-#product-preview .info-wrapper {
-margin: -20px 0 35px;
-}
+
 .product-preview-content {
 height: 550px;
 }
