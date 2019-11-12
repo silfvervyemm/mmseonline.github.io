@@ -2858,19 +2858,14 @@ overflow: auto;
 }
 /* -------------------------------------- PRODUCTGRID - ENERGY LABEL FIX -------------------------- */
 #category .products-grid .base-info .energy-usage-label + a {
-top: -7px;
-right: 0px;
-position: relative;
+    border-bottom: none;
+      margin: 0px;
+      height: auto;
 }
 
-/*#category.category-grid ul.products-grid li {
-height: 295px;
-padding-top: 12px;
-}*/
 .category-grid .products-grid .ee-wrapper > a.energy-usage-label {
-width: 50% !important;
-height: 28px;
-margin-left: 14px;
+  width: 50% !important;
+  margin: 0px;
 }
 #product-preview .ee-wrapper > a.energy-usage-label {
 width: 50% !important;
@@ -5969,7 +5964,10 @@ padding: 0;
 }
 /**** Catagory Page ****/
 #category.category-grid .products-grid .base-info .ee-wrapper, #product-preview .product-preview-content .base-info .ee-wrapper {
-display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 #category.category-grid .products-grid .base-info h3, #product-preview .product-preview-content .base-info h3 {
 text-align: left;
