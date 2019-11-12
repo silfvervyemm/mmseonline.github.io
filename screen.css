@@ -2698,7 +2698,6 @@ Responsivitet
   }
   #filters .active h2 a:after, #filters .active .headline a:after {
     background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") no-repeat scroll -538px -88px transparent!important;
-    content: ".";
   }
   #filters h2 a:after, #filters .headline a:after {
     background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") no-repeat scroll -538px -44px transparent!important;
@@ -2706,7 +2705,7 @@ Responsivitet
     width: 22px !important;
     content: ".";
     left: 0px;
-    top: 2px;
+    top: -4px;
   }
   #product-details .product-anchors {
     background: #fff;
@@ -6200,11 +6199,6 @@ width: 90%;
 }
 .filters-content>h2.selected, .filters-content fieldset>h2.selected, .filters-content .headline.selected {
   background: none;
-}
-#filters h2 a:hover:after, #filters .headline a:hover:after {
-  height: 6px;
-  width: 8px;
-  background-position: -127px -43px;
 }
 
 #filters .icon {
