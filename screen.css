@@ -5877,7 +5877,7 @@ width: 90%;
 }
 
 .product-preview-content {
-  height: 550px;
+  height: auto;
 }
 #product-preview .content dl {
   padding-top: 0;
