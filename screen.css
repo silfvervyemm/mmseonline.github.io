@@ -2855,7 +2855,7 @@ display: none;
 overflow: auto;
 }
 /* -------------------------------------- PRODUCTGRID - ENERGY LABEL FIX -------------------------- */
-#category .products-grid .base-info .energy-usage-label + a {
+#category .products-grid .base-info .energy-usage-label + a, #product-preview .product-preview-content .base-info .energy-usage-label + a {
     border-bottom: none;
       margin: 0px;
       height: auto;
@@ -5954,6 +5954,8 @@ padding: 0;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 90%;
+    margin: 0 auto;
 }
 #category.category-grid .products-grid .base-info h3, #product-preview .product-preview-content .base-info h3 {
 text-align: left;
