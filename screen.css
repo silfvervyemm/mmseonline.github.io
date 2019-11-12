@@ -3125,7 +3125,6 @@ button.button.gray.js-check-express {
 }
 #filters .content .categories-tree-descendants {
   padding-left: 20px !important;
-  line-height: 0.6;
 }
 .categories-tree-current.categories-tree-has-descendants {
   padding-top: 5px;
@@ -4443,7 +4442,7 @@ body .cms-products-grid div label {
   height: 17px;
   width: 10px;
   position: absolute;
-  margin-top: 0px;
+  margin-top: 7px;
 }
 #filters .categories li:hover:before {
   content: "";
@@ -4520,9 +4519,6 @@ ul.categories-tree-ancestors li:last-child {
 }
 #filters .content .categories-tree-current {
   padding: 0 0 0 20px !important;
-}
-#filters .content .categories-tree-descendants a {
-  min-height: 25px;
 }
 /* --------------- Tillbaka till sök från PDP - DECEMBER 2016 ------------------ */
 .breadcrumbs li.back-to-search:before {
