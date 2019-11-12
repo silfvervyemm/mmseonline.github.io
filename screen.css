@@ -1,14 +1,14 @@
 @font-face {
 font-family: 'mmheadlinepro';
-src: url('//www.mediamarkt.se/static/fonts/MM/MMHeadlineProWebTT-Regular.woff2'), url('//www.mediamarkt.se/static/fonts/MM/MMHeadlinePro-Regular.otf'), url('//www.mediamarkt.se/static/fonts/MMHeadlineProWebTT-Regular.ttf') format('truetype');
+src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMHeadlineProWebTT-Regular.woff2'), url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMHeadlinePro-Regular.otf'), url('https://csscdn.redblue.de/MediaSE/static/fonts/MMHeadlineProWebTT-Regular.ttf') format('truetype');
 }
 @font-face {
 font-family: 'mmtextboldpro';
-src: url('//www.mediamarkt.se/static/fonts/MM/MMTextProWebTT-Bold.woff2'), url('//www.mediamarkt.se/static/fonts/MM/MMTextPro-Bold.otf'), url('//www.mediamarkt.se/static/fonts/MMTextProWebTT-Bold.ttf') format('truetype');
+src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMTextProWebTT-Bold.woff2'), url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMTextPro-Bold.otf'), url('https://csscdn.redblue.de/MediaSE/static/fonts/MMTextProWebTT-Bold.ttf') format('truetype');
 }
 @font-face {
 font-family: 'mmtextregularpro';
-src: url('//www.mediamarkt.se/static/fonts/MM/MMTextProWebTT-Regular.woff2'), url('//www.mediamarkt.se/static/fonts/MM/MMTextPro-Regular.otf'), url('//www.mediamarkt.se/static/fonts/MMTextProWebTT-Regular.ttf') format('truetype');
+src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMTextProWebTT-Regular.woff2'), url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMTextPro-Regular.otf'), url('https://csscdn.redblue.de/MediaSE/static/fonts/MMTextProWebTT-Regular.ttf') format('truetype');
 }
 @font-face {
 font-family: 'sourcesanspro-regular';
@@ -2776,9 +2776,7 @@ overflow: hidden;
 #features h2 {
 text-transform: none;
 }
-.products-list > li footer ul li a {
-text-decoration: none;
-}
+
 #product-details .price-sidebar .availability {
 background-color: #f2f2f2!important;
 }
@@ -4444,22 +4442,10 @@ border-right: none !important;
 outline: 0;
 }
 /* ------------------- NY KATEOGORINAVIGERING PÅ SÖK - SEPTEMBER 2016 ---------------------- */
-.content.cf.categories > ul:before {
-content: "Kategori";
-text-transform: uppercase;
-font-family: 'mmtextboldpro', sans-serif;
-font-size: 20px;
-}
-.page-category .content.cf.categories > ul:before {
-content: "";
-}
 #filters .content .categories-flat-current {
 padding-left: 14px;
 margin-bottom: 0px;
 font-family: 'mmtextboldpro';
-}
-.content.cf.categories li {
-padding: 0px 0px 5px;
 }
 #filters .categories a {
 color: #000;
@@ -4549,7 +4535,15 @@ padding: 0;
 line-height: normal;
 }
 ul.categories-tree-ancestors li:last-child {
-padding-left: 10px;
+    padding-left: 20px;
+}
+
+#filters .content .categories-tree-ancestors a::before {
+    background: url(https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png) -117px -11px no-repeat;
+    width: 6px;
+    height: 10px;
+    left: -10px;
+    top: 6.5px;
 }
 #filters .content .categories-tree-current {
 padding: 0 0 0 20px !important;
@@ -6178,9 +6172,7 @@ margin-top: 0;
 margin: -20px 0 5px 202px;
 background: none;
 }
-.products-list > li footer ul li a {
-text-decoration: underline;
-}
+
 .products-list > li footer ul li a:before {
 background: url("images/sprites.png") no-repeat scroll 0 0 transparent;
 }
