@@ -4657,13 +4657,6 @@ li.back-to-search:before {
   }
 }
 /*----------Ingresser -------------------*/
-.breadcrumbs {
-  border-top: 1px solid #dddddd;
-}
-#category .breadcrumbs {
-  border-top: 1px solid #dddddd;
-  margin-top: 12px;
-}
 section.ingress {
   padding: 0 0 20px 0;
 }
@@ -5323,11 +5316,7 @@ a.site-navigation2__link[data-tracking='outlet_head']:hover > .site-navigation2_
 .products-list footer ul {
   margin-left: 10px;
 }
-.clickable.see-reviews, .clickable.first-review {
-  margin-top: -3px;
-  position: relative;
-  top: -4px;
-}
+
 /*Contentsports*/
 .fg-container + .fg-container {
   margin-top: 6px;
@@ -5707,38 +5696,12 @@ caption, th, td {
   background-position: 0 0 !important;
 }
 /* Breadcrumb */
-.breadcrumbs {
-  font-size: 13px;
-  margin: 0 0 10px;
-  border-bottom: 1px solid #dddddd;
-  color: #7F7F7F;
-  padding: 12px 0 11px;
-}
-.breadcrumbs li.home {
-  height: 16px;
-  width: 11px;
-  position: relative;
-  margin: 0;
-}
-.breadcrumbs li.home a {
-  background: url("images/sprites.png") no-repeat scroll -164px -42px transparent;
-  height: 10px;
-  width: 11px;
-  margin-top: -5px;
-  position: absolute;
-  top: 50%;
-  left: 0px;
-}
 
 .breadcrumbs li.home a {
   background: url("images/sprites.png") no-repeat scroll -164px -42px transparent;
-  height: 10px;
   width: 11px;
-  margin-top: -5px;
-  position: absolute;
-  top: 50%;
-  left: 0px;
 }
+
 /**** Catagory Infield ****/
 .side .contentspot {
   padding: 0 0 12px;
