@@ -2747,10 +2747,6 @@ Responsivitet
     top: 2px;
     width: 12px;
     margin-left: 4px;
-    -webkit-transition: .2s ease-in-out;
-    -moz-transition: .2s ease-in-out;
-    -o-transition: .2s ease-in-out;
-    transition: .2s ease-in-out;
   }
   #product-details .product-anchors a:hover:after {
     background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") no-repeat scroll -400px -35px transparent;
@@ -5391,7 +5387,7 @@ caption, th, td {
   height: 37px !important;
 }
 .button.large span {
-  line-height: 46px !important;
+  line-height: 37px !important;
 }
 /*Buttons Icons*/
 .button.gray span:after {
