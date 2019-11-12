@@ -5969,22 +5969,12 @@ padding: 0;
 }
 /**** Catagory Page ****/
 #category.category-grid .products-grid .base-info .ee-wrapper, #product-preview .product-preview-content .base-info .ee-wrapper {
-position: absolute;
-top: 210px;
-left: 0px;
 display: block;
 }
 #category.category-grid .products-grid .base-info h3, #product-preview .product-preview-content .base-info h3 {
-position: absolute;
-top: 225px;
-left: 0px;
 text-align: left;
 }
-#category.category-grid .products-grid .base-info h3 a, #product-preview .product-preview-content .base-info h3 a {
-font-size: 14px;
-font-family: 'mmtextregularpro';
-font-weight: normal;
-}
+
 #category.category-grid .products-grid .base-info small.vat-info, #product-preview .product-preview-content .base-info small.vat-info {
 position: absolute;
 top: 55px;
@@ -5993,8 +5983,8 @@ right: 0px;
 /* Product Karusell */
 .products-grid .base-info h3 a, #product-preview .base-info h3 a {
 color: #000 !important;
-font-family: 'mmtextregularpro';
-font-weight: normal;
+font-size: 14px;
+font-family: 'mmtextregularpro', sans-serif;
 }
 #product-preview {
 box-shadow: 0 0 5px rgba(0, 0, 0, 0.45);
