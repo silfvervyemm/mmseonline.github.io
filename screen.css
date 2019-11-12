@@ -2656,10 +2656,10 @@ Responsivitet
     position: absolute;
     margin: 0 !important;
     text-indent: -999em;
-    -webkit-transition: .2s ease-in-out;
-    -moz-transition: .2s ease-in-out;
-    -o-transition: .2s ease-in-out;
-    transition: .2s ease-in-out;
+  }
+
+  .button.arrow:hover span:after{
+    background: url(https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png) -403px -13px no-repeat scroll !important;
   }
 
   #header .basket .content .buttons .button span {
