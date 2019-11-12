@@ -449,6 +449,7 @@ background: #000 !important;
 -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
 box-sizing: border-box;
+border: 1px solid #ddd;
 }
 .button.add-to-cart:hover, .button.big.arrow span:hover, #header .basket .content .buttons .button:hover {  /* k�p knapp, N�sta i checkout */
 background: #f2f2f2 !important;
@@ -1817,9 +1818,6 @@ color: #df0000;
 .label.online-price, .price-guaranteee { /* Gömmer bort mediamarkt-pris över priser på produktsidor */
 visibility: hidden;
 }
-.button.add-to-cart:before { /* centrerar cart ikon i önskelista dropdown */
-top: 6px;
-}
 .market-buy ul li:before { /* fixar before pilen i punklistan i layern när man trycker på finns i lager under priset på produktsidan */
 position: absolute;
 }
@@ -2636,14 +2634,13 @@ Responsivitet
     font-family: 'mmtextboldpro', sans-serif;
     font-weight: normal!important;
   }
-  .products-list > li .product-price .add-to-cart:hover {
-    height: 26px;
-  }
+
   .products-list > li .product-price .add-to-cart:before {
     background: url("images/sprites.png") no-repeat scroll -586px -32px transparent!important;
     width: 17px;
     height: 16px;
-  }
+    top: 4px !important;
+}
 
   .products-list > li .product-price .add-to-cart:hover:before {
     background: url("images/sprites.png") no-repeat scroll -586px -4px transparent!important;
@@ -5373,7 +5370,6 @@ caption, th, td {
 }
 .button.add-to-cart span {
   padding: 0 18px 0 32px !important;
-  line-height: 28px !important;
   font-size: 14px;
 }
 .button.large {
