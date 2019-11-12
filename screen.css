@@ -6008,10 +6008,10 @@ font-weight: normal;
 box-shadow: 0 0 5px rgba(0, 0, 0, 0.45);
 }
 #product-preview .info-wrapper {
-margin: -10px 0 35px;
+margin: -20px 0 35px;
 }
 .product-preview-content {
-height: 686px;
+height: 490px;
 }
 #product-preview .content dl {
 padding-top: 0;
@@ -6064,7 +6064,7 @@ overflow: hidden;
 width: 100%;
 position: relative;
 text-align: center;
-top: 90px;
+top: 60px;
 }
 .base-info onair h3 {
 margin: 26px 12px 0 !important;
