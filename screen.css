@@ -2640,13 +2640,13 @@ Responsivitet
     height: 26px;
   }
   .products-list > li .product-price .add-to-cart:before {
-    background: url("/images/sprites.png") no-repeat scroll -586px -32px transparent!important;
+    background: url("images/sprites.png") no-repeat scroll -586px -32px transparent!important;
     width: 17px;
     height: 16px;
   }
 
   .products-list > li .product-price .add-to-cart:hover:before {
-    background: url("/images/sprites.png") no-repeat scroll -586px -4px transparent!important;
+    background: url("images/sprites.png") no-repeat scroll -586px -4px transparent!important;
   }
 
   .button.arrow span:after {
@@ -2992,16 +2992,6 @@ Responsivitet
   .footermenublock.one h3 {
     margin-top: 0;
   }
-  /*.button.add-to-cart:before {
-    background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") no-repeat scroll -560px -27px transparent;
-    top: 12px;
-    width: 21px;
-    left: 17px;
-    height: 20px;
-  }
-  .button.add-to-cart:hover:before {
-    background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") no-repeat scroll -560px -0px transparent !important;
-  }*/
   .products-grid .button.add-to-cart:hover:before { /*So the above doesn't add extra :before icon to this one */
   background: none!important;
 }
