@@ -4437,23 +4437,14 @@ body .cms-products-grid div label {
 }
 
 #filters .categories li:before {
-  content: "";
-  background: url(https://www.mediamarkt.se/static/img/icons/red-arrow-normal.png) no-repeat;
-  background-size: 7px 10px;
-  height: 17px;
-  width: 10px;
-  position: absolute;
-  margin-top: 7px;
+    content: "";
+    background: url(https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png) no-repeat -76px -44px;
+    height: 10px;
+    width: 10px;
+    position: absolute;
+    margin-top: 7px;
 }
-#filters .categories li:hover:before {
-  content: "";
-  background: url(https://www.mediamarkt.se/static/img/icons/red-arrow-hover.png) no-repeat;
-  background-size: 7px 10px;
-  height: 17px;
-  width: 10px;
-  position: absolute;
-  margin-top: 5px;
-}
+
 ul.categories-tree-descendants {
   padding-left: 0 !important;
 }
