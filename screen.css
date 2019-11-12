@@ -5866,12 +5866,13 @@ caption, th, td {
 }
 #category.category-grid .products-grid .base-info h3, #product-preview .product-preview-content .base-info h3 {
   text-align: left;
-  margin: 0px;
+margin: 5px auto 0px;
+width: 90%;
 }
 
-.products-grid .info-wrapper, #product-preview .info-wrapper {
+/*.products-grid .info-wrapper, #product-preview .info-wrapper {
   margin: 5px 0px;
-}
+}*/
 
 /* Product Karusell */
 .products-grid .base-info h3 a, #product-preview .base-info h3 a {
