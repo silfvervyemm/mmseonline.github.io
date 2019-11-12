@@ -2643,9 +2643,7 @@ Responsivitet
     background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") no-repeat scroll -587px -32px transparent!important;
     top: 5px !important;
   }
-  .products-list > li:hover .product-price .add-to-cart:hover:before {
-    background-position: -587px -4px!important;
-  }
+
   .button.arrow span:after {
     background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") -414px -13px no-repeat scroll !important;
     height: 10px !important;
@@ -2989,7 +2987,7 @@ Responsivitet
   .footermenublock.one h3 {
     margin-top: 0;
   }
-  .button.add-to-cart:before {
+  /*.button.add-to-cart:before {
     background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") no-repeat scroll -560px -27px transparent;
     top: 12px;
     width: 21px;
@@ -2998,7 +2996,7 @@ Responsivitet
   }
   .button.add-to-cart:hover:before {
     background: url("https://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png") no-repeat scroll -560px -0px transparent !important;
-  }
+  }*/
   .products-grid .button.add-to-cart:hover:before { /*So the above doesn't add extra :before icon to this one */
   background: none!important;
 }
@@ -6020,20 +6018,7 @@ width: 90%;
   padding: 0 7px 0 0 !important;
   font-family: 'mmtextregularpro', sans-serif;
 }
-.products-list > li .product-price .add-to-cart:before {
-  background: url("images/sprites.png") no-repeat scroll -365px 0 transparent !important;
-  width: 20px !important;
-  height: 16px !important;
-  left: 7px !important;
-  top: 5px !important;
-}
-.products-list > li .product-price .add-to-cart:after {
-  background: url("images/sprites.png") no-repeat scroll -386px -20px transparent !important;
-  right: 8px !important;
-  height: 7px !important;
-  width: 6px !important;
-  top: 11px !important;
-}
+
 .products-list > li .box.infobox {
   border: none;
   background-color: #F6F6F6;
