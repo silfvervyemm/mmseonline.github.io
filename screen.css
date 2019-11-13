@@ -919,9 +919,7 @@ width: 75px !important;
 width: 35px;
 height: 35px;
 }
-.page-product .prev, .page-product .next {  /* La in z-index s� att inga bibler hoppas upp ovanf�r knapparna i karusellen */
-top: 62%;
-}
+
 .alatest-widget { /* alaScore recentioner plupp flyttad eftersom prisboxen blev utvidgad*/
 left: 460px !important;
 }
@@ -3279,6 +3277,7 @@ li.loyaltyClub.chosenToBeShown p {
 }
 #product-details .header.border-top {
   padding: 20px 0 0;
+  margin-bottom: 0px;
 }
 #product-details .border-top .go-up {
   top: 20px;
