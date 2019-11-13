@@ -3915,13 +3915,13 @@ nav#top-navigation {
 }
 
 /* RUBRIK-STYLING PÅ PRODUKTSNURRA */
-.header.border {
+.header.border, .header.border-top {
   text-align: left !important;
   padding: 0px 0px 5px 12px !important;
   border: 1px solid #ddd;
   border-bottom: none;
 }
-.header.border h2 {
+.header.border h2, .header.border-top h2 {
   position: relative;
   font-size: 22px;
   color: #000;
