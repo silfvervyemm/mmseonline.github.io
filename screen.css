@@ -3272,9 +3272,7 @@ li.loyaltyClub.chosenToBeShown p {
 #product-details .price-sidebar small {
   margin: -7px 0 5px;
 }
-#product-details .border-top {
-  border-top: 1px solid #ddd;
-}
+
 #product-details .header.border-top {
   padding: 20px 0 0;
   margin-bottom: 0px;
