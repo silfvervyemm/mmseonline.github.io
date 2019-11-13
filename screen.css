@@ -545,15 +545,6 @@ z-index: 100;
 margin-top: 0px;
 }
 /*======== Related products fixes =================*/
-#relaterade-produkter .products-carousel {
-border-top: 1px solid #ddd !important;
-}
-#relaterade-produkter.product-container .products-carousel {
-min-height: 246px !important;
-}
-.page-product #relaterade-produkter.product-container .products-carousel, .page-product .products-grid {
-overflow: visible;
-}
 #relaterade-produkter.product-container .products-grid > li {
 margin-left: 10px !important;
 }
@@ -2571,10 +2562,7 @@ Responsivitet
     color: #444;
     font-size: 16px
   }
-  #product-details .header h2 {
-    color: #000;
-    font-size: 20px;
-  }
+
   .specification.energy-efficiency dt {
     color: #444;
   }
@@ -2758,7 +2746,6 @@ Responsivitet
     text-transform: none !important;
     font-family: 'mmtextboldpro', sans-serif !important;
     font-weight: normal!important;
-    font-weight: normal !important;
     text-overflow: ellipsis;
     white-space: nowrap;
     width: 87%;
@@ -3085,11 +3072,7 @@ Sweteasers
   line-height: 20px;
   position: relative;
 }
-#product-details .product-container .header h2 {
-  color: #444;
-  font-size: 20px;
-  margin-left: 12px;
-}
+
 /* Döljer knapp "Visa leveransalternativ" i varuhuslagret på PDP - ej aktuell tabell */
 button.button.gray.js-check-express {
   display: none;
@@ -3442,10 +3425,7 @@ label.product-attributes__item-label {
   margin: 0 0 20px;
   font-size: 13px;
 }
-.accessories, .accessories-list {
-  padding: 0 0 8px;
-  border-top: 1px dotted #D6D6D6;
-}
+
 .accessories-list a {
   border-radius: 0 0 0 0;
   color: #555555;
