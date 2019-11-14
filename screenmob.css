@@ -303,6 +303,34 @@ body #wrapper-main .tab-categories ul.content-link-list li span {
 }
 /* --------------------   End: Filter & Sorting -------------------- */
 
+/* -------------------- Start: Breadcrumbs -------------------- */
+body #wrapper-main .category-breadcrumb,
+body #wrapper-main .category-breadcrumb:link,
+body #wrapper-main .category-breadcrumb:visited {
+    display: inline-block;
+    color: #df0000;
+    padding: 5px 0 10px;
+}
+body #wrapper-main .category-breadcrumb:before {
+    background: none !important;
+    content: "\276e"; /* ‹ */
+    display: inline-block;
+    font-family: 'MM-iconfont';
+    font-size: .875em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+    width: auto;
+}
+body #wrapper-main .category-breadcrumb:after {
+    background: none;
+    content: " ";
+    display: none;
+}
+/* --------------------   End: Breadcrumbs -------------------- */
+
 #logo > a {
     display: block;
     background: transparent url('images/general/mm-logo.png') no-repeat 0 50% !important;
@@ -842,26 +870,6 @@ ul.site-navigation2__list li {
     right: 0px;
 	width: 18px;
     height: 18px;
-}
-
-/*-------------------- BREADCRUMBS-----------------------------------*/
-a.category-breadcrumb, a.category-breadcrumb:link, a.category-breadcrumb:visited {
-    color: #df0000;
-}
-a.category-breadcrumb:before {
-    content: "...";
-    margin-bottom: 4px;
-    margin-right: 0px;
-}
-a.category-breadcrumb:after {
-    background: url('http://css.redblue.de/MediaSE/skins/feemmse/sv/images/sprites.png') no-repeat scroll -404px -25px;
-    width: 5px;
-    height: 10px;
-    display: inline-block;
-    margin-bottom: 2px;
-    margin-left: 2px;
-    vertical-align: middle;
-    content: " ";
 }
 
 /*------------------------ Lagerstatus-------------------------------------*/
