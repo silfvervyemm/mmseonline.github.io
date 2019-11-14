@@ -181,6 +181,54 @@ body .fixed-search-container .fixed-search-close-btn {
 }
 /* --------------------   End: Search Field -------------------- */
 
+/* -------------------- Start: Category Page -------------------- */
+body #wrapper-main > .category-title-container h1 {
+    margin: 0;
+    padding: 0.5em 1em;
+    text-align: center;
+}
+body #wrapper-main > .category-title-container h1 > span {
+    display: none;
+}
+body #wrapper-main .product-list > li.bg-white .product-teaser-container {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1em;
+}
+body #nav-categories li a {
+    background: #fff;
+    border-bottom: 0px solid #fff;
+    border-top: 1px solid #ddd;
+    color: #000;
+    font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
+    line-height: 100%;
+    padding: 1em 2em 1em 10px;
+}
+body #nav-categories {
+    margin-bottom: 1em;
+}
+body #nav-categories li a::after,
+body #nav-categories li a.background-type-2::after {
+    background: none;
+    content: " › ";
+    font-size: 2em;
+    height: auto;
+    margin-top: auto;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1em;
+}
+body ul#nav-categories li:last-child {
+    /* Hide the list item for ‘Show all categories’ link */
+    display: none;
+}
+body ul#nav-categories li:nth-last-child(2) a {
+    /* Fix the border color for the list item before the hidden last-child */
+    border-color: #ddd;
+}
+/* --------------------   End: Category Page -------------------- */
+
 /* -------------------- Start: Filter & Sorting -------------------- */
 body #filter-container .button {
     background: #df0000;
@@ -757,25 +805,6 @@ p.auszug {
 /*--------------------------- HAMBURGERMENY-----------------------*/
 ul.site-navigation2__list li {
     font-size: 18px;
-}
-/*-------------------- LOCAL MENY CATEGORIES ---------------------*/
-
-#nav-categories li a {
-    color: #000;
-    background: #f8f8f8;
-    border-top: 1px solid #a5a1a1;
-}
-#nav-categories li a:after, #nav-categories li a.background-type-2:after {
-    background: url('images/sprites.png') no-repeat -410px -11px rgba(0,0,0,0);
-    width: 14px;
-    height: 14px;
-    margin-top: -6px;
-}
-#nav-categories li a.background-type-2:first-child {
-    border-top: 1px solid #a5a1a1;
-}
-#nav-categories li a.background-type-2:last-child {
-    border-bottom: 1px solid #a5a1a1;
 }
 /*------------------------------ SEARCH -------------------------------------*/
 
