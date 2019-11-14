@@ -198,6 +198,9 @@ body #wrapper-main .product-list .product-teaser-container .product-teaser-detai
     font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
     font-size: 1em;
 }
+body #nav-categories {
+    margin-bottom: 1em;
+}
 body #nav-categories li a {
     background: #fff;
     border-bottom: 0px solid #fff;
@@ -206,9 +209,6 @@ body #nav-categories li a {
     font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
     line-height: 100%;
     padding: 1em 2em 1em 10px;
-}
-body #nav-categories {
-    margin-bottom: 1em;
 }
 body #nav-categories li a::after,
 body #nav-categories li a.background-type-2::after {
