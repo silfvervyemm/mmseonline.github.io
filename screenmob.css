@@ -190,9 +190,13 @@ body #wrapper-main > .category-title-container h1 {
 body #wrapper-main > .category-title-container h1 > span {
     display: none;
 }
-body #wrapper-main .product-list > li.bg-white .product-teaser-container {
+body #wrapper-main .product-list .product-teaser-container {
     border-bottom: 1px solid #ddd;
     padding-bottom: 1em;
+}
+body #wrapper-main .product-list .product-teaser-container .product-teaser-details .information * {
+    font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
+    font-size: 1em;
 }
 body #nav-categories li a {
     background: #fff;
