@@ -89,7 +89,7 @@ body .crossed-price-wrapper .product-crossed-price::before,
 body .pdp-product-info .crossed-price-wrapper .product-crossed-price::before {
     background-color: #df0000;
     content: "";
-    height: 2px;
+    height: 1.5px;
     left: 8%;
     position: absolute;
     top: 48%;
