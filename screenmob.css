@@ -1,20 +1,20 @@
 @font-face {
     font-family: 'mmheadlinepro';
-    src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MMHeadlineProWebTT-Regular.woff2'),
-         url('https://csscdn.redblue.de/MediaSE/static/fonts/MMHeadlinePro-Regular.otf'),
-         url('https://csscdn.redblue.de/MediaSE/static/fontsHeadlineProWebTT-Regular.ttf') format('truetype');
+    src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMHeadlineProWebTT-Regular.woff2'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMHeadlinePro-Regular.otf'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MMHeadlineProWebTT-Regular.ttf') format('truetype');
 }
 @font-face {
     font-family: 'mmtextboldpro';
-    src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MMTextProWebTT-Bold.woff2'),
-         url('https://csscdn.redblue.de/MediaSE/static/fonts/MMTextPro-Bold.otf'),
-         url('https://csscdn.redblue.de/MediaSE/static/fontsTextProWebTT-Bold.ttf') format('truetype');
+    src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMTextProWebTT-Bold.woff2'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMTextPro-Bold.otf'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MMTextProWebTT-Bold.ttf') format('truetype');
 }
 @font-face {
     font-family: 'mmtextregularpro';
-    src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MMTextProWebTT-Regular.woff2'),
-         url('https://csscdn.redblue.de/MediaSE/static/fonts/MMTextPro-Regular.otf'),
-         url('https://csscdn.redblue.de/MediaSE/static/fontsTextProWebTT-Regular.ttf') format('truetype');
+    src: url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMTextProWebTT-Regular.woff2'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MM/MMTextPro-Regular.otf'),
+         url('https://csscdn.redblue.de/MediaSE/static/fonts/MMTextProWebTT-Regular.ttf') format('truetype');
 }
 @font-face {
     font-family: 'sourcesanspro-regular';
