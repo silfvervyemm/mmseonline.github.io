@@ -213,15 +213,17 @@ body #nav-categories li a {
 body #nav-categories li a::after,
 body #nav-categories li a.background-type-2::after {
     background: none;
-    content: " › ";
-    font-size: 2em;
+    color: #444;
+    content: "\276f"; /* › */
+    font-family: 'MM-iconfont';
+    font-size: 1em;
     height: auto;
     margin-top: auto;
     right: 0;
     text-align: center;
     top: 50%;
     transform: translateY(-50%);
-    width: 1em;
+    width: 2em;
 }
 body ul#nav-categories li:last-child {
     /* Hide the list item for ‘Show all categories’ link */
@@ -249,21 +251,33 @@ body #wrapper-main .tab-categories ul.content-link-list li a.mrh-accordion-headl
     font-weight: normal;
     padding: 8px;
 }
+body #wrapper-main .tab-categories ul.content-link-list li a:after,
 body #wrapper-main .tab-categories ul.content-link-list li a.mrh-accordion-headline:after {
-    background: url("https://www.mediamarkt.se/static/icons/Arrow_grey.png") no-repeat 0 50% !important;
-    background-size: contain !important;
-    right: 10px;
-    height: 18px;
-    top: 8px;
-    width: 14px;
+    background: none !important;
+    color: #444;
+    content: "\276f"; /* › */
+    font-family: 'MM-iconfont';
+    font-size: 1em;
+    height: auto;
+    margin-top: auto;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2em;
     -webkit-transition: all 150ms ease-out;
     -moz-transition: all 150ms ease-out;
     -ms-transition: all 150ms ease-out;
     -o-transition: all 150ms ease-out;
     transition: all 150ms ease-out;
 }
+body #wrapper-main .tab-categories ul.content-link-list li a:after {
+    color: #888;
+    font-size: 0.625em;
+}
+body #wrapper-main .tab-categories ul.content-link-list li a.mrh-accordion-headline:after {}
 body #wrapper-main .tab-categories ul.content-link-list li.displayed a.mrh-accordion-headline:after {
-    top: 12px;
+    top: 25%;
     transform: rotate(90deg);
 }
 body .button.background-type-2 span:after {
