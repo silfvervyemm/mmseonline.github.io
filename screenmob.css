@@ -541,9 +541,7 @@ section.bg-white.status-red ul {
 a.button.background-type-1.async-layer-link {
     margin-top: 20px;
 }
-
 /* ---------- SÖK JUNI OCH AUGUSTI 2016 ---------- */
-
 .mrh-mobile-channel ul.content-link-list.level-1, .mrh-mobile-channel section.wrapper-full-width.bg-white.tab-categories, .mrh-mobile-channel section.wrapper-full-width.bg-white.tab-categories .grid, .mrh-mobile-channel div#filter-container, .mrh-mobile-channel a.current-category.mrh-accordion-headline.mrh-accordion-trigger {
     margin: 0 !important;
 }
@@ -556,33 +554,30 @@ section.bg-white.fixed-search-container {
 .fixed-search-container .gridbox.column-1-1 {
     padding: 0;
 }
-/*----------Ingresser till kategorisidor 2018.04.20-------------------*/
-.breadcrumbs {
-    border-top: 1px solid #dddddd;
-}
+/* -------------------- Start: Ingresser till kategorisidor (20180420) -------------------- */
 section.ingress {
     padding: 0 0 20px 0;
 }
-.ingress h1, .ingress h2 {
+section.ingress h1,
+section.ingress h2 {
     font-size: 18px;
     color: #000000;
     margin: 0px;
 }
-.ingress p {
+section.ingress p {
     max-width: 700px;
     font-size: 16px;
     line-height: 20px;
 }
-/*-------------------------------Ingresser slut-----------------------*/
+/* --------------------   End: Ingresser till kategorisidor (20180420) -------------------- */
 
-/*-------------------- Flyttad hit från HideMobileAppSearch för att minska antal CSS filer och öka laddningstid ------------------*/
+/* -------------------- Start: mrh-app-channel -------------------- */
 .mrh-app-channel.mrh-pagetypeid-mobile_category .app-product-search {
     display: none;
 }
-/*--------------------------------------------------------------------------------------------------------------------------------*/
+/* --------------------   End: mrh-app-channel -------------------- *
 
-
-/* ------------------ COOKIES maj 2018 ------------------ */
+/* -------------------- Cookies maj 2018 -------------------- */
 .mrh-bottom-layer-stack-wrapper .cookies-banner {
     background: #dddddd;
 }
@@ -593,7 +588,10 @@ section.ingress {
     word-break: normal;
     text-align: center;
 }
-.cookies-banner a.button.background-type-1, .cookies-banner a.button.background-type-1 span, .cookies-banner a.button.background-type-2, .cookies-banner a.button.background-type-2 span {
+.cookies-banner a.button.background-type-1,
+.cookies-banner a.button.background-type-1 span,
+.cookies-banner a.button.background-type-2,
+.cookies-banner a.button.background-type-2 span {
     height: 20px;
     line-height: 20px;
     font-size: 12px;
@@ -676,6 +674,7 @@ p.intro {
     margin-bottom: 0;
 }
 .fsd-accordion h2, .fsd-accordion h3 {
+    margin: 0 !important;
     padding: 0 !important;
 }
 .fsd-accordion p {
@@ -1101,24 +1100,39 @@ span.redtext {
 }
 }
 
-/* RATINGS */
-
+/* -------------------- Start: Ratings -------------------- */
 .rating {
     background-image: url('https://www.mediamarkt.se/static/icons/ratingyellowgrey.png');
     background-position: 0px 2px;
 }
-
 .rating div {
     background-image: url('https://www.mediamarkt.se/static/icons/ratingyellowgrey.png');
     background-position: 0 -7px;
 }
-
 span.rating-count {
     color: #000;
 }
+/* --------------------   End: Ratings -------------------- */
 
 /* CMS */
-
-.cms_html_container img{
+.cms_html_container img {
 	width: 100%;
 }
+
+/* -------------------- Start: Produktsnurror -------------------- */
+.swiper-slide .product-teaser-container figure {
+    max-height: 100%;
+}
+.swiper-wrapper .product-teaser-details .has-crossed-price .product-price-info .crossed-price-layer {
+    display: none;
+}
+.swiper-container .product-teaser-container .wrapper-price.has-crossed-price .crossed-price-wrapper {
+    margin: 0;
+}
+.crossed-price-wrapper .product-crossed-price {
+	margin-left: 0;
+}
+.swiper-slide .product-teaser-container h3.product-teaser-headline {
+    max-height: 100%;
+}
+/* --------------------   End: Produktsnurror -------------------- */
