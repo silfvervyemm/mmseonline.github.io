@@ -135,6 +135,30 @@ body .pdp-slider .swiper-container {
      */
     min-height: 74.137931034vw;
 }
+/* == Product details */
+body #wrapper-main .table-prod-details {
+    margin: 1em 0;
+}
+body #wrapper-main .table-prod-details table {
+    margin-top: 0;
+}
+body #wrapper-main .table-prod-details td.checkmark {
+    /* Remove the background image ... */
+    background: none;
+    font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
+    width: 16px;
+}
+body #wrapper-main .table-prod-details td.checkmark::before {
+    /* ... and add a checkmark as icon font instead */
+    content: "✔";
+    color: #00ac45;
+    font-size: 1em;
+    padding: 2px;
+    width: 100%;
+}
+body #wrapper-main .table-prod-details td.feat-text {
+    font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
+}
 /* --------------------   End: PDP -------------------- */
 
 /* -------------------- Start: Header -------------------- */
