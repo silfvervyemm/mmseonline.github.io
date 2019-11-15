@@ -897,27 +897,20 @@ ul.site-navigation2__list li {
 }
 
 /*------------------------ Lagerstatus-------------------------------------*/
-
 a.instockonline {
     color: #000;
 }
-
 span.greentext{
-  color: #00ac45;
+    color: #00ac45;
 }
-
 span.redtext {
     color: #df0000;
 }
-
 /*----------------------- GRIDBOX AND BOXES---------------------------- */
-
 .grid h4.gridbox, .gridbox{
 	padding: 0 5px 5px 5px;
 }
-
 /* CMS PRODUCT GRID */
-
 .cms-products-grid .ct-products-grid>li .base-info .price {
     top: 145px;
     left: auto;
@@ -987,7 +980,6 @@ span.redtext {
     height: 370px !important;
     padding: 10px !important;
 }
-
 /*PRICE*/
 .cms-products-grid .ct-products-grid>li .base-info .price-old {
     top: 115px;
@@ -1002,7 +994,6 @@ span.redtext {
     text-align: left;
 }
 /*PRICE END*/
-
 .cms-products-grid .ct-products-grid>li .actions {
     text-align: center;
     padding: 10px 0px;
@@ -1055,7 +1046,6 @@ span.redtext {
     height: 16px;
 }
 /* LAYER */
-
 .ct-modal--show .add-to-cart.button.large {
     padding: 3px 20px 3px 28px!important;
 }
@@ -1086,67 +1076,65 @@ span.redtext {
 .ct-modal--show .product-rate {
     display: none;
 }
-
 /* MOBILE */
-
 @media screen and (max-width: 640px) {
-.dynamic-product-list.grid-view-products .product-teaser-details {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.dynamic-product-list.grid-view-products span.product-teaser-fee-container {
-    position: absolute;
-    top: 33px;
-    right: 0px;
-}
-.dynamic-product-list.grid-view-products span.product-teaser-vatLabel {
-    margin-bottom: 10px;
-}
-.dynamic-product-list.grid-view-products .mrh-ee-container {
-    width: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: end;
-}
-.dynamic-product-list.grid-view-products .add-to-compare-list-wrapper.clearfix {
-    width: 60% !important;
-    padding: 8px 4px;
-}
-.dynamic-product-list.grid-view-products .add-to-wish-list-wrapper.clearfix {
-    width: 35% !important;
-    margin: 0px !important;
-    text-indent: 9999px;
-    background-image: url('https://www.mediamarkt.se/static/icons/heart.png');
-    background-repeat: no-repeat;
-    background-size: 25px 23px;
-    background-position: center;
-}
-.dynamic-product-list.grid-view-products .add-to-wish-list:after {
-    display: none;
-}
-.dynamic-product-list.grid-view-products a.ee-pdf, a.ee-layer {
-    margin: 0px 0 0px 0px;
-}
-.dynamic-product-list.grid-view-products a.ellipsis.add-to-compare-list.async-layer-link {
-    color: #000!important;
-}
+    .dynamic-product-list.grid-view-products .product-teaser-details {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .dynamic-product-list.grid-view-products span.product-teaser-fee-container {
+        position: absolute;
+        top: 33px;
+        right: 0px;
+    }
+    .dynamic-product-list.grid-view-products span.product-teaser-vatLabel {
+        margin-bottom: 10px;
+    }
+    .dynamic-product-list.grid-view-products .mrh-ee-container {
+        width: 100%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
+    .dynamic-product-list.grid-view-products .add-to-compare-list-wrapper.clearfix {
+        width: 60% !important;
+        padding: 8px 4px;
+    }
+    .dynamic-product-list.grid-view-products .add-to-wish-list-wrapper.clearfix {
+        width: 35% !important;
+        margin: 0px !important;
+        text-indent: 9999px;
+        background-image: url('https://www.mediamarkt.se/static/icons/heart.png');
+        background-repeat: no-repeat;
+        background-size: 25px 23px;
+        background-position: center;
+    }
+    .dynamic-product-list.grid-view-products .add-to-wish-list:after {
+        display: none;
+    }
+    .dynamic-product-list.grid-view-products a.ee-pdf, a.ee-layer {
+        margin: 0px 0 0px 0px;
+    }
+    .dynamic-product-list.grid-view-products a.ellipsis.add-to-compare-list.async-layer-link {
+        color: #000!important;
+    }
 
-.dynamic-product-list.grid-view-products h3.product-teaser-headline {
-    min-height: 35px;
-}
+    .dynamic-product-list.grid-view-products h3.product-teaser-headline {
+        min-height: 35px;
+    }
 
-.dynamic-product-list.grid-view-products img.product-brand-logo {
-    min-height: 18px;
-}
+    .dynamic-product-list.grid-view-products img.product-brand-logo {
+        min-height: 18px;
+    }
 
-.dynamic-product-list.grid-view-products span.price.product-teaser-price {
-    margin: 5px 0 5px 5px;
-}
+    .dynamic-product-list.grid-view-products span.price.product-teaser-price {
+        margin: 5px 0 5px 5px;
+    }
 }
 
 /* -------------------- Start: Ratings -------------------- */
