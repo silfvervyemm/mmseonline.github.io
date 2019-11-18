@@ -192,6 +192,12 @@ body .ms-header2--glued.ms-glue--fixed:not(.ms-header2--nav-active) {
 }
 body .site-navigation2__list li {
     font-size: 18px;
+    font-family: 'mmtextregularpro', sans-serif;
+}
+body .site-navigation2__list .site-navigation2__panel--level-3 li a {
+    font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
+    font-size: 0.777777778em;
+    font-weight: normal;
 }
 /* --------------------   End: Header -------------------- */
 
