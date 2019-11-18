@@ -150,11 +150,15 @@ body #wrapper-main .table-prod-details td.checkmark {
 }
 body #wrapper-main .table-prod-details td.checkmark::before {
     /* ... and add a checkmark as icon font instead */
-    content: "✔";
+    content: "\2713"; /* ✔ */
     color: #00ac45;
-    font-size: 1em;
-    padding: 2px;
-    width: 100%;
+    display: inline-block;
+    font-family: 'MM-iconfont';
+    font-size: 1.25em;
+    line-height: 100%;
+}
+body #wrapper-main .table-prod-details td.feat-name {
+    color: #555;
 }
 body #wrapper-main .table-prod-details td.feat-text {
     font-family: 'sourcesanspro-regular', 'mmtextregularpro', sans-serif;
