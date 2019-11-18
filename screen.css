@@ -4803,6 +4803,9 @@ a.cookie-info-cancel-button.js-cookie-info-cancel-button.button {
 .cookie-info-content a {
   color: #df0000;
 }
+.cookie-info-accept-button.button span {
+  padding-right: 20px;
+}
 .cookie-info-accept-button.button span:after {
   -webkit-transition: .2s ease-in-out;
   -moz-transition: .2s ease-in-out;
