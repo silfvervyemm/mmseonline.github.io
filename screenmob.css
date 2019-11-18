@@ -186,6 +186,9 @@ body .ms-header2--glued.ms-glue--fixed:not(.ms-header2--nav-active) {
         box-shadow: none;
     }
 }
+body .site-navigation2__list li {
+    font-size: 18px;
+}
 /* --------------------   End: Header -------------------- */
 
 /* -------------------- Start: Search Field -------------------- */
@@ -870,23 +873,16 @@ h4.auszug {
 p.auszug {
     padding-left: 4em !important;
 }
-/*--------------------------- HAMBURGERMENY-----------------------*/
-ul.site-navigation2__list li {
-    font-size: 18px;
-}
 /*------------------------------ SEARCH -------------------------------------*/
-
 .tab-categories .gridbox {
     padding-bottom: 0px !important;
 }
 #filter-container, #filter-container .gridbox {
     padding: 0px 2.5px !important;
 }
-
 .button.background-type-2.dropdown-wrapper span {
     padding-right: 25px;
 }
-
 .button.background-type-2.dropdown-wrapper span:after {
     background: url('images/css_sprites.png') no-repeat -7px -40px rgba(0,0,0,0);
     background-size: 120px auto;
@@ -895,7 +891,6 @@ ul.site-navigation2__list li {
 	width: 18px;
     height: 18px;
 }
-
 /*------------------------ Lagerstatus-------------------------------------*/
 a.instockonline {
     color: #000;
