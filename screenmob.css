@@ -316,11 +316,11 @@ body #wrapper-main .tab-categories ul.content-link-list li.displayed a.mrh-accor
     top: 25%;
     transform: rotate(90deg);
 }
-body .button.background-type-2 span:after {
+body #filter-container .button.background-type-2.facettes-trigger span:after {
     background: url("https://www.mediamarkt.se/static/icons/Arrow_white.png") no-repeat 0px 0px rgba(0,0,0,0);
     background-size: contain;
 }
-body .button.background-type-2.dropdown-wrapper span:after {
+body #filter-container .button.background-type-2.dropdown-wrapper span:after {
     background: url("https://www.mediamarkt.se/static/icons/sort_white.png") no-repeat 0px 0px rgba(0,0,0,0);
     background-size: contain;
 }
