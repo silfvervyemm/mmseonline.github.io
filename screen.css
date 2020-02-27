@@ -10305,20 +10305,6 @@ input[type="radio"] {
     border-top: 1px solid #dddddd;
   }
 
-  .responsive #my-market-wrapper .state-on .toggle-sidebar {
-    background: url("images/sidebar-anchor.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
-    height: 27px;
-    top: 12px;
-    width: 30px;
-  }
-
-  .responsive #my-market-wrapper .state-off .toggle-sidebar {
-    background: url(images/sidebar-anchor.png) no-repeat -30px 0;
-    height: 27px;
-    top: 12px;
-    width: 30px;
-  }
-
   .responsive #my-market-wrapper .toggle-sidebar.show-sidebar {
     right: -18px;
     background-position: 100% 0 !important;
