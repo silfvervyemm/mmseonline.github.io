@@ -1277,7 +1277,6 @@ a.button.gray.print.js-print {
   swemoduler
   --------------------------------------*/
 .cms_html_container .swemodule {
-  display: inline-block;
   border: 1px solid #ddd;
   padding: 12px 0;
   margin: 0;
@@ -1327,8 +1326,6 @@ a.button.gray.print.js-print {
 .cms_html_container .swemodule.m21 {
   width: 100%;
 }
-
-.swemodule.m01 {}
 
 .swemodule.m01 img {
   float: right;
@@ -1946,10 +1943,6 @@ m22 a:hover {
 .cms_html_container .swemodule .sweknapp.double {
   min-height: 56px;
   height: auto;
-}
-
-#content .cms_html_container .double span {
-  /* vertical-align:-14px;    funkade inte s� bra   */
 }
 
 #content .cms_html_container .sweknapp span:after {
@@ -2606,7 +2599,6 @@ form.newsletter-form button:before {
 }
 
 .mainImgLeft {
-  display: inline-block;
   width: 24%;
   min-height: 218px;
   border: 1px solid #CCCCCC;
@@ -2615,7 +2607,6 @@ form.newsletter-form button:before {
 }
 
 .mainImgMiddle {
-  display: inline-block;
   width: 26%;
   min-height: 218px;
   border: 1px solid #CCCCCC;
@@ -2624,7 +2615,6 @@ form.newsletter-form button:before {
 }
 
 .mainImgRight {
-  display: inline-block;
   width: 26%;
   min-height: 218px;
   border: 1px solid #CCCCCC;
@@ -2753,8 +2743,6 @@ form.newsletter-form button:before {
   font-family: 'mmtextregularpro', sans-serif;
   font-weight: normal;
 }
-
-.rightCol img {}
 
 /* -------------------------------------
   Energy Labels EEK
@@ -3915,7 +3903,6 @@ button.button.gray.js-check-express {
 
 /*================= Sure Thing 2016 =================*/
 .premiumboxes {
-  display: inline-block;
   width: 44%;
   float: left;
 }
@@ -5803,7 +5790,6 @@ section.ingress {
   position: relative;
   padding: 15px 0;
   top: 30%;
-  pointer: cursor;
 }
 
 #mobile-switch-layer div.close {
@@ -6512,7 +6498,6 @@ a.site-navigation2__link[data-tracking='outlet_head']:hover>.site-navigation2__l
 }
 
 .rating {
-  display: inline-block;
   width: 85px;
   height: 13px;
   background: url('https://www.mediamarkt.se/static/icons/ratingyellowgrey.png') repeat-x;
