@@ -31,7 +31,7 @@
 @font-face {
   font-display: swap;
   font-family:"mm-icons";
-  src:url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.eot");
+  src: local(serif), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.eot");
   src:url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.eot?#iefix") format("embedded-opentype"),
 url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.woff2") format("woff2"),
 url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.woff") format("woff")
