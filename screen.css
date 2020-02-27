@@ -24,14 +24,14 @@
 @font-face {
   font-display: swap;
   font-family: "pricemm";
-  src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.eot");
+  src: local(serif), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.eot");
   src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.eot?#iefix") format("embedded-opentype"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.woff2") format("woff2"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.woff") format("woff"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.ttf") format("truetype"), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/pricemm.svg#svg") format("svg")
 }
 
 @font-face {
   font-display: swap;
   font-family:"mm-icons";
-  src: local(serif), url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.eot");
+  src: url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.eot");
   src:url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.eot?#iefix") format("embedded-opentype"),
 url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.woff2") format("woff2"),
 url("https://csscdn.redblue.de/MediaSE/static/fonts/MM/mmicons/MMIcons.woff") format("woff")
